@@ -12,6 +12,7 @@ import { getFillColor } from "../utils/fillColor.js";
 import { getTooltipContent } from "../utils/tooltipString.js";
 
 function Geomap() {
+  // setting up the refs for different components
   const { country, setCountry, setCountryID } = countryState();
   const geoRef = useRef();
   const sliderRef = useRef();
@@ -82,6 +83,7 @@ function Geomap() {
       // tooltip
       var tooltip = d3.select("body").append("div").attr("class", "tooltip");
 
+      // variables which affect the data being displayed
       var currentYear = "2000";
       var contentType = "None";
       var greyOrColor = "color";
@@ -99,6 +101,7 @@ function Geomap() {
         .on("onchange", (event) => {
           currentYear = event.toString();
 
+          // on changing year, only update the filling of the map
           g.selectAll(".country")
             .transition()
             .duration(500)
@@ -134,6 +137,7 @@ function Geomap() {
         .on("change", (event) => {
           contentType = event.target.value;
 
+          // on changing content type, need to update the filling for map, and the legend
           g.selectAll(".country")
             .transition()
             .duration(500)
@@ -217,6 +221,7 @@ function Geomap() {
         .on("change", (event) => {
           greyOrColor = greyOrColor == "color" ? "grey" : "color";
 
+          // on toggling between greyscale and colored, need to change filling of map, and legend colors
           g.selectAll(".country")
             .transition()
             .duration(500)
@@ -301,6 +306,7 @@ function Geomap() {
             d
           );
         })
+        // navigate to respective country page
         .on("click", function (d, i) {
           var url = "/" + countryNames[i.id];
           navigate(url);
@@ -308,6 +314,7 @@ function Geomap() {
           setCountry(countryNames[i.id]);
           setCountryID(i.id);
         })
+        // enable tooltip
         .on("mouseover", function (event, d) {
           tooltip.style("display", "block");
           d3.select(this) // to be used without arrow functions !
@@ -316,6 +323,7 @@ function Geomap() {
             .style("stroke", "black")
             .style("stroke-width", "3px");
         })
+        // handle position of tooltip
         .on("mousemove", (event, d) => {
           var content = getTooltipContent(contentType, currentYear, d);
           tooltip
@@ -340,6 +348,7 @@ function Geomap() {
             .style("left", `${event.pageX + 10}px`)
             .style("top", `${event.pageY - 10}px`);
         })
+        // disable tooltip
         .on("mouseleave", function (event) {
           tooltip.style("display", "none");
           d3.select(this)
@@ -349,6 +358,7 @@ function Geomap() {
             .style("stroke-width", "1px");
         });
 
+      // initial set up for legend
       switch (contentType) {
         case "Incoming refugees":
           legendData = incomingColors.domain();
@@ -411,14 +421,16 @@ function Geomap() {
   return (
     <div
       className=""
-      style={{ position: "relative", width: "80vw", height: "90vh" }}
+      style={{ position: "relative", width: "75vw", height: "85vh" }}
     >
+      {/* geomap */}
       <svg ref={geoRef}></svg>
+      {/* legend */}
       <p
         style={{
           position: "absolute",
           top: "1.2vh",
-          left: "81vw",
+          left: "76vw",
           fontSize: "1.5vw",
         }}
       >
@@ -429,7 +441,7 @@ function Geomap() {
         style={{
           position: "absolute",
           top: "7.2vh",
-          left: "81vw",
+          left: "76vw",
           height: "195px",
           width: "175px",
           border: "2px solid black",
@@ -437,12 +449,12 @@ function Geomap() {
         }}
         ref={legendRef}
       ></svg>
-
+      {/* drop down menu for choosing content type */}
       <p
         style={{
           position: "absolute",
           top: `calc(9.2vh + 195px)`,
-          left: "81vw",
+          left: "76vw",
           width: "15vw",
           fontSize: "1.2vw",
         }}
@@ -454,9 +466,11 @@ function Geomap() {
           ref={dropdownRef}
           style={{
             position: "absolute",
-            top: `calc(15.2vh + 195px)`,
-            left: "81vw",
+            top: `calc(13.7vh + 195px)`,
+            left: "76vw",
             width: "175px",
+            height: "5vh",
+            paddingLeft: "0.5vw",
           }}
         >
           <option>None</option>
@@ -464,12 +478,13 @@ function Geomap() {
           <option>Outgoing refugees</option>
           <option>Net difference</option>
         </select>
+        {/* toggle box for choosing between colored and greyscale */}
         <label
           className="switch"
           style={{
             position: "absolute",
             top: `calc(19.6vh + 195px)`,
-            left: "81vw",
+            left: "76vw",
           }}
         >
           <input type="checkbox" ref={checkboxRef}></input>
@@ -479,11 +494,12 @@ function Geomap() {
           </p>
         </label>
       </form>
+      {/* slider for choosing year */}
       <p
         style={{
           position: "absolute",
           top: "1.2vh",
-          left: `calc(83vw + 175px)`,
+          left: `calc(81vw + 175px)`,
           fontSize: "1.2vw",
         }}
       >
@@ -494,7 +510,7 @@ function Geomap() {
         style={{
           position: "absolute",
           top: "14.2vh",
-          left: `calc(83vw + 175px)`,
+          left: `calc(81vw + 175px)`,
           height: "600px",
         }}
       ></svg>
@@ -503,7 +519,7 @@ function Geomap() {
         style={{
           position: "absolute",
           top: "75vh",
-          left: "81vw",
+          left: "76vw",
           width: "18vw",
           fontSize: "3vh",
         }}
