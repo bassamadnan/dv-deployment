@@ -175,8 +175,8 @@ function Geomap() {
                   : netDifferenceColors.range();
               break;
             default:
-              legendData = [0];
-              legendColors = ["#ffffff"];
+              legendData = [];
+              legendColors = [];
               break;
           }
 
@@ -206,7 +206,6 @@ function Geomap() {
             })
             .attr("font-size", "16px")
             .text(function (d, i) {
-              if (contentType == "None") return "0";
               if (i == legendData.length - 1) return d + "+";
               else return d + " - " + legendData[i + 1];
             });
@@ -259,8 +258,8 @@ function Geomap() {
                   : netDifferenceColors.range();
               break;
             default:
-              legendData = [0];
-              legendColors = ["#ffffff"];
+              legendData = [];
+              legendColors = [];
               break;
           }
 
@@ -322,8 +321,10 @@ function Geomap() {
           tooltip
             .html(
               contentType == "None"
-                ? countryNames[d.id]
+                ? countryNames[d.id] + "<br> Year: " + currentYear
                 : countryNames[d.id] +
+                    "<br> Year: " +
+                    currentYear +
                     "<br>" +
                     contentType +
                     ": " +
@@ -371,8 +372,8 @@ function Geomap() {
               : netDifferenceColors.range();
           break;
         default:
-          legendData = [0];
-          legendColors = ["#ffffff"];
+          legendData = [];
+          legendColors = [];
           break;
       }
 
@@ -401,7 +402,6 @@ function Geomap() {
         })
         .attr("font-size", "16px")
         .text(function (d, i) {
-          if (contentType == "None") return "0";
           if (i == legendData.length - 1) return d + "+";
           else return d + " - " + legendData[i + 1];
         });
@@ -411,48 +411,105 @@ function Geomap() {
   return (
     <div
       className=""
-      style={{ position: "relative", width: "100vw", height: "100vh" }}
+      style={{ position: "relative", width: "80vw", height: "90vh" }}
     >
       <svg ref={geoRef}></svg>
-
-      <div
-        className="flex flex-col"
+      <p
         style={{
           position: "absolute",
-          top: "300px",
-          left: "10px",
-          color: "black",
+          top: "1.2vh",
+          left: "81vw",
+          fontSize: "1.5vw",
         }}
       >
-        <form className="h-1/2" defaultValue="None" style={{ width: "auto" }}>
-          <select ref={dropdownRef}>
-            <option>None</option>
-            <option>Incoming refugees</option>
-            <option>Outgoing refugees</option>
-            <option>Net difference</option>
-          </select>
-          <label className="switch">
-            <input type="checkbox" ref={checkboxRef}></input>
-            <span className="slider round"></span>
-          </label>
-        </form>
-        <div>
-          <svg className="h-[600px] mt-[50px]" ref={sliderRef}></svg>
-        </div>
-        <svg
-          id="legend"
+        Legend
+      </p>
+      <svg
+        id="legend"
+        style={{
+          position: "absolute",
+          top: "7.2vh",
+          left: "81vw",
+          height: "195px",
+          width: "175px",
+          border: "2px solid black",
+          borderRadius: "10px",
+        }}
+        ref={legendRef}
+      ></svg>
+
+      <p
+        style={{
+          position: "absolute",
+          top: `calc(9.2vh + 195px)`,
+          left: "81vw",
+          width: "15vw",
+          fontSize: "1.2vw",
+        }}
+      >
+        Choose content type:{" "}
+      </p>
+      <form className="" defaultValue="None" style={{ width: "auto" }}>
+        <select
+          ref={dropdownRef}
           style={{
             position: "absolute",
-            top: "500px",
-            left: "5px",
-            height: "195px",
+            top: `calc(15.2vh + 195px)`,
+            left: "81vw",
             width: "175px",
-            border: "2px solid black",
-            borderRadius: "10px",
           }}
-          ref={legendRef}
-        ></svg>
-      </div>
+        >
+          <option>None</option>
+          <option>Incoming refugees</option>
+          <option>Outgoing refugees</option>
+          <option>Net difference</option>
+        </select>
+        <label
+          className="switch"
+          style={{
+            position: "absolute",
+            top: `calc(19.6vh + 195px)`,
+            left: "81vw",
+          }}
+        >
+          <input type="checkbox" ref={checkboxRef}></input>
+          <span className="slider round"></span>
+          <p style={{ width: "12vw", fontSize: "1.2vw", paddingTop: "2vh" }}>
+            Toggle between coloured and greyscale view
+          </p>
+        </label>
+      </form>
+      <p
+        style={{
+          position: "absolute",
+          top: "1.2vh",
+          left: `calc(83vw + 175px)`,
+          fontSize: "1.2vw",
+        }}
+      >
+        Choose the year:
+      </p>
+      <svg
+        ref={sliderRef}
+        style={{
+          position: "absolute",
+          top: "14.2vh",
+          left: `calc(83vw + 175px)`,
+          height: "600px",
+        }}
+      ></svg>
+      <p
+        className="text-center"
+        style={{
+          position: "absolute",
+          top: "75vh",
+          left: "81vw",
+          width: "18vw",
+          fontSize: "3vh",
+        }}
+      >
+        Hover over a country to see the statistics
+      </p>
     </div>
   );
 }
