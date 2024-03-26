@@ -115,7 +115,7 @@ const LineChart = () => {
     // Create legend
     const legend = svg
       .append("g")
-      .attr("transform", `translate(${width - 600},${margin.top})`);
+      .attr("transform", `translate(${width - 650},${margin.top})`);
 
     // Add legend items
     legend
