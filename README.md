@@ -1,7 +1,8 @@
-Data Visualization Team Project
+# React + Vite
 
-The `src` directory contains all the relevant source code and datasets.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The code is commented and modularized. Seperation of concerns has been an influencing factor on the directory structure following the standard Vite+React principles for the same.
+Currently, two official plugins are available:
 
-Report is can be downloaded from Report.pdf 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

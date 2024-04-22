@@ -29,10 +29,13 @@ const LineChart = () => {
       value: INFLATION[year] !== null ? parseFloat(INFLATION[year]) : 0,
     }));
 
+    const chartWidth = parseFloat(d3.select(ref.current).style("width"));
+    const chartHeight = parseFloat(d3.select(ref.current).style("height"));
+
     // Chart dimensions and margins
-    const margin = { top: 30, right: 30, bottom: 70, left: 60 };
-    const width = 800 - margin.left - margin.right;
-    const height = 600 - margin.top - margin.bottom;
+    const margin = { top: 30, right: 30, bottom: 50, left: 60 };
+    const width = chartWidth - margin.left - margin.right;
+    const height = chartHeight - margin.top - margin.bottom;
 
     // Combine all data points into one array
     const allData = [...filteredLUR, ...filteredGDP, ...filteredINFLATION];
@@ -81,41 +84,62 @@ const LineChart = () => {
       .x((d) => xScale(d.year))
       .y((d) => yScale(d.value));
 
-    // Render lines
-    g.append("path")
+    // Render lines + animating them
+    var pathLUR = g
+      .append("path")
       .datum(filteredLUR)
       .attr("fill", "none")
       .attr("stroke", "steelblue")
       .attr("stroke-width", 3)
       .attr("d", lineLUR);
+    var lengthLUR = pathLUR.node().getTotalLength();
+    pathLUR
+      .attr("stroke-dashoffset", lengthLUR)
+      .attr("stroke-dasharray", lengthLUR)
+      .transition(d3.transition().ease(d3.easeSin).duration(2500))
+      .attr("stroke-dashoffset", 0);
 
-    g.append("path")
+    var pathGDP = g
+      .append("path")
       .datum(filteredGDP)
       .attr("fill", "none")
       .attr("stroke", "green")
       .attr("stroke-width", 3)
       .attr("d", lineGDP);
+    var lengthGDP = pathGDP.node().getTotalLength();
+    pathGDP
+      .attr("stroke-dashoffset", lengthGDP)
+      .attr("stroke-dasharray", lengthGDP)
+      .transition(d3.transition().ease(d3.easeSin).duration(2500))
+      .attr("stroke-dashoffset", 0);
 
-    g.append("path")
+    var pathINFLATION = g
+      .append("path")
       .datum(filteredINFLATION)
       .attr("fill", "none")
       .attr("stroke", "red")
       .attr("stroke-width", 3)
       .attr("d", lineINFLATION);
+    var lengthINFLATION = pathINFLATION.node().getTotalLength();
+    pathINFLATION
+      .attr("stroke-dashoffset", lengthINFLATION)
+      .attr("stroke-dasharray", lengthINFLATION)
+      .transition(d3.transition().ease(d3.easeSin).duration(2500))
+      .attr("stroke-dashoffset", 0);
 
     // Append x and y axes
     g.append("g")
       .attr("transform", `translate(0,${height})`)
       .call(d3.axisBottom(xScale));
-      // .transition();
-      // .duration(1000);
+    // .transition();
+    // .duration(1000);
 
     g.append("g").call(d3.axisLeft(yScale));
 
     // Create legend
     const legend = svg
       .append("g")
-      .attr("transform", `translate(${width - 650},${margin.top})`);
+      .attr("transform", `translate(${width - 600},${margin.top})`);
 
     // Add legend items
     legend
@@ -135,7 +159,7 @@ const LineChart = () => {
 
     legend
       .append("rect")
-      .attr("x", width - 200-30)
+      .attr("x", width - 200 - 30)
       .attr("y", 30)
       .attr("width", 20)
       .attr("height", 20)
@@ -146,7 +170,7 @@ const LineChart = () => {
       .attr("x", width - 200)
       .attr("y", 40)
       .attr("dy", "0.35em")
-      .text("Debt (% of GDP");
+      .text("Debt as % of GDP");
 
     legend
       .append("rect")
@@ -161,12 +185,12 @@ const LineChart = () => {
       .attr("x", width - 200)
       .attr("y", 70)
       .attr("dy", "0.35em")
-      .text("Inflation rate");
+      .text("Inflation rate as % GDP");
   }, [ID, LUR, GDP, INFLATION]);
 
   return (
-    <div className=" bg-yellow-300 border-red-700 border-solid border-4">
-      <svg ref={ref} />
+    <div>
+      <svg height={"90vh"} width={"50vw"} ref={ref} />
     </div>
   );
 };
