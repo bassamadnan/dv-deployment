@@ -1,22 +1,31 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import CountryPage from "./pages/CountryPage";
-import { countryState } from "./context/CountryProvider";
-import LandingPage from "./pages/LandingPage";
+import Form from './components/Form'
+import { legendState } from './context/LegendProvider'
+import DataPage from './pages/DataPage'
+import LeafletPage from './pages/LeafletPage'
 
 function App() {
-  const { country } = countryState();
+  const { select } = legendState()
+  
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<LandingPage />}></Route>
-          <Route path="/home" element={<HomePage />}></Route>
-          <Route path={`/${country}`} element={<CountryPage />}></Route>
-        </Routes>
-      </Router>
-    </>
-  );
+    <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
+      {select === "leaflet" && <LeafletPage />}
+      {select === "d3" && <DataPage />}
+      <div
+        style={{
+          position: "absolute",
+          top: "10px",
+          right: "10px",
+          backgroundColor: "white",
+          padding: "10px",
+          borderRadius: "4px",
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+          zIndex: 1000,
+        }}
+      >
+        <Form />
+      </div>
+    </div>
+  )
 }
 
-export default App;
+export default App
