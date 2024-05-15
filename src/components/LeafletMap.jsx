@@ -107,9 +107,9 @@ const LeafletMap = () => {
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         )}
         {
-          mapType == "OSM" && (
+          mapType == "None" && (
 
-            <TileLayer url="https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png" />
+            <TileLayer url="xyz" />
           )
         }
         {filteredPoints.map(renderMarker)}
