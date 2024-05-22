@@ -7,7 +7,7 @@ const LegendContext = createContext();
 const LegendProvider = ({ children }) => {
   const [select, setSelect] = useState("leaflet");
   const [box, setBox] = useState(false);
-  const [marker, setMarker] = useState("Circle");
+  const [marker, setMarker] = useState("circle");
   const [period, setPeriod] = useState("2022 Summer");
   const [mapType, setMapType] = useState("Default");
   const [nonRW, setNonRW] = useState(false);

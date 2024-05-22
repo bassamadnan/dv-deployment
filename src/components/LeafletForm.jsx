@@ -58,8 +58,8 @@ const LeafletForm = () => {
             <label>
               Marker Type:
               <select value={marker} onChange={handleMarkerTypeChange}>
-                <option value="default">Default</option>
                 <option value="circle">Circle</option>
+                <option value="default">Default</option>
               </select>
             </label>
           </div>

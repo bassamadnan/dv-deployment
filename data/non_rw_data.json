@@ -100,6 +100,16 @@
         "Level2": "Lebanese"
     },
     {
+        "businessID": 1000020,
+        "businessUrl": "https://www.yelp.com/biz/brickstones-kitchen-and-bar-washington",
+        "businessName": "Brickstones Kitchen & Bar",
+        "addressLocality": "Washington",
+        "lat": 38.901933,
+        "long": -77.026267,
+        "Level1": "Restaurants",
+        "Level2": "American (Traditional)"
+    },
+    {
         "businessID": 1000021,
         "businessUrl": "https://www.yelp.com/biz/wiseguy-pizza-washington-3",
         "businessName": "Wiseguy Pizza",
@@ -2390,6 +2400,16 @@
         "Level2": "Delis"
     },
     {
+        "businessID": 1000382,
+        "businessUrl": "https://www.yelp.com/biz/rockville-pike-food-truck-and-catering-rockville",
+        "businessName": "Rockville Pike Food Truck and Catering",
+        "addressLocality": "Rockville",
+        "lat": 39.038867,
+        "long": -77.109332,
+        "Level1": "Restaurants",
+        "Level2": "Latin American"
+    },
+    {
         "businessID": 1000383,
         "businessUrl": "https://www.yelp.com/biz/ledo-pizza-bethesda-10",
         "businessName": "Ledo Pizza",
@@ -3060,6 +3080,16 @@
         "Level2": "Comfort Food"
     },
     {
+        "businessID": 1000481,
+        "businessUrl": "https://www.yelp.com/biz/jean-fried-chicken-and-waffles-mount-rainier",
+        "businessName": "Jean Fried Chicken & Waffles",
+        "addressLocality": "Mount Rainier",
+        "lat": 38.947651,
+        "long": -76.9691842,
+        "Level1": "Restaurants",
+        "Level2": "Waffles"
+    },
+    {
         "businessID": 1000483,
         "businessUrl": "https://www.yelp.com/biz/mazi-washington-2",
         "businessName": "Mazi",
@@ -3098,6 +3128,16 @@
         "long": -77.01991272,
         "Level1": "Restaurants",
         "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1000490,
+        "businessUrl": "https://www.yelp.com/biz/steak-n-shake-washington-2",
+        "businessName": "Steak N Shake",
+        "addressLocality": "Washington",
+        "lat": 38.887074,
+        "long": -77.010509,
+        "Level1": "Restaurants",
+        "Level2": "American (Traditional)"
     },
     {
         "businessID": 1000494,
@@ -4820,6 +4860,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1000715,
+        "businessUrl": "https://www.yelp.com/biz/doughboys-pizza-fort-belvoir",
+        "businessName": "Doughboy's Pizza",
+        "addressLocality": "Fort Belvoir",
+        "lat": 38.70554,
+        "long": -77.143588,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
+    },
+    {
         "businessID": 1000716,
         "businessUrl": "https://www.yelp.com/biz/burger-king-fort-belvoir-2",
         "businessName": "Burger King",
@@ -4838,6 +4888,16 @@
         "long": -77.087545,
         "Level1": "Restaurants",
         "Level2": "Burgers"
+    },
+    {
+        "businessID": 1000718,
+        "businessUrl": "https://www.yelp.com/biz/anthonys-pizza-fort-belvoir",
+        "businessName": "Anthony's Pizza",
+        "addressLocality": "Fort Belvoir",
+        "lat": 38.719066,
+        "long": -77.145024,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
     },
     {
         "businessID": 1000719,
@@ -5300,6 +5360,16 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1000798,
+        "businessUrl": "https://www.yelp.com/biz/two-jokers-grill-metairie",
+        "businessName": "Two Jokers Grill",
+        "addressLocality": "Metairie",
+        "lat": 30.006139,
+        "long": -90.164183,
+        "Level1": "Restaurants",
+        "Level2": "Cajun/Creole"
+    },
+    {
         "businessID": 1000799,
         "businessUrl": "https://www.yelp.com/biz/burger-king-metairie-8",
         "businessName": "Burger King",
@@ -5590,6 +5660,16 @@
         "Level2": "Pop-Up Restaurants"
     },
     {
+        "businessID": 1000842,
+        "businessUrl": "https://www.yelp.com/biz/grand-panda-buffet-laurel",
+        "businessName": "Grand Panda Buffet",
+        "addressLocality": "Laurel",
+        "lat": 39.095633,
+        "long": -76.851229,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
+    },
+    {
         "businessID": 1000845,
         "businessUrl": "https://www.yelp.com/biz/food-corner-kabob-and-rotisserie-washington",
         "businessName": "Food Corner Kabob & Rotisserie",
@@ -5636,6 +5716,16 @@
         "addressLocality": "Washington",
         "lat": 38.916576,
         "long": -77.024288,
+        "Level1": "Restaurants",
+        "Level2": "Ethiopian"
+    },
+    {
+        "businessID": 1000853,
+        "businessUrl": "https://www.yelp.com/biz/sunshine-district-washington",
+        "businessName": "Sunshine District",
+        "addressLocality": "Washington",
+        "lat": 38.917396,
+        "long": -77.024233,
         "Level1": "Restaurants",
         "Level2": "Ethiopian"
     },
@@ -7540,6 +7630,26 @@
         "Level2": "Tex-Mex"
     },
     {
+        "businessID": 1001126,
+        "businessUrl": "https://www.yelp.com/biz/subway-urbana-11",
+        "businessName": "Subway",
+        "addressLocality": "Urbana",
+        "lat": 39.329395,
+        "long": -77.351963,
+        "Level1": "Restaurants",
+        "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1001128,
+        "businessUrl": "https://www.yelp.com/biz/mam%C3%A1-lucha-taqueria-y-pupuseria-germantown",
+        "businessName": "Mam\u00e1 Lucha Taqueria Y Pupuseria",
+        "addressLocality": "Germantown",
+        "lat": 39.17901,
+        "long": -77.239819,
+        "Level1": "Restaurants",
+        "Level2": "Mexican"
+    },
+    {
         "businessID": 1001129,
         "businessUrl": "https://www.yelp.com/biz/bollywood-masala-indian-restaurant-la-plata",
         "businessName": "Bollywood Masala Indian Restaurant",
@@ -8460,6 +8570,16 @@
         "Level2": "Cheesesteaks"
     },
     {
+        "businessID": 1001264,
+        "businessUrl": "https://www.yelp.com/biz/baileys-courthouse-cafe-manassas-2",
+        "businessName": "Baileys Courthouse Cafe",
+        "addressLocality": "Manassas",
+        "lat": 38.752014,
+        "long": -77.479107,
+        "Level1": "Restaurants",
+        "Level2": "Breakfast & Brunch"
+    },
+    {
         "businessID": 1001265,
         "businessUrl": "https://www.yelp.com/biz/babas-mediterranean-kitchen-baltimore",
         "businessName": "Baba's Mediterranean Kitchen",
@@ -9000,6 +9120,16 @@
         "Level2": "Peruvian"
     },
     {
+        "businessID": 1001336,
+        "businessUrl": "https://www.yelp.com/biz/chefs-table-north-bethesda-2",
+        "businessName": "Chef's Table",
+        "addressLocality": "North Bethesda",
+        "lat": 39.045986,
+        "long": -77.099228,
+        "Level1": "Restaurants",
+        "Level2": "Salad"
+    },
+    {
         "businessID": 1001337,
         "businessUrl": "https://www.yelp.com/biz/chick-fil-a-gaithersburg-3",
         "businessName": "Chick-fil-A",
@@ -9078,6 +9208,36 @@
         "long": -77.115666,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1001351,
+        "businessUrl": "https://www.yelp.com/biz/jennifers-food-truck-rockville",
+        "businessName": "Jennifer's Food Truck",
+        "addressLocality": "Rockville",
+        "lat": 39.063128,
+        "long": -77.116856,
+        "Level1": "Restaurants",
+        "Level2": "Tacos"
+    },
+    {
+        "businessID": 1001352,
+        "businessUrl": "https://www.yelp.com/biz/plaza-deli-rockville",
+        "businessName": "Plaza Deli",
+        "addressLocality": "Rockville",
+        "lat": 39.083799,
+        "long": -77.14818,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
+    },
+    {
+        "businessID": 1001353,
+        "businessUrl": "https://www.yelp.com/biz/madison-deli-rockville",
+        "businessName": "Madison Deli",
+        "addressLocality": "Rockville",
+        "lat": 39.093385,
+        "long": -77.133763,
+        "Level1": "Restaurants",
+        "Level2": "Delis"
     },
     {
         "businessID": 1001355,
@@ -9540,6 +9700,16 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1001425,
+        "businessUrl": "https://www.yelp.com/biz/elis-taqueria-arlington",
+        "businessName": "Eli's Taqueria",
+        "addressLocality": "Arlington",
+        "lat": 38.862058,
+        "long": -77.090244,
+        "Level1": "Restaurants",
+        "Level2": "Tacos"
+    },
+    {
         "businessID": 1001429,
         "businessUrl": "https://www.yelp.com/biz/chick-fil-a-silver-spring-2",
         "businessName": "Chick-fil-A",
@@ -9768,6 +9938,16 @@
         "long": -77.122965,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1001465,
+        "businessUrl": "https://www.yelp.com/biz/la-copa-arlington",
+        "businessName": "La-Copa",
+        "addressLocality": "Arlington",
+        "lat": 38.89644244,
+        "long": -77.10227691,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
     },
     {
         "businessID": 1001467,
@@ -10218,6 +10398,16 @@
         "long": -97.764679,
         "Level1": "Restaurants",
         "Level2": "Fast Food"
+    },
+    {
+        "businessID": 1001533,
+        "businessUrl": "https://www.yelp.com/biz/subway-weatherford-16",
+        "businessName": "Subway",
+        "addressLocality": "Weatherford",
+        "lat": 32.742918,
+        "long": -97.742825,
+        "Level1": "Restaurants",
+        "Level2": "Sandwiches"
     },
     {
         "businessID": 1001536,
@@ -11280,6 +11470,16 @@
         "Level2": "Delis"
     },
     {
+        "businessID": 1001681,
+        "businessUrl": "https://www.yelp.com/biz/hornitos-internacional-grill-culpeper",
+        "businessName": "Hornitos Internacional Grill",
+        "addressLocality": "Culpeper",
+        "lat": 38.493564,
+        "long": -77.992115,
+        "Level1": "Restaurants",
+        "Level2": "Mexican"
+    },
+    {
         "businessID": 1001682,
         "businessUrl": "https://www.yelp.com/biz/kfc-culpeper",
         "businessName": "KFC",
@@ -11430,6 +11630,16 @@
         "Level2": "Chinese"
     },
     {
+        "businessID": 1001710,
+        "businessUrl": "https://www.yelp.com/biz/garnders-roadside-grill-gambrills",
+        "businessName": "Garnder's Roadside Grill",
+        "addressLocality": "Gambrills",
+        "lat": 38.991914,
+        "long": -76.688059,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
+    },
+    {
         "businessID": 1001712,
         "businessUrl": "https://www.yelp.com/biz/papa-johns-pizza-olney",
         "businessName": "Papa Johns Pizza",
@@ -11438,6 +11648,16 @@
         "long": -77.063129,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1001716,
+        "businessUrl": "https://www.yelp.com/biz/cascade-caf%C3%A9-washington-3",
+        "businessName": "Cascade Caf\u00e9",
+        "addressLocality": "Washington",
+        "lat": 38.8913,
+        "long": -77.019953,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
     },
     {
         "businessID": 1001722,
@@ -11468,6 +11688,16 @@
         "long": -77.00997,
         "Level1": "Restaurants",
         "Level2": "American (Traditional)"
+    },
+    {
+        "businessID": 1001725,
+        "businessUrl": "https://www.yelp.com/biz/potomac-grille-at-east-potomac-golf-course-washington",
+        "businessName": "Potomac Grille at East Potomac Golf Course",
+        "addressLocality": "Washington",
+        "lat": 38.874618,
+        "long": -77.026741,
+        "Level1": "Restaurants",
+        "Level2": "American (New)"
     },
     {
         "businessID": 1001726,
@@ -12200,6 +12430,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1001819,
+        "businessUrl": "https://www.yelp.com/biz/adventist-medical-group-surgical-associates-fort-washington-2",
+        "businessName": "Adventist Medical Group - Surgical Associates",
+        "addressLocality": "Fort Washington",
+        "lat": 38.728689,
+        "long": -76.992669,
+        "Level1": "Restaurants",
+        "Level2": "Burgers"
+    },
+    {
         "businessID": 1001820,
         "businessUrl": "https://www.yelp.com/biz/jersey-mikes-subs-waldorf",
         "businessName": "Jersey Mike's Subs",
@@ -12678,6 +12918,16 @@
         "long": -76.900522,
         "Level1": "Restaurants",
         "Level2": "Fast Food"
+    },
+    {
+        "businessID": 1001885,
+        "businessUrl": "https://www.yelp.com/biz/hip-hop-fish-and-chicken-lanham",
+        "businessName": "Hip Hop Fish & Chicken",
+        "addressLocality": "Lanham",
+        "lat": 38.932127,
+        "long": -76.868753,
+        "Level1": "Restaurants",
+        "Level2": "Chicken Wings"
     },
     {
         "businessID": 1001886,
@@ -16190,6 +16440,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1002412,
+        "businessUrl": "https://www.yelp.com/biz/bento-konbini-washington",
+        "businessName": "Bento Konbini",
+        "addressLocality": "Washington",
+        "lat": 38.925821,
+        "long": -76.992761,
+        "Level1": "Restaurants",
+        "Level2": "Japanese"
+    },
+    {
         "businessID": 1002413,
         "businessUrl": "https://www.yelp.com/biz/cafeteria-of-medstar-washington-hospital-center-washington",
         "businessName": "Cafeteria of Medstar Washington Hospital Center",
@@ -16208,6 +16468,16 @@
         "long": -77.013477,
         "Level1": "Restaurants",
         "Level2": "Fast Food"
+    },
+    {
+        "businessID": 1002415,
+        "businessUrl": "https://www.yelp.com/biz/nobel-romans-pizza-washington",
+        "businessName": "Nobel Roman's Pizza",
+        "addressLocality": "Washington",
+        "lat": 38.89206314,
+        "long": -77.01991272,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
     },
     {
         "businessID": 1002418,
@@ -17780,6 +18050,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1002644,
+        "businessUrl": "https://www.yelp.com/biz/tandoori-kabob-and-grill-alexandria",
+        "businessName": "Tandoori Kabob & Grill",
+        "addressLocality": "Alexandria",
+        "lat": 38.720948,
+        "long": -77.126556,
+        "Level1": "Restaurants",
+        "Level2": "Halal"
+    },
+    {
         "businessID": 1002645,
         "businessUrl": "https://www.yelp.com/biz/subway-fort-belvoir-2",
         "businessName": "Subway",
@@ -17918,6 +18198,16 @@
         "long": -77.176603,
         "Level1": "Restaurants",
         "Level2": "Indian"
+    },
+    {
+        "businessID": 1002665,
+        "businessUrl": "https://www.yelp.com/biz/the-gulf-and-its-seafood-washington",
+        "businessName": "The Gulf and Its Seafood",
+        "addressLocality": "Washington",
+        "lat": 38.891276,
+        "long": -77.026046,
+        "Level1": "Restaurants",
+        "Level2": "Seafood"
     },
     {
         "businessID": 1002666,
@@ -18400,6 +18690,16 @@
         "Level2": "American (Traditional)"
     },
     {
+        "businessID": 1002729,
+        "businessUrl": "https://www.yelp.com/biz/kikka-sushi-metairie",
+        "businessName": "Kikka Sushi",
+        "addressLocality": "Metairie",
+        "lat": 30.001874,
+        "long": -90.158923,
+        "Level1": "Restaurants",
+        "Level2": "Sushi Bars"
+    },
+    {
         "businessID": 1002733,
         "businessUrl": "https://www.yelp.com/biz/kungfu-kitchen-alexandria",
         "businessName": "Kungfu Kitchen",
@@ -18700,6 +19000,16 @@
         "Level2": "Vegan"
     },
     {
+        "businessID": 1002776,
+        "businessUrl": "https://www.yelp.com/biz/chesapeake-crab-shack-and-bar-washington",
+        "businessName": "Chesapeake Crab Shack And Bar",
+        "addressLocality": "Washington",
+        "lat": 38.917175,
+        "long": -77.024967,
+        "Level1": "Restaurants",
+        "Level2": "Seafood"
+    },
+    {
         "businessID": 1002777,
         "businessUrl": "https://www.yelp.com/biz/ahra-cafe-and-sandwich-bar-arlington",
         "businessName": "AHRA Cafe & Sandwich Bar",
@@ -18758,6 +19068,16 @@
         "long": -77.070527,
         "Level1": "Restaurants",
         "Level2": "Mexican"
+    },
+    {
+        "businessID": 1002787,
+        "businessUrl": "https://www.yelp.com/biz/high-noon-arlington",
+        "businessName": "High Noon",
+        "addressLocality": "Arlington",
+        "lat": 38.894562,
+        "long": -77.070147,
+        "Level1": "Restaurants",
+        "Level2": "Delis"
     },
     {
         "businessID": 1002789,
@@ -19778,6 +20098,16 @@
         "long": -77.54832458,
         "Level1": "Restaurants",
         "Level2": "Indian"
+    },
+    {
+        "businessID": 1002933,
+        "businessUrl": "https://www.yelp.com/biz/popeyes-louisiana-kitchen-sterling-3",
+        "businessName": "Popeye's Louisiana Kitchen",
+        "addressLocality": "Sterling",
+        "lat": 38.941967,
+        "long": -77.544409,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
     },
     {
         "businessID": 1002935,
@@ -22300,6 +22630,36 @@
         "Level2": "Cafes"
     },
     {
+        "businessID": 1003276,
+        "businessUrl": "https://www.yelp.com/biz/wok-your-way-rockville",
+        "businessName": "WOK YOUR WAY",
+        "addressLocality": "Rockville",
+        "lat": 39.07228,
+        "long": -77.13258,
+        "Level1": "Restaurants",
+        "Level2": "Asian Fusion"
+    },
+    {
+        "businessID": 1003277,
+        "businessUrl": "https://www.yelp.com/biz/alfredo-delcid-rockville",
+        "businessName": "Alfredo Delcid",
+        "addressLocality": "Rockville",
+        "lat": 39.092744,
+        "long": -77.143043,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
+    },
+    {
+        "businessID": 1003278,
+        "businessUrl": "https://www.yelp.com/biz/bento-sushi-rockville-2",
+        "businessName": "Bento Sushi",
+        "addressLocality": "Rockville",
+        "lat": 39.060248,
+        "long": -77.121381,
+        "Level1": "Restaurants",
+        "Level2": "Sushi Bars"
+    },
+    {
         "businessID": 1003279,
         "businessUrl": "https://www.yelp.com/biz/cafe-masala-rockville-2",
         "businessName": "Cafe Masala",
@@ -23048,6 +23408,16 @@
         "long": -77.10227691,
         "Level1": "Restaurants",
         "Level2": "Fast Food"
+    },
+    {
+        "businessID": 1003396,
+        "businessUrl": "https://www.yelp.com/biz/salamati-grille-tysons",
+        "businessName": "Salamati Grille",
+        "addressLocality": "Tysons",
+        "lat": 38.922277,
+        "long": -77.207484,
+        "Level1": "Restaurants",
+        "Level2": "Persian/Iranian"
     },
     {
         "businessID": 1003397,
@@ -24800,6 +25170,16 @@
         "Level2": "Burgers"
     },
     {
+        "businessID": 1003632,
+        "businessUrl": "https://www.yelp.com/biz/wegmans-meals-2go-gambrills",
+        "businessName": "Wegmans Meals 2GO",
+        "addressLocality": "Gambrills",
+        "lat": 39.031742,
+        "long": -76.688439,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
+    },
+    {
         "businessID": 1003633,
         "businessUrl": "https://www.yelp.com/biz/subway-gambrills-6",
         "businessName": "Subway",
@@ -25966,6 +26346,26 @@
         "addressLocality": "Washington",
         "lat": 38.917786,
         "long": -76.973452,
+        "Level1": "Restaurants",
+        "Level2": "Burgers"
+    },
+    {
+        "businessID": 1003793,
+        "businessUrl": "https://www.yelp.com/biz/bobs-kabobs-brentwood",
+        "businessName": "Bob's Kabobs",
+        "addressLocality": "Brentwood",
+        "lat": 38.939,
+        "long": -76.955168,
+        "Level1": "Restaurants",
+        "Level2": "Kebab"
+    },
+    {
+        "businessID": 1003794,
+        "businessUrl": "https://www.yelp.com/biz/jimmys-carryout-bladensburg",
+        "businessName": "Jimmy's Carryout",
+        "addressLocality": "Bladensburg",
+        "lat": 38.943506,
+        "long": -76.932379,
         "Level1": "Restaurants",
         "Level2": "Burgers"
     },
@@ -28730,6 +29130,16 @@
         "Level2": "Sandwiches"
     },
     {
+        "businessID": 1004216,
+        "businessUrl": "https://www.yelp.com/biz/auntie-annes-pretzels-bethesda",
+        "businessName": "Auntie Anne's",
+        "addressLocality": "Bethesda",
+        "lat": 39.024633,
+        "long": -77.145909,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
+    },
+    {
         "businessID": 1004217,
         "businessUrl": "https://www.yelp.com/biz/garlic-sensations-temple-hills",
         "businessName": "Garlic Sensations",
@@ -31060,6 +31470,16 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1004555,
+        "businessUrl": "https://www.yelp.com/biz/ojos-taqueria-alexandria",
+        "businessName": "Ojo's Taqueria",
+        "addressLocality": "Alexandria",
+        "lat": 38.726699,
+        "long": -77.112155,
+        "Level1": "Restaurants",
+        "Level2": "Mexican"
+    },
+    {
         "businessID": 1004559,
         "businessUrl": "https://www.yelp.com/biz/duck-duck-goose-washington-2",
         "businessName": "Duck Duck Goose",
@@ -31400,6 +31820,16 @@
         "Level2": "Salad"
     },
     {
+        "businessID": 1004599,
+        "businessUrl": "https://www.yelp.com/biz/uncommon-grounds-washington-2",
+        "businessName": "Uncommon Grounds",
+        "addressLocality": "Washington",
+        "lat": 38.907594,
+        "long": -77.071923,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
+    },
+    {
         "businessID": 1004600,
         "businessUrl": "https://www.yelp.com/biz/sweetgreen-washington-21",
         "businessName": "sweetgreen",
@@ -31620,6 +32050,16 @@
         "Level2": "Delis"
     },
     {
+        "businessID": 1004635,
+        "businessUrl": "https://www.yelp.com/biz/adr-metairie",
+        "businessName": "Adr",
+        "addressLocality": "Metairie",
+        "lat": 30.018313,
+        "long": -90.155593,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
+    },
+    {
         "businessID": 1004636,
         "businessUrl": "https://www.yelp.com/biz/rallys-metairie-3",
         "businessName": "Rally's",
@@ -31638,6 +32078,16 @@
         "long": -90.168705,
         "Level1": "Restaurants",
         "Level2": "Breakfast & Brunch"
+    },
+    {
+        "businessID": 1004642,
+        "businessUrl": "https://www.yelp.com/biz/capital-carts-washington",
+        "businessName": "Capital Carts",
+        "addressLocality": "Washington",
+        "lat": 38.89997,
+        "long": -77.009927,
+        "Level1": "Restaurants",
+        "Level2": "Food Stands"
     },
     {
         "businessID": 1004643,
@@ -31930,6 +32380,26 @@
         "Level2": "Burgers"
     },
     {
+        "businessID": 1004676,
+        "businessUrl": "https://www.yelp.com/biz/dj-s-wing-counter-laurel",
+        "businessName": "Dj\u2019s Wing Counter",
+        "addressLocality": "Laurel",
+        "lat": 39.094558,
+        "long": -76.837805,
+        "Level1": "Restaurants",
+        "Level2": "Chicken Wings"
+    },
+    {
+        "businessID": 1004677,
+        "businessUrl": "https://www.yelp.com/biz/tips-and-tycoons-laurel-2",
+        "businessName": "Tips & Tycoons",
+        "addressLocality": "Laurel",
+        "lat": 39.104636,
+        "long": -76.833527,
+        "Level1": "Restaurants",
+        "Level2": "American (Traditional)"
+    },
+    {
         "businessID": 1004678,
         "businessUrl": "https://www.yelp.com/biz/subway-laurel-27",
         "businessName": "Subway",
@@ -31978,6 +32448,16 @@
         "long": -77.026158,
         "Level1": "Restaurants",
         "Level2": "Restaurants"
+    },
+    {
+        "businessID": 1004687,
+        "businessUrl": "https://www.yelp.com/biz/ketcha-fire-grill-washington",
+        "businessName": "Ketcha Fire Grill",
+        "addressLocality": "Washington",
+        "lat": 38.916852,
+        "long": -77.025046,
+        "Level1": "Restaurants",
+        "Level2": "American (New)"
     },
     {
         "businessID": 1004690,
@@ -33890,6 +34370,16 @@
         "Level2": "Japanese"
     },
     {
+        "businessID": 1004961,
+        "businessUrl": "https://www.yelp.com/biz/department-of-energy-cafeteria-germantown",
+        "businessName": "Department Of Energy Cafeteria",
+        "addressLocality": "Germantown",
+        "lat": 39.179758,
+        "long": -77.256333,
+        "Level1": "Restaurants",
+        "Level2": "American (New)"
+    },
+    {
         "businessID": 1004963,
         "businessUrl": "https://www.yelp.com/biz/b-and-j-carry-out-accokeek",
         "businessName": "B & J Carry Out",
@@ -35660,6 +36150,36 @@
         "Level2": "American (New)"
     },
     {
+        "businessID": 1005187,
+        "businessUrl": "https://www.yelp.com/biz/spice-gulu-rockville",
+        "businessName": "Spice Gulu",
+        "addressLocality": "Rockville",
+        "lat": 39.085446,
+        "long": -77.148959,
+        "Level1": "Restaurants",
+        "Level2": "Chinese"
+    },
+    {
+        "businessID": 1005188,
+        "businessUrl": "https://www.yelp.com/biz/mikes-new-york-deli-rockville",
+        "businessName": "Mike's New York Deli",
+        "addressLocality": "Rockville",
+        "lat": 39.08317435,
+        "long": -77.15254607,
+        "Level1": "Restaurants",
+        "Level2": "Delis"
+    },
+    {
+        "businessID": 1005189,
+        "businessUrl": "https://www.yelp.com/biz/to-market-to-market-rockville",
+        "businessName": "To Market To Market",
+        "addressLocality": "Rockville",
+        "lat": 39.062227,
+        "long": -77.112336,
+        "Level1": "Restaurants",
+        "Level2": "Buffets"
+    },
+    {
         "businessID": 1005191,
         "businessUrl": "https://www.yelp.com/biz/ben-yehuda-cafe-and-pizzeria-silver-spring",
         "businessName": "Ben Yehuda Pizza",
@@ -36190,6 +36710,16 @@
         "Level2": "Salad"
     },
     {
+        "businessID": 1005265,
+        "businessUrl": "https://www.yelp.com/biz/bonchon-alexandria-alexandria-7",
+        "businessName": "Bonchon  - Alexandria",
+        "addressLocality": "Alexandria",
+        "lat": 38.829571,
+        "long": -77.092151,
+        "Level1": "Restaurants",
+        "Level2": "Korean"
+    },
+    {
         "businessID": 1005267,
         "businessUrl": "https://www.yelp.com/biz/lemon-slice-cafe-silver-spring",
         "businessName": "Lemon Slice Cafe",
@@ -36340,6 +36870,16 @@
         "Level2": "Delis"
     },
     {
+        "businessID": 1005283,
+        "businessUrl": "https://www.yelp.com/biz/einstein-bros-bagels-silver-spring-2",
+        "businessName": "Einstein Bros. Bagels",
+        "addressLocality": "Silver Spring",
+        "lat": 39.035166,
+        "long": -76.981923,
+        "Level1": "Restaurants",
+        "Level2": "Breakfast & Brunch"
+    },
+    {
         "businessID": 1005284,
         "businessUrl": "https://www.yelp.com/biz/charleys-cheesesteaks-hyattsville-2",
         "businessName": "Charleys Cheesesteaks and Wings",
@@ -36468,6 +37008,16 @@
         "long": -77.204971,
         "Level1": "Restaurants",
         "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1005305,
+        "businessUrl": "https://www.yelp.com/biz/farm-credit-administration-building-cafeteria-mclean",
+        "businessName": "Farm Credit Administration Building Cafeteria",
+        "addressLocality": "McLean",
+        "lat": 38.931663,
+        "long": -77.2021,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
     },
     {
         "businessID": 1005306,
@@ -38260,6 +38810,16 @@
         "Level2": "Hot Dogs"
     },
     {
+        "businessID": 1005562,
+        "businessUrl": "https://www.yelp.com/biz/caviar-and-tiger-fork-washington",
+        "businessName": "Caviar and Tiger Fork",
+        "addressLocality": "Washington",
+        "lat": 38.872441,
+        "long": -77.007787,
+        "Level1": "Restaurants",
+        "Level2": "Chinese"
+    },
+    {
         "businessID": 1005563,
         "businessUrl": "https://www.yelp.com/biz/pho-an-and-grill-aspen-hill-4",
         "businessName": "Pho An & Grill",
@@ -39290,6 +39850,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1005705,
+        "businessUrl": "https://www.yelp.com/biz/kusina-pilipino-lanham",
+        "businessName": "Kusina Pilipino",
+        "addressLocality": "Lanham",
+        "lat": 38.972377,
+        "long": -76.847971,
+        "Level1": "Restaurants",
+        "Level2": "Filipino"
+    },
+    {
         "businessID": 1005706,
         "businessUrl": "https://www.yelp.com/biz/squisito-pizza-and-pasta-burtonsville-burtonsville",
         "businessName": "Squisito Pizza & Pasta - Burtonsville",
@@ -39558,6 +40128,16 @@
         "long": -77.150797,
         "Level1": "Restaurants",
         "Level2": "Chinese"
+    },
+    {
+        "businessID": 1005745,
+        "businessUrl": "https://www.yelp.com/biz/mattawoman-bbq-and-jerk-indian-head",
+        "businessName": "Mattawoman BBQ & Jerk",
+        "addressLocality": "Indian Head",
+        "lat": 38.583935,
+        "long": -77.118391,
+        "Level1": "Restaurants",
+        "Level2": "Caribbean"
     },
     {
         "businessID": 1005747,
@@ -42720,6 +43300,26 @@
         "Level2": "Sandwiches"
     },
     {
+        "businessID": 1006236,
+        "businessUrl": "https://www.yelp.com/biz/mo-than-a-pizza-washington",
+        "businessName": "Mo Than A Pizza",
+        "addressLocality": "Washington",
+        "lat": 38.925046,
+        "long": -76.995826,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
+    },
+    {
+        "businessID": 1006237,
+        "businessUrl": "https://www.yelp.com/biz/youngs-chicken-shack-washington",
+        "businessName": "Youngs Chicken Shack",
+        "addressLocality": "Washington",
+        "lat": 38.925024,
+        "long": -76.986091,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
+    },
+    {
         "businessID": 1006238,
         "businessUrl": "https://www.yelp.com/biz/bonsando-washington",
         "businessName": "Bonsando",
@@ -42770,6 +43370,16 @@
         "Level2": "Salad"
     },
     {
+        "businessID": 1006246,
+        "businessUrl": "https://www.yelp.com/biz/vin-and-vics-pop-up-washington",
+        "businessName": "Vin & Vic's Pop-Up",
+        "addressLocality": "Washington",
+        "lat": 38.886905,
+        "long": -77.002496,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
+    },
+    {
         "businessID": 1006248,
         "businessUrl": "https://www.yelp.com/biz/grand-deli-and-cafe-washington",
         "businessName": "Grand Deli & Cafe",
@@ -42778,6 +43388,16 @@
         "long": -77.016376,
         "Level1": "Restaurants",
         "Level2": "Delis"
+    },
+    {
+        "businessID": 1006250,
+        "businessUrl": "https://www.yelp.com/biz/american-grill-washington-3",
+        "businessName": "American Grill",
+        "addressLocality": "Washington",
+        "lat": 38.89206314,
+        "long": -77.01991272,
+        "Level1": "Restaurants",
+        "Level2": "American (New)"
     },
     {
         "businessID": 1006251,
@@ -43850,6 +44470,16 @@
         "Level2": "Sandwiches"
     },
     {
+        "businessID": 1006410,
+        "businessUrl": "https://www.yelp.com/biz/hardees-waldorf",
+        "businessName": "Hardee's",
+        "addressLocality": "Waldorf",
+        "lat": 38.64106369,
+        "long": -76.89797211,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
+    },
+    {
         "businessID": 1006415,
         "businessUrl": "https://www.yelp.com/biz/lenas-wood-fired-pizza-and-tap-alexandria",
         "businessName": "Lena's Wood-Fired Pizza & Tap",
@@ -44560,6 +45190,16 @@
         "Level2": "Spanish"
     },
     {
+        "businessID": 1006517,
+        "businessUrl": "https://www.yelp.com/biz/skyline-cafe-li-washington",
+        "businessName": "Skyline Cafe Li",
+        "addressLocality": "Washington",
+        "lat": 38.898795,
+        "long": -77.040814,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
+    },
+    {
         "businessID": 1006518,
         "businessUrl": "https://www.yelp.com/biz/los-jefes-metairie-4",
         "businessName": "Los Jefes",
@@ -45010,6 +45650,26 @@
         "Level2": "Sandwiches"
     },
     {
+        "businessID": 1006591,
+        "businessUrl": "https://www.yelp.com/biz/icebreakers-cafe-laurel-2",
+        "businessName": "Icebreakers Cafe",
+        "addressLocality": "Laurel",
+        "lat": 39.078574,
+        "long": -76.921632,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
+    },
+    {
+        "businessID": 1006593,
+        "businessUrl": "https://www.yelp.com/biz/eduserc-laurel-5",
+        "businessName": "Eduserc",
+        "addressLocality": "Laurel",
+        "lat": 39.10399,
+        "long": -76.863178,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
+    },
+    {
         "businessID": 1006594,
         "businessUrl": "https://www.yelp.com/biz/takoda-restaurant-and-beer-garden-washington-3",
         "businessName": "Takoda Restaurant & Beer Garden",
@@ -45108,6 +45768,16 @@
         "long": -77.063081,
         "Level1": "Restaurants",
         "Level2": "Restaurants"
+    },
+    {
+        "businessID": 1006612,
+        "businessUrl": "https://www.yelp.com/biz/potomac-perks-bistro-arlington",
+        "businessName": "Potomac Perks Bistro",
+        "addressLocality": "Arlington",
+        "lat": 38.897677,
+        "long": -77.073077,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
     },
     {
         "businessID": 1006613,
@@ -48480,6 +49150,16 @@
         "Level2": "Diners"
     },
     {
+        "businessID": 1007088,
+        "businessUrl": "https://www.yelp.com/biz/adarash-market-rockville",
+        "businessName": "Adarash Market",
+        "addressLocality": "Rockville",
+        "lat": 39.075704,
+        "long": -77.115266,
+        "Level1": "Restaurants",
+        "Level2": "Ethiopian"
+    },
+    {
         "businessID": 1007090,
         "businessUrl": "https://www.yelp.com/biz/sandy-subs-shop-rockville",
         "businessName": "Sandy Subs Shop",
@@ -48498,6 +49178,16 @@
         "long": -77.135605,
         "Level1": "Restaurants",
         "Level2": "Restaurants"
+    },
+    {
+        "businessID": 1007093,
+        "businessUrl": "https://www.yelp.com/biz/market-to-market-an-uncommon-cafe-rockville",
+        "businessName": "Market to Market, An Uncommon Cafe",
+        "addressLocality": "Rockville",
+        "lat": 39.062227,
+        "long": -77.112336,
+        "Level1": "Restaurants",
+        "Level2": "Buffets"
     },
     {
         "businessID": 1007094,
@@ -48978,6 +49668,16 @@
         "long": -77.088903,
         "Level1": "Restaurants",
         "Level2": "African"
+    },
+    {
+        "businessID": 1007163,
+        "businessUrl": "https://www.yelp.com/biz/santa-ana-restaurant-arlington",
+        "businessName": "Santa Ana Restaurant",
+        "addressLocality": "Arlington",
+        "lat": 38.86332,
+        "long": -77.084696,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
     },
     {
         "businessID": 1007166,
@@ -50760,6 +51460,26 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1007422,
+        "businessUrl": "https://www.yelp.com/biz/mi-pueblo-pizza-and-buffet-culpeper",
+        "businessName": "Mi Pueblo Pizza & Buffet",
+        "addressLocality": "Culpeper",
+        "lat": 38.471903,
+        "long": -77.994724,
+        "Level1": "Restaurants",
+        "Level2": "Buffets"
+    },
+    {
+        "businessID": 1007424,
+        "businessUrl": "https://www.yelp.com/biz/nathans-famous-hot-dogs-culpeper",
+        "businessName": "Nathan's Famous Hot Dogs",
+        "addressLocality": "Culpeper",
+        "lat": 38.475173,
+        "long": -77.955017,
+        "Level1": "Restaurants",
+        "Level2": "Hot Dogs"
+    },
+    {
         "businessID": 1007427,
         "businessUrl": "https://www.yelp.com/biz/pho-89-laurel",
         "businessName": "Pho 89",
@@ -50828,6 +51548,16 @@
         "long": -76.75347115,
         "Level1": "Restaurants",
         "Level2": "Fast Food"
+    },
+    {
+        "businessID": 1007436,
+        "businessUrl": "https://www.yelp.com/biz/the-bistro-annapolis-junction",
+        "businessName": "The Bistro",
+        "addressLocality": "Annapolis Junction",
+        "lat": 39.119837,
+        "long": -76.780124,
+        "Level1": "Restaurants",
+        "Level2": "American (Traditional)"
     },
     {
         "businessID": 1007437,
@@ -50928,6 +51658,16 @@
         "long": -77.025683,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1007454,
+        "businessUrl": "https://www.yelp.com/biz/terrace-cafe-washington-4",
+        "businessName": "Terrace Cafe",
+        "addressLocality": "Washington",
+        "lat": 38.891347,
+        "long": -77.01949,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
     },
     {
         "businessID": 1007457,
@@ -51958,6 +52698,16 @@
         "long": -76.907651,
         "Level1": "Restaurants",
         "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1007599,
+        "businessUrl": "https://www.yelp.com/biz/southern-bbq-lanham",
+        "businessName": "Southern BBQ",
+        "addressLocality": "Lanham",
+        "lat": 38.984932,
+        "long": -76.840786,
+        "Level1": "Restaurants",
+        "Level2": "Barbeque"
     },
     {
         "businessID": 1007601,
@@ -55010,6 +55760,26 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1008043,
+        "businessUrl": "https://www.yelp.com/biz/big-al-s-subs-and-soups-bethesda",
+        "businessName": "Big Al\u2019s Subs and Soups",
+        "addressLocality": "Bethesda",
+        "lat": 39.024161,
+        "long": -77.146023,
+        "Level1": "Restaurants",
+        "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1008044,
+        "businessUrl": "https://www.yelp.com/biz/mos-mocha-bethesda",
+        "businessName": "Mo's Mocha",
+        "addressLocality": "Bethesda",
+        "lat": 39.027659,
+        "long": -77.136559,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
+    },
+    {
         "businessID": 1008046,
         "businessUrl": "https://www.yelp.com/biz/yungs-coffee-shop-rockville",
         "businessName": "Yung's Coffee Shop",
@@ -55590,6 +56360,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1008139,
+        "businessUrl": "https://www.yelp.com/biz/subway-washington-178",
+        "businessName": "Subway",
+        "addressLocality": "Washington",
+        "lat": 38.941175,
+        "long": -77.000824,
+        "Level1": "Restaurants",
+        "Level2": "Sandwiches"
+    },
+    {
         "businessID": 1008140,
         "businessUrl": "https://www.yelp.com/biz/dr-bear-cafe-washington-2",
         "businessName": "Dr. Bear Cafe",
@@ -55608,6 +56388,16 @@
         "long": -76.978194,
         "Level1": "Restaurants",
         "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1008144,
+        "businessUrl": "https://www.yelp.com/biz/ledo-pizza-washington-20",
+        "businessName": "Ledo Pizza",
+        "addressLocality": "Washington",
+        "lat": 38.925156,
+        "long": -76.990025,
+        "Level1": "Restaurants",
+        "Level2": "Pizza"
     },
     {
         "businessID": 1008147,
@@ -57280,6 +58070,16 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1008371,
+        "businessUrl": "https://www.yelp.com/biz/el-compadre-alexandria",
+        "businessName": "El Compadre",
+        "addressLocality": "Alexandria",
+        "lat": 38.720338,
+        "long": -77.124239,
+        "Level1": "Restaurants",
+        "Level2": "Salvadoran"
+    },
+    {
         "businessID": 1008372,
         "businessUrl": "https://www.yelp.com/biz/smyrna-restaurant-alexandria",
         "businessName": "Smyrna Restaurant",
@@ -57860,6 +58660,16 @@
         "Level2": "Burgers"
     },
     {
+        "businessID": 1008460,
+        "businessUrl": "https://www.yelp.com/biz/kimmys-sundry-shop-metairie",
+        "businessName": "Kimmy's Sundry Shop",
+        "addressLocality": "Metairie",
+        "lat": 29.995581,
+        "long": -90.152118,
+        "Level1": "Restaurants",
+        "Level2": "American (Traditional)"
+    },
+    {
         "businessID": 1008461,
         "businessUrl": "https://www.yelp.com/biz/kimmys-pita-pockets-metairie",
         "businessName": "Kimmy's Pita Pockets",
@@ -57868,6 +58678,16 @@
         "long": -90.137824,
         "Level1": "Restaurants",
         "Level2": "American (Traditional)"
+    },
+    {
+        "businessID": 1008462,
+        "businessUrl": "https://www.yelp.com/biz/panda-express-washington-navy-yard-3",
+        "businessName": "Panda Express",
+        "addressLocality": "Washington Navy Yard",
+        "lat": 38.875176,
+        "long": -76.996358,
+        "Level1": "Restaurants",
+        "Level2": "Chinese"
     },
     {
         "businessID": 1008464,
@@ -58230,6 +59050,16 @@
         "Level2": "Sandwiches"
     },
     {
+        "businessID": 1008521,
+        "businessUrl": "https://www.yelp.com/biz/here-cafe-arlington",
+        "businessName": "Here Cafe",
+        "addressLocality": "Arlington",
+        "lat": 38.895459,
+        "long": -77.069871,
+        "Level1": "Restaurants",
+        "Level2": "Cafes"
+    },
+    {
         "businessID": 1008523,
         "businessUrl": "https://www.yelp.com/biz/lock-72-kitchen-and-bar-potomac",
         "businessName": "Lock 72 Kitchen & Bar",
@@ -58308,6 +59138,16 @@
         "long": -77.5734687,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1008537,
+        "businessUrl": "https://www.yelp.com/biz/china-palace-buffet-smithsburg",
+        "businessName": "China Palace Buffet",
+        "addressLocality": "Smithsburg",
+        "lat": 39.641575,
+        "long": -77.589851,
+        "Level1": "Restaurants",
+        "Level2": "Chinese"
     },
     {
         "businessID": 1008538,
@@ -59580,6 +60420,26 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1008723,
+        "businessUrl": "https://www.yelp.com/biz/dirty-dinners-dickerson",
+        "businessName": "Dirty Dinners",
+        "addressLocality": "Dickerson",
+        "lat": 39.177368,
+        "long": -77.476968,
+        "Level1": "Restaurants",
+        "Level2": "Diners"
+    },
+    {
+        "businessID": 1008726,
+        "businessUrl": "https://www.yelp.com/biz/mos-restaurant-sterling",
+        "businessName": "Mo's Restaurant",
+        "addressLocality": "Sterling",
+        "lat": 39.040176,
+        "long": -77.412138,
+        "Level1": "Restaurants",
+        "Level2": "Peruvian"
+    },
+    {
         "businessID": 1008727,
         "businessUrl": "https://www.yelp.com/biz/fireworks-pizza-leesburg-leesburg",
         "businessName": "FireWorks Pizza - Leesburg",
@@ -59898,6 +60758,16 @@
         "long": -77.345526,
         "Level1": "Restaurants",
         "Level2": "Burgers"
+    },
+    {
+        "businessID": 1008783,
+        "businessUrl": "https://www.yelp.com/biz/in10se-bbq-frederick-2",
+        "businessName": "In10se BBQ",
+        "addressLocality": "Frederick",
+        "lat": 39.41418076,
+        "long": -77.41093445,
+        "Level1": "Restaurants",
+        "Level2": "Barbeque"
     },
     {
         "businessID": 1008785,
@@ -61460,6 +62330,16 @@
         "Level2": "Dominican"
     },
     {
+        "businessID": 1009005,
+        "businessUrl": "https://www.yelp.com/biz/tealight-grill-rockville",
+        "businessName": "Tealight Grill",
+        "addressLocality": "Rockville",
+        "lat": 39.068056,
+        "long": -77.129165,
+        "Level1": "Restaurants",
+        "Level2": "Tapas/Small Plates"
+    },
+    {
         "businessID": 1009007,
         "businessUrl": "https://www.yelp.com/biz/ninja-sushi-colesville",
         "businessName": "Ninja Sushi",
@@ -62298,6 +63178,16 @@
         "long": -77.175698,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1009123,
+        "businessUrl": "https://www.yelp.com/biz/new-dynasty-restaurant-carryout-falls-church",
+        "businessName": "New Dynasty Restaurant Carryout",
+        "addressLocality": "Falls Church",
+        "lat": 38.90325,
+        "long": -77.204708,
+        "Level1": "Restaurants",
+        "Level2": "Colombian"
     },
     {
         "businessID": 1009124,
@@ -65230,6 +66120,16 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1009512,
+        "businessUrl": "https://www.yelp.com/biz/d-and-d-caribbean-kitchen-beltsville",
+        "businessName": "D&D Caribbean Kitchen",
+        "addressLocality": "Beltsville",
+        "lat": 39.035903,
+        "long": -76.907526,
+        "Level1": "Restaurants",
+        "Level2": "Caribbean"
+    },
+    {
         "businessID": 1009513,
         "businessUrl": "https://www.yelp.com/biz/subway-lanham-seabrook",
         "businessName": "Subway",
@@ -65238,6 +66138,16 @@
         "long": -76.833375,
         "Level1": "Restaurants",
         "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1009514,
+        "businessUrl": "https://www.yelp.com/biz/wings-to-go-greenbelt-2",
+        "businessName": "Wings To Go",
+        "addressLocality": "Greenbelt",
+        "lat": 38.99821506,
+        "long": -76.91483749,
+        "Level1": "Restaurants",
+        "Level2": "Chicken Wings"
     },
     {
         "businessID": 1009515,
@@ -65338,6 +66248,16 @@
         "long": -76.839929,
         "Level1": "Restaurants",
         "Level2": "American (Traditional)"
+    },
+    {
+        "businessID": 1009530,
+        "businessUrl": "https://www.yelp.com/biz/jimmys-crab-house-hyattsville",
+        "businessName": "Jimmy's Crab House",
+        "addressLocality": "Hyattsville",
+        "lat": 38.92699,
+        "long": -76.891003,
+        "Level1": "Restaurants",
+        "Level2": "Restaurants"
     },
     {
         "businessID": 1009531,
@@ -68040,6 +68960,16 @@
         "Level2": "Pizza"
     },
     {
+        "businessID": 1009961,
+        "businessUrl": "https://www.yelp.com/biz/shake-shack-bethesda-bethesda",
+        "businessName": "Shake Shack Westfield Montgomery Mall",
+        "addressLocality": "Bethesda",
+        "lat": 39.024161,
+        "long": -77.146023,
+        "Level1": "Restaurants",
+        "Level2": "Burgers"
+    },
+    {
         "businessID": 1009962,
         "businessUrl": "https://www.yelp.com/biz/halfsmoke-westlake",
         "businessName": "HalfSmoke",
@@ -68048,6 +68978,26 @@
         "long": -77.146023,
         "Level1": "Restaurants",
         "Level2": "Seafood"
+    },
+    {
+        "businessID": 1009964,
+        "businessUrl": "https://www.yelp.com/biz/wall-street-deli-bethesda",
+        "businessName": "Wall Street Deli",
+        "addressLocality": "Bethesda",
+        "lat": 39.027692,
+        "long": -77.140409,
+        "Level1": "Restaurants",
+        "Level2": "Delis"
+    },
+    {
+        "businessID": 1009966,
+        "businessUrl": "https://www.yelp.com/biz/rockwall-cafe-rockville",
+        "businessName": "Rockwall Cafe",
+        "addressLocality": "Rockville",
+        "lat": 39.042163,
+        "long": -77.11233,
+        "Level1": "Restaurants",
+        "Level2": "Buffets"
     },
     {
         "businessID": 1009967,
@@ -68770,6 +69720,16 @@
         "Level2": "American (New)"
     },
     {
+        "businessID": 1010057,
+        "businessUrl": "https://www.yelp.com/biz/sampan-cafe-hyattsville",
+        "businessName": "Sampan Cafe",
+        "addressLocality": "Hyattsville",
+        "lat": 38.950751,
+        "long": -76.968081,
+        "Level1": "Restaurants",
+        "Level2": "Chinese"
+    },
+    {
         "businessID": 1010058,
         "businessUrl": "https://www.yelp.com/biz/crown-fried-chicken-washington-2",
         "businessName": "Crown Fried Chicken",
@@ -68858,6 +69818,16 @@
         "long": -77.008455,
         "Level1": "Restaurants",
         "Level2": "American (New)"
+    },
+    {
+        "businessID": 1010069,
+        "businessUrl": "https://www.yelp.com/biz/brain-drain-washington",
+        "businessName": "Brain Drain",
+        "addressLocality": "Washington",
+        "lat": 38.884766,
+        "long": -77.005583,
+        "Level1": "Restaurants",
+        "Level2": "Indian"
     },
     {
         "businessID": 1010071,
@@ -71270,6 +72240,26 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1010416,
+        "businessUrl": "https://www.yelp.com/biz/arbys-laurel-3",
+        "businessName": "Arby's",
+        "addressLocality": "LAUREL",
+        "lat": 39.098251,
+        "long": -76.849134,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
+    },
+    {
+        "businessID": 1010418,
+        "businessUrl": "https://www.yelp.com/biz/vieves-cuisine-laurel",
+        "businessName": "Vieve's Cuisine",
+        "addressLocality": "Laurel",
+        "lat": 39.065132,
+        "long": -76.838358,
+        "Level1": "Restaurants",
+        "Level2": "African"
+    },
+    {
         "businessID": 1010420,
         "businessUrl": "https://www.yelp.com/biz/negril-dc-washington-2",
         "businessName": "Negril - DC",
@@ -72276,6 +73266,16 @@
         "addressLocality": "Ashburn",
         "lat": 38.986124,
         "long": -77.537062,
+        "Level1": "Restaurants",
+        "Level2": "Sandwiches"
+    },
+    {
+        "businessID": 1010585,
+        "businessUrl": "https://www.yelp.com/biz/subway-dulles-6",
+        "businessName": "Subway",
+        "addressLocality": "Dulles",
+        "lat": 38.93585,
+        "long": -77.523444,
         "Level1": "Restaurants",
         "Level2": "Sandwiches"
     },
@@ -74490,6 +75490,26 @@
         "Level2": "Ramen"
     },
     {
+        "businessID": 1010915,
+        "businessUrl": "https://www.yelp.com/biz/el-metapan-restaurant-and-grill-rockville",
+        "businessName": "El Metapan Restaurant & Grill",
+        "addressLocality": "Rockville",
+        "lat": 39.076095,
+        "long": -77.137212,
+        "Level1": "Restaurants",
+        "Level2": "Latin American"
+    },
+    {
+        "businessID": 1010917,
+        "businessUrl": "https://www.yelp.com/biz/papila-restaurant-rockville",
+        "businessName": "Papila Restaurant",
+        "addressLocality": "Rockville",
+        "lat": 39.062636,
+        "long": -77.127661,
+        "Level1": "Restaurants",
+        "Level2": "Middle Eastern"
+    },
+    {
         "businessID": 1010918,
         "businessUrl": "https://www.yelp.com/biz/marias-cafe-and-restaurant-silver-spring",
         "businessName": "Maria's Cafe & Restaurant",
@@ -75100,6 +76120,26 @@
         "Level2": "Cafes"
     },
     {
+        "businessID": 1011008,
+        "businessUrl": "https://www.yelp.com/biz/popeyes-louisiana-kitchen-silver-spring-9",
+        "businessName": "Popeye's Louisiana Kitchen",
+        "addressLocality": "Silver Spring",
+        "lat": 39.084307,
+        "long": -76.951631,
+        "Level1": "Restaurants",
+        "Level2": "Chicken Wings"
+    },
+    {
+        "businessID": 1011009,
+        "businessUrl": "https://www.yelp.com/biz/ire-cafe-silver-spring",
+        "businessName": "Ire Cafe",
+        "addressLocality": "Silver Spring",
+        "lat": 39.0828,
+        "long": -76.947261,
+        "Level1": "Restaurants",
+        "Level2": "Caribbean"
+    },
+    {
         "businessID": 1011010,
         "businessUrl": "https://www.yelp.com/biz/kabob-n-karahi-silver-spring",
         "businessName": "Kabob N Karahi",
@@ -75218,6 +76258,26 @@
         "long": -77.118758,
         "Level1": "Restaurants",
         "Level2": "Mexican"
+    },
+    {
+        "businessID": 1011029,
+        "businessUrl": "https://www.yelp.com/biz/big-buns-mclean-mclean",
+        "businessName": "Big Buns - Mclean",
+        "addressLocality": "McLean",
+        "lat": 38.939486,
+        "long": -77.175828,
+        "Level1": "Restaurants",
+        "Level2": "Burgers"
+    },
+    {
+        "businessID": 1011033,
+        "businessUrl": "https://www.yelp.com/biz/khun-yai-thai-arlington",
+        "businessName": "khun yai thai",
+        "addressLocality": "Arlington",
+        "lat": 38.8977,
+        "long": -77.139502,
+        "Level1": "Restaurants",
+        "Level2": "Thai"
     },
     {
         "businessID": 1011035,
@@ -75658,6 +76718,16 @@
         "long": -97.778968,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1011102,
+        "businessUrl": "https://www.yelp.com/biz/delisias-willow-park-2",
+        "businessName": "Delisias",
+        "addressLocality": "Willow Park",
+        "lat": 32.745836,
+        "long": -97.674388,
+        "Level1": "Restaurants",
+        "Level2": "Mediterranean"
     },
     {
         "businessID": 1011103,
@@ -76840,6 +77910,36 @@
         "Level2": "Fast Food"
     },
     {
+        "businessID": 1011250,
+        "businessUrl": "https://www.yelp.com/biz/tu-amigo-restuarant-culpeper",
+        "businessName": "Tu Amigo Restuarant",
+        "addressLocality": "Culpeper",
+        "lat": 38.481268,
+        "long": -77.99054,
+        "Level1": "Restaurants",
+        "Level2": "Spanish"
+    },
+    {
+        "businessID": 1011253,
+        "businessUrl": "https://www.yelp.com/biz/yalla-pita-culpeper",
+        "businessName": "Yalla Pita",
+        "addressLocality": "Culpeper",
+        "lat": 38.479978,
+        "long": -77.977487,
+        "Level1": "Restaurants",
+        "Level2": "Mediterranean"
+    },
+    {
+        "businessID": 1011255,
+        "businessUrl": "https://www.yelp.com/biz/garam-masala-culpeper",
+        "businessName": "Garam Masala",
+        "addressLocality": "Culpeper",
+        "lat": 38.522464,
+        "long": -77.986023,
+        "Level1": "Restaurants",
+        "Level2": "Indian"
+    },
+    {
         "businessID": 1011256,
         "businessUrl": "https://www.yelp.com/biz/caseys-crab-laurel",
         "businessName": "Casey's Crab",
@@ -76908,6 +78008,16 @@
         "long": -76.825864,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1011267,
+        "businessUrl": "https://www.yelp.com/biz/qdoba-mexican-eats-fort-meade-3",
+        "businessName": "QDOBA Mexican Eats",
+        "addressLocality": "Fort Meade",
+        "lat": 39.106874,
+        "long": -76.773012,
+        "Level1": "Restaurants",
+        "Level2": "Fast Food"
     },
     {
         "businessID": 1011268,
@@ -77050,6 +78160,16 @@
         "Level2": "American (Traditional)"
     },
     {
+        "businessID": 1011283,
+        "businessUrl": "https://www.yelp.com/biz/subway-gambrills-5",
+        "businessName": "Subway",
+        "addressLocality": "Gambrills",
+        "lat": 39.050563,
+        "long": -76.661754,
+        "Level1": "Restaurants",
+        "Level2": "Sandwiches"
+    },
+    {
         "businessID": 1011287,
         "businessUrl": "https://www.yelp.com/biz/cascade-cafe-washington",
         "businessName": "Cascade Cafe",
@@ -77080,6 +78200,16 @@
         "Level2": "Sandwiches"
     },
     {
+        "businessID": 1011291,
+        "businessUrl": "https://www.yelp.com/biz/tes-vending-food-stand-washington",
+        "businessName": "Tes Vending Food Stand",
+        "addressLocality": "Washington",
+        "lat": 38.90120214,
+        "long": -77.03462803,
+        "Level1": "Restaurants",
+        "Level2": "Food Stands"
+    },
+    {
         "businessID": 1011293,
         "businessUrl": "https://www.yelp.com/biz/the-carlyle-room-washington",
         "businessName": "The Carlyle Room",
@@ -77098,6 +78228,16 @@
         "long": -77.007787,
         "Level1": "Restaurants",
         "Level2": "Hot Dogs"
+    },
+    {
+        "businessID": 1011297,
+        "businessUrl": "https://www.yelp.com/biz/club-24-washington-3",
+        "businessName": "Club 24",
+        "addressLocality": "Washington",
+        "lat": 38.872441,
+        "long": -77.007787,
+        "Level1": "Restaurants",
+        "Level2": "Italian"
     },
     {
         "businessID": 1011298,
@@ -77608,6 +78748,16 @@
         "long": -76.958964,
         "Level1": "Restaurants",
         "Level2": "Pizza"
+    },
+    {
+        "businessID": 1011354,
+        "businessUrl": "https://www.yelp.com/biz/burger-king-temple-hills-2",
+        "businessName": "Burger King",
+        "addressLocality": "Temple Hills",
+        "lat": 38.836084,
+        "long": -76.944639,
+        "Level1": "Restaurants",
+        "Level2": "Burgers"
     },
     {
         "businessID": 1011355,
