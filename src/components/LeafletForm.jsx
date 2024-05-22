@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { legendState } from '../context/LegendProvider'
 
 const LeafletForm = () => {
-  const { box, setBox, marker, setMarker, mapType, setMapType } = legendState()
+  const { box, setBox, marker,radius, setMarker, mapType, setMapType, nonRw, setNonRW, setRadius} = legendState()
   const [isMinimized, setIsMinimized] = useState(false)
 
   const handleShowBoxChange = (event) => {
@@ -22,6 +22,16 @@ const LeafletForm = () => {
 
   const toggleMinimize = () => {
     setIsMinimized(!isMinimized)
+  }
+
+  const handleShowNonRWChange = (event) => {
+    const value = event.target.checked
+    setNonRW(value)
+  }
+
+  const handleRadiusChange = (event) => {
+    const value = parseInt(event.target.value)
+    setRadius(value)
   }
 
   return (
@@ -61,7 +71,27 @@ const LeafletForm = () => {
                 <option value="Gray Canvas">Gray Canvas</option>
                 <option value="Detailed">Detailed</option>
                 <option value="None">None</option>
-                
+              </select>
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="checkbox"
+                checked={nonRw}
+                onChange={handleShowNonRWChange}
+              />
+              Show non-RW
+            </label>
+          </div>
+          <div>
+            <label>
+              Radius:
+              <select value={radius} onChange={handleRadiusChange}>
+                <option value={1}>1</option>
+                <option value={2}>2</option>
+                <option value={3}>3</option>
+                <option value={4}>4</option>
               </select>
             </label>
           </div>

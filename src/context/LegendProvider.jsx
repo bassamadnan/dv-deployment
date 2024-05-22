@@ -10,6 +10,8 @@ const LegendProvider = ({ children }) => {
   const [marker, setMarker] = useState("Default");
   const [period, setPeriod] = useState("2022 Summer");
   const [mapType, setMapType] = useState("Default");
+  const [nonRW, setNonRW] = useState(false);
+  const [radius, setRadius] = useState(2);
   return (
     <LegendContext.Provider
       value={{
@@ -22,7 +24,11 @@ const LegendProvider = ({ children }) => {
        period,
        setPeriod,
        mapType,
-       setMapType
+       setMapType,
+       nonRW,
+       setNonRW,
+       radius,
+       setRadius
       }}
     >
       {children}

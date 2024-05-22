@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   MapContainer,
   Marker,
@@ -11,7 +11,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { points } from "../utils/data_parser";
+import { non_rw_points, points } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
 
 let DefaultIcon = L.icon({
@@ -22,7 +22,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const LeafletMap = () => {
-  const { box, marker, period, mapType } = legendState();
+  const { box, marker, period, mapType, nonRW, radius } = legendState();
 
   const filteredPoints =
     period === "All"
@@ -32,6 +32,7 @@ const LeafletMap = () => {
           )
         )
       : points.filter((point) => point[period] === 1);
+
   const washingtonDCBounds = [
     [38.791645, -77.119759], // [ymin, xmin]
     [38.99511, -76.909395], // [ymax, xmax]
@@ -41,7 +42,14 @@ const LeafletMap = () => {
     color: "red",
     fillColor: "red",
     fillOpacity: 0.5,
-    radius: 1,
+    radius: radius,
+  };
+
+  const nonRWCircleMarkerOptions = {
+    color: "blue",
+    fillColor: "blue",
+    fillOpacity: 0.5,
+    radius: radius,
   };
 
   const renderMarker = (point, index) => {
@@ -49,10 +57,10 @@ const LeafletMap = () => {
     const popupContent = (
       <Popup>
         <div>
-          <h3>{point["Restaurant Name"]}</h3>
-          <p>Location: {point.Location}</p>
-          <a href={point.yelpUrl} target="_blank" rel="noopener noreferrer">
-            {point.yelpUrl}
+          <h3>{point["businessName"]}</h3>
+          <p>Location: {point.addressLocality}</p>
+          <a href={point.businessUrl} target="_blank" rel="noopener noreferrer">
+            {point.businessUrl}
           </a>
         </div>
       </Popup>
@@ -77,6 +85,41 @@ const LeafletMap = () => {
     }
   };
 
+  const renderNonRWMarker = (point, index) => {
+    const position = [point.lat, point.long];
+    const popupContent = (
+      <Popup>
+        <div>
+          <h3>{point["businessName"]}</h3>
+          <p>Location: {point.addressLocality}</p>
+          <a href={point.businessUrl} target="_blank" rel="noopener noreferrer">
+            {point.businessUrl}
+          </a>
+        </div>
+      </Popup>
+    );
+
+    if (marker === "circle") {
+      return (
+        <CircleMarker
+          key={index}
+          center={position}
+          pathOptions={nonRWCircleMarkerOptions}
+        >
+          {popupContent}
+        </CircleMarker>
+      );
+    } else {
+      return (
+        <Marker key={index} position={position}>
+          {popupContent}
+        </Marker>
+      );
+    }
+  };
+  useEffect(() => {
+
+  }, [nonRW])
   return (
     <div
       style={{
@@ -91,28 +134,24 @@ const LeafletMap = () => {
         scrollWheelZoom={false}
         style={{ width: "100%", height: "100%" }}
       >
-        {mapType == "Default" && (
+        {mapType === "Default" && (
           <TileLayer
             url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
             attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
           />
         )}
-        {mapType == "Gray Canvas" && (
+        {mapType === "Gray Canvas" && (
           <TileLayer
             url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
             attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
           />
         )}
-        {mapType == "Detailed" && (
+        {mapType === "Detailed" && (
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         )}
-        {
-          mapType == "None" && (
-
-            <TileLayer url="xyz" />
-          )
-        }
+        {mapType === "None" && <TileLayer url="xyz" />}
         {filteredPoints.map(renderMarker)}
+        {nonRW && non_rw_points.map(renderNonRWMarker)}
         {box && (
           <Rectangle
             bounds={washingtonDCBounds}
