@@ -1,45 +1,73 @@
-import React, { useState } from 'react'
-import { legendState } from '../context/LegendProvider'
+import React, { useState } from "react";
+import { legendState } from "../context/LegendProvider";
 
 const LeafletForm = () => {
-  const { box, setBox, marker,radius, setMarker, mapType, setMapType, nonRw, setNonRW, setRadius} = legendState()
-  const [isMinimized, setIsMinimized] = useState(false)
+  const {
+    box,
+    setBox,
+    marker,
+    radius,
+    setMarker,
+    mapType,
+    setMapType,
+    nonRw,
+    setNonRW,
+    setRadius,
+    topBusinesses,
+    setTopBusinesses
+  } = legendState();
+  const [isMinimized, setIsMinimized] = useState(false);
+
+
+  const handleTopBusinessesChange = (event) => {
+    const value = Number(event.target.value);
+    if (value >= 1 && value <= 1000) {
+      setTopBusinesses(value);
+    }
+  };
+
+  const handleTopBusinessesInput = (event) => {
+    const value = event.target.value;
+    if (value === '' || (Number(value) >= 1 && Number(value) <= 1000)) {
+      setTopBusinesses(value === '' ? '' : Number(value));
+    }
+  };
 
   const handleShowBoxChange = (event) => {
-    const value = event.target.checked
-    setBox(value)
-  }
+    const value = event.target.checked;
+    setBox(value);
+  };
 
   const handleMarkerTypeChange = (event) => {
-    const value = event.target.value
-    setMarker(value)
-  }
+    const value = event.target.value;
+    setMarker(value);
+  };
 
   const handleMapTypeChange = (event) => {
-    const value = event.target.value
-    setMapType(value)
-  }
+    const value = event.target.value;
+    setMapType(value);
+  };
 
   const toggleMinimize = () => {
-    setIsMinimized(!isMinimized)
-  }
+    setIsMinimized(!isMinimized);
+  };
 
   const handleShowNonRWChange = (event) => {
-    const value = event.target.checked
-    setNonRW(value)
-  }
+    const value = event.target.checked;
+    setNonRW(value);
+  };
 
   const handleRadiusChange = (event) => {
-    const value = parseInt(event.target.value)
-    setRadius(value)
-  }
+    const value = parseInt(event.target.value);
+    setRadius(value);
+  };
 
   return (
     <div>
       <h3>
         Leaflet Settings
         <button onClick={toggleMinimize}>
-          {isMinimized ? 'Expand' : 'Minimize'}
+          {isMinimized ? "Expand" : "Minimize"}
         </button>
       </h3>
       {!isMinimized && (
@@ -95,10 +123,31 @@ const LeafletForm = () => {
               </select>
             </label>
           </div>
+          <div>
+          <label>
+              Top Businesses:
+              <input
+                type="number"
+                min="1"
+                max="1000"
+                value={topBusinesses}
+                onChange={handleTopBusinessesInput}
+                style={{ width: '60px', marginLeft: '10px', marginRight: '10px' }}
+              />
+              <input
+                type="range"
+                min="1"
+                max="1000"
+                value={topBusinesses}
+                onChange={handleTopBusinessesChange}
+                style={{ width: 'calc(100% - 80px)' }}
+              />
+            </label>
+          </div>
         </>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default LeafletForm
+export default LeafletForm;

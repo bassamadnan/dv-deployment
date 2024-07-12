@@ -12,6 +12,8 @@ const LegendProvider = ({ children }) => {
   const [mapType, setMapType] = useState("Default");
   const [nonRW, setNonRW] = useState(false);
   const [radius, setRadius] = useState(2);
+  const [topBusinesses, setTopBusinesses] = useState(1);
+
   return (
     <LegendContext.Provider
       value={{
@@ -28,7 +30,9 @@ const LegendProvider = ({ children }) => {
        nonRW,
        setNonRW,
        radius,
-       setRadius
+       setRadius,
+       topBusinesses,
+       setTopBusinesses
       }}
     >
       {children}

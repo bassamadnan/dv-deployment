@@ -11,8 +11,9 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { non_rw_points, points } from "../utils/data_parser";
+import { points } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
+import { filterPointsByRank } from "../utils/get_top_points";
 
 let DefaultIcon = L.icon({
   iconUrl: icon,
@@ -22,8 +23,8 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const LeafletMap = () => {
-  const { box, marker, period, mapType, nonRW, radius } = legendState();
-
+  const { box, marker, period, mapType, nonRW, radius, topBusinesses} = legendState();
+  const filteredNonRWPoints = filterPointsByRank(topBusinesses);
   const filteredPoints =
     period === "All"
       ? points.filter((point) =>
@@ -118,8 +119,8 @@ const LeafletMap = () => {
     }
   };
   useEffect(() => {
-
-  }, [nonRW])
+    // console.log(filteredNonRWPoints);
+  }, [nonRW, topBusinesses])
   return (
     <div
       style={{
@@ -151,7 +152,7 @@ const LeafletMap = () => {
         )}
         {mapType === "None" && <TileLayer url="xyz" />}
         {filteredPoints.map(renderMarker)}
-        {nonRW && non_rw_points.map(renderNonRWMarker)}
+        {nonRW && filteredNonRWPoints.map(renderNonRWMarker)}
         {box && (
           <Rectangle
             bounds={washingtonDCBounds}
