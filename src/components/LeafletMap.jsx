@@ -23,8 +23,9 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const LeafletMap = () => {
-  const { box, marker, period, mapType, nonRW, radius, topBusinesses} = legendState();
-  const filteredNonRWPoints = filterPointsByRank(topBusinesses);
+  const { box, marker, period, mapType, nonRW, rwRadius, nonRwRadius, rangeValues} = legendState();
+  // console.log(rangeValues);
+  const filteredNonRWPoints = filterPointsByRank(rangeValues);
   const filteredPoints =
     period === "All"
       ? points.filter((point) =>
@@ -43,14 +44,14 @@ const LeafletMap = () => {
     color: "red",
     fillColor: "red",
     fillOpacity: 0.5,
-    radius: radius,
+    radius: rwRadius,
   };
 
   const nonRWCircleMarkerOptions = {
     color: "blue",
     fillColor: "blue",
     fillOpacity: 0.5,
-    radius: radius,
+    radius: nonRwRadius,
   };
 
   const renderMarker = (point, index) => {
@@ -120,7 +121,7 @@ const LeafletMap = () => {
   };
   useEffect(() => {
     // console.log(filteredNonRWPoints);
-  }, [nonRW, topBusinesses])
+  }, [nonRW, rangeValues])
   return (
     <div
       style={{

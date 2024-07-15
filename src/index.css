@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    margin: 20px 0;
+  }
+  
+  .example-thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: #ffffff;
+    border: 5px solid #3774ff;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+  }
+  
+  .example-thumb.active {
+    background-color: grey;
+  }
+  
+  .example-track {
+    position: relative;
+    background: #ddd;
+  }
+  
+  .example-track.example-track-0 {
+    background: #83a9ff;
+  }
+  
+  .example-track.example-track-1 {
+    background: #3774ff;
+  }
+  
+  .example-track.example-track-2 {
+    background: #83a9ff;
+  }
+  
+  .horizontal-slider .example-track {
+    top: 20px;
+    height: 10px;
+  }
+  
+  .horizontal-slider .example-thumb {
+    top: 12px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #3774ff;
+    font-size: 12px;
+    font-weight: bold;
+  }
