@@ -2,9 +2,10 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
 import { legendState } from '../context/LegendProvider';
-import { points } from '../utils/data_parser';
+// import { points } from '../utils/data_parser';
 
 const DataMap = () => {
+  const points = {}
   const { period } = legendState();
   const svgRef = useRef();
 

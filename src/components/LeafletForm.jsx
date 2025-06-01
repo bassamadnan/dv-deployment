@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactSlider from 'react-slider';
 import { legendState } from "../context/LegendProvider";
 
 const LeafletForm = () => {
@@ -7,62 +6,39 @@ const LeafletForm = () => {
     box,
     setBox,
     marker,
-    rwRadius,
     setMarker,
     mapType,
     setMapType,
-    nonRw,
-    setNonRW,
+    rwRadius,
     setRwRadius,
-    rangeValues,
-    setRangeValues
+    filterType,
+    setFilterType
   } = legendState();
+  
   const [isMinimized, setIsMinimized] = useState(false);
 
   const handleShowBoxChange = (event) => {
-    const value = event.target.checked;
-    setBox(value);
+    setBox(event.target.checked);
   };
 
   const handleMarkerTypeChange = (event) => {
-    const value = event.target.value;
-    setMarker(value);
+    setMarker(event.target.value);
   };
 
   const handleMapTypeChange = (event) => {
-    const value = event.target.value;
-    setMapType(value);
+    setMapType(event.target.value);
+  };
+
+  const handleRadiusChange = (event) => {
+    setRwRadius(parseInt(event.target.value));
+  };
+
+  const handleFilterTypeChange = (event) => {
+    setFilterType(event.target.value);
   };
 
   const toggleMinimize = () => {
     setIsMinimized(!isMinimized);
-  };
-
-  const handleShowNonRWChange = (event) => {
-    const value = event.target.checked;
-    setNonRW(value);
-  };
-
-  const handleRadiusChange = (event) => {
-    const value = parseInt(event.target.value);
-    setRwRadius(value);
-  };
-
-  const handleRangeChange = (newValues) => {
-    setRangeValues(newValues);
-  };
-
-  const handleInputChange = (index, value) => {
-    const newValue = parseInt(value);
-    if (!isNaN(newValue) && newValue >= 1 && newValue <= 2500) {
-      const newRangeValues = [...rangeValues];
-      newRangeValues[index] = newValue;
-      if (index === 0 && newValue < rangeValues[1]) {
-        setRangeValues(newRangeValues);
-      } else if (index === 1 && newValue > rangeValues[0]) {
-        setRangeValues(newRangeValues);
-      }
-    }
   };
 
   return (
@@ -75,6 +51,19 @@ const LeafletForm = () => {
       </h3>
       {!isMinimized && (
         <>
+          {/* NEW: 4-Point Distance Filter */}
+          <div>
+            <label>
+              Display Filter:
+              <select value={filterType} onChange={handleFilterTypeChange}>
+                <option value="rw_only">1. RW Restaurants Only</option>
+                <option value="rw_plus_neighbors_05">2. RW + Neighbors (0.5 mi)</option>
+                <option value="rw_plus_neighbors_10">3. RW + Neighbors (1.0 mi)</option>
+                <option value="all_categories">4. All Categories</option>
+              </select>
+            </label>
+          </div>
+          
           <div>
             <label>
               <input
@@ -85,6 +74,7 @@ const LeafletForm = () => {
               Show Bounding Box
             </label>
           </div>
+          
           <div>
             <label>
               Marker Type:
@@ -94,6 +84,7 @@ const LeafletForm = () => {
               </select>
             </label>
           </div>
+          
           <div>
             <label>
               Map Type:
@@ -105,19 +96,10 @@ const LeafletForm = () => {
               </select>
             </label>
           </div>
+          
           <div>
             <label>
-              <input
-                type="checkbox"
-                checked={nonRw}
-                onChange={handleShowNonRWChange}
-              />
-              Show non-RW
-            </label>
-          </div>
-          <div>
-            <label>
-              Radius:
+              Marker Radius:
               <select value={rwRadius} onChange={handleRadiusChange}>
                 <option value={1}>1</option>
                 <option value={2}>2</option>
@@ -125,41 +107,6 @@ const LeafletForm = () => {
                 <option value={4}>4</option>
               </select>
             </label>
-          </div>
-          <div>
-            <label>
-              Range:
-              <ReactSlider
-                className="horizontal-slider"
-                thumbClassName="example-thumb"
-                trackClassName="example-track"
-                defaultValue={[1, 2500]}
-                value={rangeValues}
-                onChange={handleRangeChange}
-                min={1}
-                max={2500}
-                pearling
-                minDistance={10}
-              />
-            </label>
-            <div className="text-sm">
-              Lower Bound: 
-              <input 
-                type="number" 
-                value={rangeValues[0]} 
-                onChange={(e) => handleInputChange(0, e.target.value)}
-                min={1}
-                max={2500}
-              />
-              Upper Bound: 
-              <input 
-                type="number" 
-                value={rangeValues[1]} 
-                onChange={(e) => handleInputChange(1, e.target.value)}
-                min={1}
-                max={2500}
-              />
-            </div>
           </div>
         </>
       )}

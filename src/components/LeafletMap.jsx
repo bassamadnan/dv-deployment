@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   MapContainer,
   Marker,
@@ -11,9 +11,8 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { points } from "../utils/data_parser";
+import { getFilteredBusinesses, getBusinessesByCategory } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
-import { filterPointsByRank } from "../utils/get_top_points";
 
 let DefaultIcon = L.icon({
   iconUrl: icon,
@@ -23,105 +22,89 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const LeafletMap = () => {
-  const { box, marker, period, mapType, nonRW, rwRadius, nonRwRadius, rangeValues} = legendState();
-  // console.log(rangeValues);
-  const filteredNonRWPoints = filterPointsByRank(rangeValues);
-  const filteredPoints =
-    period === "All"
-      ? points.filter((point) =>
-          ["2022 Summer", "2023 Winter", "2023 Summer", "2024 Winter"].some(
-            (key) => point[key] === 1
-          )
-        )
-      : points.filter((point) => point[period] === 1);
+  const { box, marker, mapType, rwRadius, filterType } = legendState();
+
+  // Get filtered businesses based on selected filter type
+  const filteredBusinesses = getFilteredBusinesses(filterType);
+  const businessesByCategory = getBusinessesByCategory(filteredBusinesses);
 
   const washingtonDCBounds = [
     [38.791645, -77.119759], // [ymin, xmin]
     [38.99511, -76.909395], // [ymax, xmax]
   ];
 
-  const circleMarkerOptions = {
-    color: "red",
-    fillColor: "red",
-    fillOpacity: 0.5,
-    radius: rwRadius,
+  // Color schemes for different categories
+  const markerStyles = {
+    rw_restaurants: {
+      color: "red",
+      fillColor: "red",
+      fillOpacity: 0.7,
+      radius: rwRadius,
+    },
+    neighbors_05: {
+      color: "blue",
+      fillColor: "blue", 
+      fillOpacity: 0.6,
+      radius: rwRadius,
+    },
+    neighbors_10: {
+      color: "darkblue",
+      fillColor: "darkblue",
+      fillOpacity: 0.6,
+      radius: rwRadius,
+    },
+    neighbors_20: {
+      color: "orange",
+      fillColor: "orange",
+      fillOpacity: 0.5,
+      radius: rwRadius,
+    },
+    beyond_20: {
+      color: "lightgreen",
+      fillColor: "lightgreen",
+      fillOpacity: 0.5,
+      radius: rwRadius,
+    }
   };
 
-  const nonRWCircleMarkerOptions = {
-    color: "blue",
-    fillColor: "blue",
-    fillOpacity: 0.5,
-    radius: nonRwRadius,
-  };
-
-  const renderMarker = (point, index) => {
-    const position = [point.lat, point.long];
+  const renderMarker = (business, index, categoryStyle) => {
+    const position = [business.lat, business.long];
     const popupContent = (
       <Popup>
         <div>
-          <h3>{point["businessName"]}</h3>
-          <p>Location: {point.addressLocality}</p>
-          <a href={point.businessUrl} target="_blank" rel="noopener noreferrer">
-            {point.businessUrl}
+          <h3>{business.businessName}</h3>
+          <p>Location: {business.addressLocality}</p>
+          <p>Category: {business.category}</p>
+          <p>Distance to RW: {business.distance_to_nearest_rw} miles</p>
+          <p>Nearest RW: {business.nearest_rw_restaurant}</p>
+          <a href={business.businessUrl} target="_blank" rel="noopener noreferrer">
+            View on Yelp
           </a>
         </div>
       </Popup>
     );
 
+    const key = `${business.category}-${index}`;
+
     if (marker === "circle") {
       return (
         <CircleMarker
-          key={index}
+          key={key}
           center={position}
-          pathOptions={circleMarkerOptions}
+          pathOptions={categoryStyle}
         >
           {popupContent}
         </CircleMarker>
       );
     } else {
       return (
-        <Marker key={index} position={position}>
+        <Marker key={key} position={position}>
           {popupContent}
         </Marker>
       );
     }
   };
 
-  const renderNonRWMarker = (point, index) => {
-    const position = [point.lat, point.long];
-    const popupContent = (
-      <Popup>
-        <div>
-          <h3>{point["businessName"]}</h3>
-          <p>Location: {point.addressLocality}</p>
-          <a href={point.businessUrl} target="_blank" rel="noopener noreferrer">
-            {point.businessUrl}
-          </a>
-        </div>
-      </Popup>
-    );
-
-    if (marker === "circle") {
-      return (
-        <CircleMarker
-          key={index}
-          center={position}
-          pathOptions={nonRWCircleMarkerOptions}
-        >
-          {popupContent}
-        </CircleMarker>
-      );
-    } else {
-      return (
-        <Marker key={index} position={position}>
-          {popupContent}
-        </Marker>
-      );
-    }
-  };
-  useEffect(() => {
-    // console.log(filteredNonRWPoints);
-  }, [nonRW, rangeValues])
   return (
     <div
       style={{
@@ -152,8 +135,24 @@ const LeafletMap = () => {
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         )}
         {mapType === "None" && <TileLayer url="xyz" />}
-        {filteredPoints.map(renderMarker)}
-        {nonRW && filteredNonRWPoints.map(renderNonRWMarker)}
+
+        {/* Render markers by category with appropriate colors */}
+        {businessesByCategory.rw_restaurants.map((business, index) =>
+          renderMarker(business, index, markerStyles.rw_restaurants)
+        )}
+        {businessesByCategory.neighbors_05.map((business, index) =>
+          renderMarker(business, index, markerStyles.neighbors_05)
+        )}
+        {businessesByCategory.neighbors_10.map((business, index) =>
+          renderMarker(business, index, markerStyles.neighbors_10)
+        )}
+        {businessesByCategory.neighbors_20.map((business, index) =>
+          renderMarker(business, index, markerStyles.neighbors_20)
+        )}
+        {businessesByCategory.beyond_20.map((business, index) =>
+          renderMarker(business, index, markerStyles.beyond_20)
+        )}
+
         {box && (
           <Rectangle
             bounds={washingtonDCBounds}
@@ -161,18 +160,6 @@ const LeafletMap = () => {
           />
         )}
       </MapContainer>
-      <div
-        style={{
-          position: "absolute",
-          top: "10px",
-          right: "10px",
-          backgroundColor: "white",
-          padding: "10px",
-          borderRadius: "4px",
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
-          zIndex: 1000,
-        }}
-      ></div>
     </div>
   );
 };
