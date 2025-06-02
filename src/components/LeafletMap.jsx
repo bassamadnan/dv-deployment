@@ -60,8 +60,8 @@ const LeafletMap = () => {
       radius: nonRwRadius,
     },
     control: {
-      color: "lightgreen",
-      fillColor: "lightgreen",
+      color: "forestgreen",
+      fillColor: "forestgreen",
       fillOpacity: 0.5,
       radius: nonRwRadius,
     }
@@ -146,18 +146,19 @@ const LeafletMap = () => {
         )}
         {mapType === "None" && <TileLayer url="xyz" />}
 
-        {/* Render markers by treatment category */}
-        {businessesByCategory.rw_restaurants.map((business, index) =>
-          renderMarker(business, index, markerStyles.rw_restaurants, true)
-        )}
-        {businessesByCategory.treated125.map((business, index) =>
-          renderMarker(business, index, markerStyles.treated125, false)
+        {/* Render markers by treatment category - RW restaurants LAST so they appear on top */}
+        {businessesByCategory.control.map((business, index) =>
+          renderMarker(business, index, markerStyles.control, false)
         )}
         {businessesByCategory.treated125_250Only.map((business, index) =>
           renderMarker(business, index, markerStyles.treated125_250Only, false)
         )}
-        {businessesByCategory.control.map((business, index) =>
-          renderMarker(business, index, markerStyles.control, false)
+        {businessesByCategory.treated125.map((business, index) =>
+          renderMarker(business, index, markerStyles.treated125, false)
+        )}
+        {/* RW restaurants rendered LAST to appear on top */}
+        {businessesByCategory.rw_restaurants.map((business, index) =>
+          renderMarker(business, index, markerStyles.rw_restaurants, true)
         )}
 
         {box && (
