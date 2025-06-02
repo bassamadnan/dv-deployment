@@ -1911,7 +1911,7 @@
     "long": -77.1088187
   },
   {
-    "Restaurant Name": "Rustico ",
+    "Restaurant Name": "Rustico",
     "Location": "Alexandria",
     "yelpUrl": "https://www.yelp.com/biz/rustico-alexandria-3",
     "lat": 38.8216366,
@@ -3181,77 +3181,77 @@
     "Restaurant Name": "1789 Restaurant & Bar",
     "Location": "Washington",
     "yelpUrl": "https://www.yelp.com/biz/1789-restaurant-and-bar-washington",
-    "lat": 38.90619445020964,
-    "long": -77.07040930340267
+    "lat": 38.90619445,
+    "long": -77.0704093
   },
   {
-    "Restaurant Name": "matchbox ",
+    "Restaurant Name": "matchbox",
     "Location": "Bethesda",
     "yelpUrl": "https://www.yelp.com/biz/matchbox-bethesda-4",
-    "lat": 38.98209503152269,
-    "long": -77.09633738990833
+    "lat": 38.98209503,
+    "long": -77.09633739
   },
   {
     "Restaurant Name": "matchbox",
     "Location": "Silver Spring",
     "yelpUrl": "https://www.yelp.com/biz/matchbox-silver-spring-6",
-    "lat": 38.99625220159933,
-    "long": -77.02665996107113
+    "lat": 38.9962522,
+    "long": -77.02665996
   },
   {
     "Restaurant Name": "McCormick & Schmick's",
     "Location": "Washington",
     "yelpUrl": "https://www.yelp.com/biz/mccormick-and-schmicks-washington",
-    "lat": 38.89787222023222,
-    "long": -77.024355461076
+    "lat": 38.89787222,
+    "long": -77.02435546
   },
   {
     "Restaurant Name": "The Palm - Washington, D.C",
     "Location": "Washington",
     "yelpUrl": "https://www.yelp.com/biz/the-palm-washington-2",
-    "lat": 38.906858224592064,
-    "long": -77.04321882348314
+    "lat": 38.90685822,
+    "long": -77.04321882
   },
   {
     "Restaurant Name": "Matchbox - Rockville",
     "Location": "Rockville",
     "yelpUrl": "https://www.yelp.com/biz/matchbox-rockville-rockville-5",
-    "lat": 39.06224218252112,
-    "long": -77.12513503408655
+    "lat": 39.06224218,
+    "long": -77.12513503
   },
   {
     "Restaurant Name": "Skydome Restaurant",
     "Location": "Arlington",
     "yelpUrl": "https://www.yelp.com/biz/skydome-restaurant-arlington",
-    "lat": 38.86413646423396,
-    "long": -77.0527998034048
+    "lat": 38.86413646,
+    "long": -77.0527998
   },
   {
     "Restaurant Name": "matchbox",
     "Location": "Washington",
     "yelpUrl": "https://www.yelp.com/biz/matchbox-washington-9",
-    "lat": 38.88222909956888,
-    "long": -76.99533217456744
+    "lat": 38.8822291,
+    "long": -76.99533217
   },
   {
     "Restaurant Name": "City Cruises Washington DC - Pier 4",
     "Location": "Washington",
     "yelpUrl": "https://www.yelp.com/biz/city-cruises-washington-dc-pier-4-washington",
-    "lat": 38.87471256633731,
-    "long": -77.02139171689494
+    "lat": 38.87471257,
+    "long": -77.02139172
   },
   {
     "Restaurant Name": "EME Caf\u00e9 & Bar",
     "Location": "Washington",
     "yelpUrl": "https://www.yelp.com/biz/eme-caf%C3%A9-and-bar-washington",
-    "lat": 38.90561320657639,
-    "long": -77.04973238991202
+    "lat": 38.90561321,
+    "long": -77.04973239
   },
   {
     "Restaurant Name": "Big Buns",
     "Location": "Fairfax",
     "yelpUrl": "https://www.yelp.com/biz/big-buns-fairfax-4",
-    "lat": 38.8607821027086,
-    "long": -77.30368955922272
+    "lat": 38.8607821,
+    "long": -77.30368956
   }
 ]
