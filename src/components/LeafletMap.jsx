@@ -22,7 +22,14 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const LeafletMap = () => {
-  const { box, marker, mapType, rwRadius, filterType } = legendState();
+  const { 
+    box, 
+    marker, 
+    mapType, 
+    rwRadius, 
+    nonRwRadius,
+    filterType 
+  } = legendState();
 
   // Get filtered businesses based on selected filter type
   const filteredBusinesses = getFilteredBusinesses(filterType);
@@ -33,7 +40,7 @@ const LeafletMap = () => {
     [38.99511, -76.909395], // [ymax, xmax]
   ];
 
-  // Color schemes for different categories
+  // Color schemes with RW vs Non-RW size controls
   const markerStyles = {
     rw_restaurants: {
       color: "red",
@@ -45,25 +52,25 @@ const LeafletMap = () => {
       color: "blue",
       fillColor: "blue", 
       fillOpacity: 0.6,
-      radius: rwRadius,
+      radius: nonRwRadius,
     },
     neighbors_10: {
       color: "darkblue",
       fillColor: "darkblue",
       fillOpacity: 0.6,
-      radius: rwRadius,
+      radius: nonRwRadius,
     },
     neighbors_20: {
       color: "orange",
       fillColor: "orange",
       fillOpacity: 0.5,
-      radius: rwRadius,
+      radius: nonRwRadius,
     },
     beyond_20: {
       color: "lightgreen",
       fillColor: "lightgreen",
       fillOpacity: 0.5,
-      radius: rwRadius,
+      radius: nonRwRadius,
     }
   };
 

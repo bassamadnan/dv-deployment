@@ -7,7 +7,9 @@ const LegendProvider = ({ children }) => {
   const [box, setBox] = useState(false);
   const [marker, setMarker] = useState("circle");
   const [mapType, setMapType] = useState("Default");
-  const [rwRadius, setRwRadius] = useState(2);
+  // Simplified size controls: RW vs Non-RW
+  const [rwRadius, setRwRadius] = useState(3);
+  const [nonRwRadius, setNonRwRadius] = useState(2);
   
   // New state for distance-based filtering (the 4 points)
   const [filterType, setFilterType] = useState("rw_only");
@@ -27,6 +29,8 @@ const LegendProvider = ({ children }) => {
         setMapType,
         rwRadius,
         setRwRadius,
+        nonRwRadius,
+        setNonRwRadius,
         filterType,
         setFilterType
       }}

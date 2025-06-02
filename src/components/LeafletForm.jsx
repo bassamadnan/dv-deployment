@@ -11,6 +11,8 @@ const LeafletForm = () => {
     setMapType,
     rwRadius,
     setRwRadius,
+    nonRwRadius,
+    setNonRwRadius,
     filterType,
     setFilterType
   } = legendState();
@@ -29,8 +31,12 @@ const LeafletForm = () => {
     setMapType(event.target.value);
   };
 
-  const handleRadiusChange = (event) => {
+  const handleRwRadiusChange = (event) => {
     setRwRadius(parseInt(event.target.value));
+  };
+
+  const handleNonRwRadiusChange = (event) => {
+    setNonRwRadius(parseInt(event.target.value));
   };
 
   const handleFilterTypeChange = (event) => {
@@ -99,12 +105,32 @@ const LeafletForm = () => {
           
           <div>
             <label>
-              Marker Radius:
-              <select value={rwRadius} onChange={handleRadiusChange}>
+              RW Restaurant Size:
+              <select value={rwRadius} onChange={handleRwRadiusChange}>
                 <option value={1}>1</option>
                 <option value={2}>2</option>
                 <option value={3}>3</option>
                 <option value={4}>4</option>
+                <option value={5}>5</option>
+                <option value={6}>6</option>
+                <option value={7}>7</option>
+                <option value={8}>8</option>
+              </select>
+            </label>
+          </div>
+          
+          <div>
+            <label>
+              Non-RW Business Size:
+              <select value={nonRwRadius} onChange={handleNonRwRadiusChange}>
+                <option value={1}>1</option>
+                <option value={2}>2</option>
+                <option value={3}>3</option>
+                <option value={4}>4</option>
+                <option value={5}>5</option>
+                <option value={6}>6</option>
+                <option value={7}>7</option>
+                <option value={8}>8</option>
               </select>
             </label>
           </div>
