@@ -1,0 +1,3257 @@
+[
+  {
+    "Restaurant Name": "Zenola",
+    "Location": "Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/zenola-vienna-2",
+    "lat": 38.9063923,
+    "long": -77.257151
+  },
+  {
+    "Restaurant Name": "Wiseguy Pizza",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/wiseguy-pizza-washington-3",
+    "lat": 38.8995701,
+    "long": -77.0158939
+  },
+  {
+    "Restaurant Name": "Wiseguy Pizza",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/wiseguy-pizza-washington-4",
+    "lat": 38.8769546,
+    "long": -77.0031305
+  },
+  {
+    "Restaurant Name": "Wiseguy Pizza",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/wiseguy-pizza-arlington-5",
+    "lat": 38.8626644,
+    "long": -77.0587435
+  },
+  {
+    "Restaurant Name": "Provost",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/provost-washington-3",
+    "lat": 38.9298374,
+    "long": -76.9738528
+  },
+  {
+    "Restaurant Name": "Del Frisco's Double Eagle Steakhouse",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/del-friscos-double-eagle-steakhouse-washington",
+    "lat": 38.9007366,
+    "long": -77.0247342
+  },
+  {
+    "Restaurant Name": "Yardbird",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/yardbird-washington-3",
+    "lat": 38.9020642,
+    "long": -77.0256807
+  },
+  {
+    "Restaurant Name": "Spice Kraft Indian Bistro - Clarendon",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/spice-kraft-indian-bistro-clarendon-arlington",
+    "lat": 38.8872058,
+    "long": -77.0947752
+  },
+  {
+    "Restaurant Name": "Alta Strada - Washington",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/alta-strada-washington-washington",
+    "lat": 38.9027955,
+    "long": -77.0181006
+  },
+  {
+    "Restaurant Name": "Cafe Berlin",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cafe-berlin-washington-3",
+    "lat": 38.8944316,
+    "long": -77.0009776
+  },
+  {
+    "Restaurant Name": "Muchas Gracias",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/muchas-gracias-washington",
+    "lat": 38.9557806,
+    "long": -77.0698589
+  },
+  {
+    "Restaurant Name": "Sequoia",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sequoia-washington-3",
+    "lat": 38.9022701,
+    "long": -77.0599873
+  },
+  {
+    "Restaurant Name": "Iron Gate",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/iron-gate-washington",
+    "lat": 38.9070697,
+    "long": -77.0398501
+  },
+  {
+    "Restaurant Name": "Pink Taco",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pink-taco-washington-3",
+    "lat": 38.8767448,
+    "long": -77.0054359
+  },
+  {
+    "Restaurant Name": "Osteria Costa",
+    "Location": "Oxon Hill",
+    "yelpUrl": "https://www.yelp.com/biz/osteria-costa-oxon-hill-3",
+    "lat": 38.7953347,
+    "long": -77.0090325
+  },
+  {
+    "Restaurant Name": "Rosemary Bistro Cafe",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/rosemary-bistro-cafe-washington",
+    "lat": 38.9550873,
+    "long": -77.0702467
+  },
+  {
+    "Restaurant Name": "Del Mar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/del-mar-washington",
+    "lat": 38.8788208,
+    "long": -77.0245257
+  },
+  {
+    "Restaurant Name": "Donahue",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/donahue-washington",
+    "lat": 38.9076188,
+    "long": -77.0636855
+  },
+  {
+    "Restaurant Name": "Dovetail Bar & Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dovetail-bar-and-restaurant-washington",
+    "lat": 38.9080344,
+    "long": -77.0329009
+  },
+  {
+    "Restaurant Name": "Nama Sushi Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/nama-sushi-bar-washington",
+    "lat": 38.9027955,
+    "long": -77.0181006
+  },
+  {
+    "Restaurant Name": "Tysons Social Tavern",
+    "Location": "Tysons",
+    "yelpUrl": "https://www.yelp.com/biz/tysons-social-tavern-tysons",
+    "lat": 38.9209702,
+    "long": -77.2270567
+  },
+  {
+    "Restaurant Name": "1789 Restaurant",
+    "Location": "Washington, DC",
+    "yelpUrl": "https://www.yelp.com/biz/1789-restaurant-washington-4",
+    "lat": 38.9060732,
+    "long": -77.0704882
+  },
+  {
+    "Restaurant Name": "Lost Society",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lost-society-washington",
+    "lat": 38.917207,
+    "long": -77.0317144
+  },
+  {
+    "Restaurant Name": "Pupatella",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pupatella-washington",
+    "lat": 38.9143431,
+    "long": -77.0414645
+  },
+  {
+    "Restaurant Name": "Milk & Honey Cafe\u00b4 Ashburn",
+    "Location": "Sterling",
+    "yelpUrl": "https://www.yelp.com/biz/milk-and-honey-cafe-ashburn-sterling",
+    "lat": 39.0063024,
+    "long": -77.4371188
+  },
+  {
+    "Restaurant Name": "Fiola Mare",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/fiola-mare-washington",
+    "lat": 38.9019912,
+    "long": -77.0606435
+  },
+  {
+    "Restaurant Name": "Pow Pow",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pow-pow-washington",
+    "lat": 38.899983,
+    "long": -76.9885507
+  },
+  {
+    "Restaurant Name": "Chima Steakhouse",
+    "Location": "Tyson's Corner-Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/chima-steakhouse-tysons-corner-vienna-3",
+    "lat": 38.914558,
+    "long": -77.220886
+  },
+  {
+    "Restaurant Name": "Hiraya",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/hiraya-washington",
+    "lat": 38.9042768,
+    "long": -77.0331678
+  },
+  {
+    "Restaurant Name": "Bronze",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bronze-washington",
+    "lat": 38.8999893,
+    "long": -76.9886864
+  },
+  {
+    "Restaurant Name": "Cane",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cane-washington-3",
+    "lat": 38.899998,
+    "long": -77.0003179
+  },
+  {
+    "Restaurant Name": "Georgia Brown's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/georgia-browns-washington-3",
+    "lat": 38.901848,
+    "long": -77.0348123
+  },
+  {
+    "Restaurant Name": "Silver Social Navy Yard",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/silver-social-navy-yard-washington-2",
+    "lat": 38.875224,
+    "long": -77.007002
+  },
+  {
+    "Restaurant Name": "Sospeso",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sospeso-washington",
+    "lat": 38.900434,
+    "long": -76.9866727
+  },
+  {
+    "Restaurant Name": "Mercy Me",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mercy-me-washington-2",
+    "lat": 38.9048388,
+    "long": -77.047559
+  },
+  {
+    "Restaurant Name": "Mozzeria",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mozzeria-washington",
+    "lat": 38.9004084,
+    "long": -76.9880452
+  },
+  {
+    "Restaurant Name": "Buck's Fishing & Camping",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bucks-fishing-and-camping-washington",
+    "lat": 38.955832,
+    "long": -77.0698701
+  },
+  {
+    "Restaurant Name": "O'Malley's",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/o-malleys-arlington-2",
+    "lat": 38.8494102,
+    "long": -77.0533881
+  },
+  {
+    "Restaurant Name": "The Queen Vic",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-queen-vic-washington",
+    "lat": 38.9003879,
+    "long": -76.9898627
+  },
+  {
+    "Restaurant Name": "Maketto",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/maketto-washington-2",
+    "lat": 38.8998743,
+    "long": -76.9866864
+  },
+  {
+    "Restaurant Name": "Granville Moore's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/granville-moores-washington",
+    "lat": 38.9004221,
+    "long": -76.9889243
+  },
+  {
+    "Restaurant Name": "Makan",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/makan-washington",
+    "lat": 38.9320096,
+    "long": -77.0284922
+  },
+  {
+    "Restaurant Name": "Creole on 14th",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/creole-on-14th-washington",
+    "lat": 38.9309745,
+    "long": -77.0324516
+  },
+  {
+    "Restaurant Name": "Hank's Oyster Bar - Dupont Circle",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/hanks-oyster-bar-dupont-circle-washington",
+    "lat": 38.910896,
+    "long": -77.0381165
+  },
+  {
+    "Restaurant Name": "St James - Modern Caribbean",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/st-james-modern-caribbean-washington",
+    "lat": 38.9176365,
+    "long": -77.0315961
+  },
+  {
+    "Restaurant Name": "Ethiopic",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ethiopic-washington",
+    "lat": 38.8999542,
+    "long": -77.0003742
+  },
+  {
+    "Restaurant Name": "Silver Diner Navy Yard",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/silver-diner-navy-yard-washington-2",
+    "lat": 38.875224,
+    "long": -77.007002
+  },
+  {
+    "Restaurant Name": "Sticky Fingers Diner",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sticky-fingers-diner-washington-3",
+    "lat": 38.9004217,
+    "long": -77.0001605
+  },
+  {
+    "Restaurant Name": "Sticky Rice",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sticky-rice-washington",
+    "lat": 38.9003989,
+    "long": -76.9892939
+  },
+  {
+    "Restaurant Name": "Hard Rock Cafe",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/hard-rock-cafe-washington",
+    "lat": 38.8964505,
+    "long": -77.0253658
+  },
+  {
+    "Restaurant Name": "Jardenea",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/jardenea-washington",
+    "lat": 38.9029216,
+    "long": -77.0527927
+  },
+  {
+    "Restaurant Name": "Ingle Korean Steakhouse",
+    "Location": "Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/ingle-korean-steakhouse-vienna",
+    "lat": 38.9221155,
+    "long": -77.2358003
+  },
+  {
+    "Restaurant Name": "ala",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ala-washington",
+    "lat": 38.908108,
+    "long": -77.0437532
+  },
+  {
+    "Restaurant Name": "Alfresco Tap & Grill",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/alfresco-tap-and-grill-washington",
+    "lat": 38.9175264,
+    "long": -77.0411979
+  },
+  {
+    "Restaurant Name": "Alhambra",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/alhambra-washington",
+    "lat": 38.9022759,
+    "long": -77.0362352
+  },
+  {
+    "Restaurant Name": "All Set Restaurant & Bar",
+    "Location": "Silver Spring",
+    "yelpUrl": "https://www.yelp.com/biz/all-set-restaurant-and-bar-silver-spring",
+    "lat": 38.9978611,
+    "long": -77.0285147
+  },
+  {
+    "Restaurant Name": "All-Purpose Riverfront",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/all-purpose-riverfront-washington",
+    "lat": 38.8713823,
+    "long": -77.0069227
+  },
+  {
+    "Restaurant Name": "All-Purpose Shaw",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/all-purpose-shaw-washington-2",
+    "lat": 38.906831,
+    "long": -77.0242255
+  },
+  {
+    "Restaurant Name": "Alta Strada",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/alta-strada-fairfax-2",
+    "lat": 38.871724,
+    "long": -77.2292888
+  },
+  {
+    "Restaurant Name": "Ambar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ambar-washington",
+    "lat": 38.8820366,
+    "long": -76.9953389
+  },
+  {
+    "Restaurant Name": "Ambar",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/ambar-arlington-4",
+    "lat": 38.8887531,
+    "long": -77.0935506
+  },
+  {
+    "Restaurant Name": "Ambar Shaw",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ambar-shaw-washington",
+    "lat": 38.9109178,
+    "long": -77.0217019
+  },
+  {
+    "Restaurant Name": "American Prime",
+    "Location": "McLean",
+    "yelpUrl": "https://www.yelp.com/biz/american-prime-mclean",
+    "lat": 38.9319734,
+    "long": -77.2351247
+  },
+  {
+    "Restaurant Name": "Angolo Ristorante",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/angolo-ristorante-washington",
+    "lat": 38.905032,
+    "long": -77.0590323
+  },
+  {
+    "Restaurant Name": "Annabelle",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/annabelle-washington",
+    "lat": 38.9127548,
+    "long": -77.0472084
+  },
+  {
+    "Restaurant Name": "Art and Soul",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/art-and-soul-washington-2",
+    "lat": 38.8954614,
+    "long": -77.0108803
+  },
+  {
+    "Restaurant Name": "Astoria's kitchen",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/astorias-kitchen-washington",
+    "lat": 38.902918,
+    "long": -77.0471946
+  },
+  {
+    "Restaurant Name": "B Side",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/b-side-fairfax",
+    "lat": 38.8730777,
+    "long": -77.2308533
+  },
+  {
+    "Restaurant Name": "Bar Charley",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bar-charley-washington",
+    "lat": 38.9150743,
+    "long": -77.041479
+  },
+  {
+    "Restaurant Name": "Bar Chinois",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bar-chinois-washington",
+    "lat": 38.9015012,
+    "long": -77.0180106
+  },
+  {
+    "Restaurant Name": "Bar Ivy",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/bar-ivy-arlington",
+    "lat": 38.8881961,
+    "long": -77.094484
+  },
+  {
+    "Restaurant Name": "Bar Spero",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bar-spero-washington-2",
+    "lat": 38.8993846,
+    "long": -77.0148424
+  },
+  {
+    "Restaurant Name": "Barcode",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/barcode-washington-4",
+    "lat": 38.9040782,
+    "long": -77.0379947
+  },
+  {
+    "Restaurant Name": "Bastille Brasserie and Bar",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/bastille-brasserie-and-bar-alexandria-2",
+    "lat": 38.8120956,
+    "long": -77.0516341
+  },
+  {
+    "Restaurant Name": "Belga Cafe",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/belga-cafe-washington",
+    "lat": 38.8822113,
+    "long": -76.9945958
+  },
+  {
+    "Restaurant Name": "Bellissimo Restaurant",
+    "Location": "Fairfax City",
+    "yelpUrl": "https://www.yelp.com/biz/bellissimo-restaurant-fairfax-city-3",
+    "lat": 38.8458342,
+    "long": -77.3055483
+  },
+  {
+    "Restaurant Name": "Bindaas",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bindaas-washington",
+    "lat": 38.9338968,
+    "long": -77.0570814
+  },
+  {
+    "Restaurant Name": "Bindaas",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bindaas-washington-2",
+    "lat": 38.9003466,
+    "long": -77.0455641
+  },
+  {
+    "Restaurant Name": "Birch & Barley",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/birch-and-barley-washington",
+    "lat": 38.9084868,
+    "long": -77.031506
+  },
+  {
+    "Restaurant Name": "Bistro Atelier",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bistro-atelier-dulles-2",
+    "lat": 38.9084868,
+    "long": -77.031506
+  },
+  {
+    "Restaurant Name": "Bistro Cacao",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bistro-cacao-washington-2",
+    "lat": 38.8945264,
+    "long": -77.0010828
+  },
+  {
+    "Restaurant Name": "Bistro Du Jour",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bistro-du-jour-washington",
+    "lat": 38.8795686,
+    "long": -77.0254225
+  },
+  {
+    "Restaurant Name": "Bistrot Lepic & Wine Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bistrot-lepic-and-wine-bar-washington",
+    "lat": 38.9145899,
+    "long": -77.0674081
+  },
+  {
+    "Restaurant Name": "BlackSalt",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/blacksalt-washington-2",
+    "lat": 38.9179154,
+    "long": -77.0965169
+  },
+  {
+    "Restaurant Name": "Bluejacket",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bluejacket-washington",
+    "lat": 38.8751743,
+    "long": -77.0014763
+  },
+  {
+    "Restaurant Name": "Boqueria Dupont",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/boqueria-dupont-washington",
+    "lat": 38.905921,
+    "long": -77.0431399
+  },
+  {
+    "Restaurant Name": "Boqueria Penn Quarter",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/boqueria-penn-quarter-washington-4",
+    "lat": 38.8994156,
+    "long": -77.0237551
+  },
+  {
+    "Restaurant Name": "Boundary Stone",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/boundary-stone-washington",
+    "lat": 38.9182539,
+    "long": -77.0056685
+  },
+  {
+    "Restaurant Name": "Boxcar Tavern",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/boxcar-tavern-washington",
+    "lat": 38.8865591,
+    "long": -76.9958297
+  },
+  {
+    "Restaurant Name": "Bracket Room",
+    "Location": "Dulles",
+    "yelpUrl": "https://www.yelp.com/biz/bracket-room-dulles-2",
+    "lat": 38.9527209,
+    "long": -77.4477741
+  },
+  {
+    "Restaurant Name": "Brasserie Beck",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/brasserie-beck-washington-3",
+    "lat": 38.9028678,
+    "long": -77.0277381
+  },
+  {
+    "Restaurant Name": "Brasserie Liberte",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/brasserie-liberte-washington",
+    "lat": 38.906237,
+    "long": -77.0638667
+  },
+  {
+    "Restaurant Name": "Bresca",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bresca-washington",
+    "lat": 38.9157867,
+    "long": -77.0322708
+  },
+  {
+    "Restaurant Name": "Buena Vida",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/buena-vida-arlington-2",
+    "lat": 38.8883739,
+    "long": -77.0933862
+  },
+  {
+    "Restaurant Name": "Cadillac Ranch",
+    "Location": "Oxon Hill",
+    "yelpUrl": "https://www.yelp.com/biz/cadillac-ranch-oxon-hill-oxon-hill",
+    "lat": 38.7828241,
+    "long": -77.0149642
+  },
+  {
+    "Restaurant Name": "Caf\u00e9 du Parc",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/caf%C3%A9-du-parc-washington-4",
+    "lat": 38.8963338,
+    "long": -77.0322429
+  },
+  {
+    "Restaurant Name": "Cafe Milano",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cafe-milano-washington",
+    "lat": 38.906237,
+    "long": -77.0638667
+  },
+  {
+    "Restaurant Name": "Caf\u00e9 Riggs",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/caf%C3%A9-riggs-washington",
+    "lat": 38.8971417,
+    "long": -77.0243762
+  },
+  {
+    "Restaurant Name": "Caruso's Grocery",
+    "Location": "North Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/carusos-grocery-north-bethesda",
+    "lat": 39.0498483,
+    "long": -77.116201
+  },
+  {
+    "Restaurant Name": "Causa Amazonia",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/causa-amazonia-washington",
+    "lat": 38.9069113,
+    "long": -77.0247957
+  },
+  {
+    "Restaurant Name": "Celebration by Rupa Vira - Modern Indian Cuisine",
+    "Location": "Ashburn",
+    "yelpUrl": "https://www.yelp.com/biz/celebration-by-rupa-vira-modern-indian-cuisine-ashburn",
+    "lat": 39.0202618,
+    "long": -77.4695698
+  },
+  {
+    "Restaurant Name": "Central Michel Richard",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/central-michel-richard-washington",
+    "lat": 38.895654,
+    "long": -77.0264904
+  },
+  {
+    "Restaurant Name": "Certo!",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/certo-washington",
+    "lat": 38.9098823,
+    "long": -77.0475686
+  },
+  {
+    "Restaurant Name": "Chaplin's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/chaplins-washington",
+    "lat": 38.9097973,
+    "long": -77.02372
+  },
+  {
+    "Restaurant Name": "Charlie Palmer Steak DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/charlie-palmer-steak-dc-washington",
+    "lat": 38.8925681,
+    "long": -77.0129974
+  },
+  {
+    "Restaurant Name": "Chart House",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/chart-house-alexandria",
+    "lat": 38.805461,
+    "long": -77.0387256
+  },
+  {
+    "Restaurant Name": "Cheesetique",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/cheesetique-alexandria-3",
+    "lat": 38.8273413,
+    "long": -77.0585736
+  },
+  {
+    "Restaurant Name": "Cheesetique",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/cheesetique-arlington-2",
+    "lat": 38.8405371,
+    "long": -77.0875863
+  },
+  {
+    "Restaurant Name": "Chef Geoff's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/chef-geoffs-washington",
+    "lat": 38.9330859,
+    "long": -77.084835
+  },
+  {
+    "Restaurant Name": "Chef Geoff's West End",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/chef-geoffs-west-end-washington",
+    "lat": 38.9055573,
+    "long": -77.0491294
+  },
+  {
+    "Restaurant Name": "Chiko",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/chiko-washington-2",
+    "lat": 38.9098496,
+    "long": -77.0462212
+  },
+  {
+    "Restaurant Name": "China Chilcano",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/china-chilcano-washington-2",
+    "lat": 38.8953419,
+    "long": -77.0220795
+  },
+  {
+    "Restaurant Name": "Chloe",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/chloe-washington-4",
+    "lat": 38.8743729,
+    "long": -77.0007379
+  },
+  {
+    "Restaurant Name": "CIRCA at Clarendon",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/circa-at-clarendon-arlington",
+    "lat": 38.8870377,
+    "long": -77.0944147
+  },
+  {
+    "Restaurant Name": "CIRCA at Foggy Bottom",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/circa-at-foggy-bottom-washington-2",
+    "lat": 38.9009079,
+    "long": -77.0492914
+  },
+  {
+    "Restaurant Name": "Circa at The Boro",
+    "Location": "Tysons",
+    "yelpUrl": "https://www.yelp.com/biz/circa-at-the-boro-tysons",
+    "lat": 38.92347,
+    "long": -77.232801
+  },
+  {
+    "Restaurant Name": "CIRCA at Navy Yard",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/circa-at-navy-yard-washington",
+    "lat": 38.8761837,
+    "long": -77.0061558
+  },
+  {
+    "Restaurant Name": "CODE RED",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/code-red-washington",
+    "lat": 38.9216781,
+    "long": -77.0427086
+  },
+  {
+    "Restaurant Name": "Convivial",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/convivial-washington",
+    "lat": 38.9087312,
+    "long": -77.0232237
+  },
+  {
+    "Restaurant Name": "Cork Wine Bar And Market",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cork-wine-bar-and-market-washington",
+    "lat": 38.9143567,
+    "long": -77.031686
+  },
+  {
+    "Restaurant Name": "Cranes Spanish Kaiseki",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cranes-spanish-kaiseki-washington",
+    "lat": 38.8991979,
+    "long": -77.0241895
+  },
+  {
+    "Restaurant Name": "Crazy Aunt Helen's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/crazy-aunt-helens-washington",
+    "lat": 38.8807721,
+    "long": -76.9953397
+  },
+  {
+    "Restaurant Name": "Cuba Libre Restaurant & Rum Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cuba-libre-restaurant-and-rum-bar-washington-2",
+    "lat": 38.9006273,
+    "long": -77.0236114
+  },
+  {
+    "Restaurant Name": "Cure Bar and Bistro",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cure-bar-and-bistro-washington-2",
+    "lat": 38.8992558,
+    "long": -77.0264005
+  },
+  {
+    "Restaurant Name": "Daikaya the Izakaya",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/daikaya-the-izakaya-washington-3",
+    "lat": 38.898603,
+    "long": -77.019589
+  },
+  {
+    "Restaurant Name": "Dauphine\u2019s",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dauphine-s-washington",
+    "lat": 38.9039123,
+    "long": -77.0348226
+  },
+  {
+    "Restaurant Name": "Destino",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/destino-washington-2",
+    "lat": 38.9088799,
+    "long": -76.9997617
+  },
+  {
+    "Restaurant Name": "Dirty Habit",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dirty-habit-washington-2",
+    "lat": 38.8966577,
+    "long": -77.0222169
+  },
+  {
+    "Restaurant Name": "District Winery",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/district-winery-washington",
+    "lat": 38.8734421,
+    "long": -77.0007116
+  },
+  {
+    "Restaurant Name": "Dolce Vita Coastal Mediterranean Cuisine",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dolce-vita-coastal-mediterranean-cuisine-washington",
+    "lat": 38.9115387,
+    "long": -77.0323398
+  },
+  {
+    "Restaurant Name": "Due South",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/due-south-washington-2",
+    "lat": 38.873408,
+    "long": -77.0014765
+  },
+  {
+    "Restaurant Name": "Duke's Grocery",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dukes-grocery-washington-2",
+    "lat": 38.9003466,
+    "long": -77.0455641
+  },
+  {
+    "Restaurant Name": "Duke\u2019s Grocery",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/duke-s-grocery-washington-2",
+    "lat": 38.8753487,
+    "long": -77.0076877
+  },
+  {
+    "Restaurant Name": "Earls Kitchen + Bar",
+    "Location": "McLean",
+    "yelpUrl": "https://www.yelp.com/biz/earls-kitchen-bar-mclean",
+    "lat": 38.9197389,
+    "long": -77.2206449
+  },
+  {
+    "Restaurant Name": "Easy Company",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/easy-company-washington",
+    "lat": 38.8807183,
+    "long": -77.0265343
+  },
+  {
+    "Restaurant Name": "El Centro",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/el-centro-washington-2",
+    "lat": 38.9056821,
+    "long": -77.0630348
+  },
+  {
+    "Restaurant Name": "El Centro",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/el-centro-arlington-3",
+    "lat": 38.8504468,
+    "long": -77.051815
+  },
+  {
+    "Restaurant Name": "El Secreto De Rosita",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/el-secreto-de-rosita-washington",
+    "lat": 38.9167768,
+    "long": -77.0378859
+  },
+  {
+    "Restaurant Name": "El Tamarindo",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/el-tamarindo-washington",
+    "lat": 38.917187,
+    "long": -77.0412931
+  },
+  {
+    "Restaurant Name": "Ellie Bird",
+    "Location": "Falls Church",
+    "yelpUrl": "https://www.yelp.com/biz/ellie-bird-falls-church-2",
+    "lat": 38.8861125,
+    "long": -77.1772737
+  },
+  {
+    "Restaurant Name": "Ellington Park Bistro",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ellington-park-bistro-washington",
+    "lat": 38.9059069,
+    "long": -77.046282
+  },
+  {
+    "Restaurant Name": "Epic SmokeHouse",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/epic-smokehouse-arlington",
+    "lat": 38.8613179,
+    "long": -77.0561949
+  },
+  {
+    "Restaurant Name": "Equinox Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/equinox-restaurant-washington-2",
+    "lat": 38.9008384,
+    "long": -77.0386806
+  },
+  {
+    "Restaurant Name": "Era Wine Bar",
+    "Location": "Mount Rainier",
+    "yelpUrl": "https://www.yelp.com/biz/era-wine-bar-mount-rainier",
+    "lat": 38.9362133,
+    "long": -76.9618594
+  },
+  {
+    "Restaurant Name": "Estuary",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/estuary-washington",
+    "lat": 38.9014603,
+    "long": -77.0252373
+  },
+  {
+    "Restaurant Name": "Evening Star Cafe",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/evening-star-cafe-alexandria",
+    "lat": 38.8239957,
+    "long": -77.0584135
+  },
+  {
+    "Restaurant Name": "Founding Farmers & Distillers",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/founding-farmers-and-distillers-washington",
+    "lat": 38.9012458,
+    "long": -77.0205524
+  },
+  {
+    "Restaurant Name": "Farmers Fishers Bakers",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/farmers-fishers-bakers-washington",
+    "lat": 38.9022701,
+    "long": -77.0599873
+  },
+  {
+    "Restaurant Name": "FIG & OLIVE",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/fig-and-olive-washington-9",
+    "lat": 38.9001695,
+    "long": -77.0245531
+  },
+  {
+    "Restaurant Name": "Figleaf Bar & Lounge",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/figleaf-bar-and-lounge-washington",
+    "lat": 38.9051765,
+    "long": -77.0313994
+  },
+  {
+    "Restaurant Name": "Filomena Ristorante",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/filomena-ristorante-washington",
+    "lat": 38.9044009,
+    "long": -77.0624625
+  },
+  {
+    "Restaurant Name": "Fitzgerald's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/fitzgeralds-washington",
+    "lat": 38.9062098,
+    "long": -77.0704913
+  },
+  {
+    "Restaurant Name": "Flavio Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/flavio-restaurant-washington",
+    "lat": 38.9046196,
+    "long": -77.0608986
+  },
+  {
+    "Restaurant Name": "Flavorture",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/flavorture-washington",
+    "lat": 38.9238251,
+    "long": -77.0523762
+  },
+  {
+    "Restaurant Name": "Floriana",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/floriana-washington",
+    "lat": 38.9113313,
+    "long": -77.0387458
+  },
+  {
+    "Restaurant Name": "Founding Farmers - Washington",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/founding-farmers-washington-washington-3",
+    "lat": 38.8999959,
+    "long": -77.0443929
+  },
+  {
+    "Restaurant Name": "MoCo's Founding Farmers",
+    "Location": "Potomac",
+    "yelpUrl": "https://www.yelp.com/biz/mocos-founding-farmers-potomac",
+    "lat": 39.0603241,
+    "long": -77.1567648
+  },
+  {
+    "Restaurant Name": "Founding Farmers - Tysons",
+    "Location": "Tysons",
+    "yelpUrl": "https://www.yelp.com/biz/founding-farmers-tysons-tysons-6",
+    "lat": 38.9223637,
+    "long": -77.2224625
+  },
+  {
+    "Restaurant Name": "Founding Farmers Reston Station",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/founding-farmers-reston-station-reston",
+    "lat": 38.9483265,
+    "long": -77.3384547
+  },
+  {
+    "Restaurant Name": "Fred & Stilla",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/fred-and-stilla-washington",
+    "lat": 38.9108393,
+    "long": -77.0455179
+  },
+  {
+    "Restaurant Name": "GATSBY",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/gatsby-washington",
+    "lat": 38.8750449,
+    "long": -77.0081735
+  },
+  {
+    "Restaurant Name": "Gerrard Street Kitchen",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/gerrard-street-kitchen-washington",
+    "lat": 38.9078754,
+    "long": -77.0355469
+  },
+  {
+    "Restaurant Name": "Gogi Yogi",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/gogi-yogi-washington-2",
+    "lat": 38.91633,
+    "long": -77.0226573
+  },
+  {
+    "Restaurant Name": "Gravitas",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/gravitas-washington-2",
+    "lat": 38.914414,
+    "long": -76.9841697
+  },
+  {
+    "Restaurant Name": "Grille District",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/grille-district-arlington-7",
+    "lat": 38.8555204,
+    "long": -77.0452976
+  },
+  {
+    "Restaurant Name": "Gypsy Kitchen DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/gypsy-kitchen-dc-washington",
+    "lat": 38.9148801,
+    "long": -77.0315549
+  },
+  {
+    "Restaurant Name": "Harlot DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/harlot-dc-washington",
+    "lat": 38.9176462,
+    "long": -77.027298
+  },
+  {
+    "Restaurant Name": "Harvest Tide Steak And Seafood",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/harvest-tide-steak-and-seafood-washington",
+    "lat": 38.88684,
+    "long": -76.9958297
+  },
+  {
+    "Restaurant Name": "Hen Quarter",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/hen-quarter-alexandria",
+    "lat": 38.805462,
+    "long": -77.048207
+  },
+  {
+    "Restaurant Name": "I Ricchi",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/i-ricchi-washington-2",
+    "lat": 38.906607,
+    "long": -77.0439431
+  },
+  {
+    "Restaurant Name": "il Canale",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/il-canale-washington-2",
+    "lat": 38.9044932,
+    "long": -77.0609745
+  },
+  {
+    "Restaurant Name": "Il Piatto",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/il-piatto-washington",
+    "lat": 38.901675,
+    "long": -77.0368824
+  },
+  {
+    "Restaurant Name": "Immigrant Food",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/immigrant-food-washington-5",
+    "lat": 38.9021132,
+    "long": -77.0293244
+  },
+  {
+    "Restaurant Name": "Ivy City SmokeHouse",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ivy-city-smokehouse-washington-3",
+    "lat": 38.9146655,
+    "long": -76.9855027
+  },
+  {
+    "Restaurant Name": "J Hollingers Watermans Chophouse",
+    "Location": "Silver Spring",
+    "yelpUrl": "https://www.yelp.com/biz/j-hollingers-watermans-chophouse-silver-spring",
+    "lat": 38.9966179,
+    "long": -77.0279759
+  },
+  {
+    "Restaurant Name": "Jackie - American Bistro",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/jackie-american-bistro-washington-2",
+    "lat": 38.8713823,
+    "long": -77.0069227
+  },
+  {
+    "Restaurant Name": "Jaleo by Jos\u00e9 Andr\u00e9s",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/jaleo-by-jos%C3%A9-andr%C3%A9s-washington",
+    "lat": 38.8959259,
+    "long": -77.0222721
+  },
+  {
+    "Restaurant Name": "Jiwa Singapura",
+    "Location": "Tysons",
+    "yelpUrl": "https://www.yelp.com/biz/jiwa-singapura-tysons",
+    "lat": 38.9243183,
+    "long": -77.2248877
+  },
+  {
+    "Restaurant Name": "Joon",
+    "Location": "Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/joon-vienna",
+    "lat": 38.9129653,
+    "long": -77.2239974
+  },
+  {
+    "Restaurant Name": "Joselito",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/joselito-washington",
+    "lat": 38.8852028,
+    "long": -76.9964371
+  },
+  {
+    "Restaurant Name": "Josephine Restaurant",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/josephine-restaurant-alexandria",
+    "lat": 38.8044879,
+    "long": -77.0462259
+  },
+  {
+    "Restaurant Name": "Kapnos Taverna",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/kapnos-taverna-arlington-6",
+    "lat": 38.8504468,
+    "long": -77.051815
+  },
+  {
+    "Restaurant Name": "Kaz Sushi Bistro",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/kaz-sushi-bistro-washington-3",
+    "lat": 38.9016006,
+    "long": -77.0442439
+  },
+  {
+    "Restaurant Name": "Kingbird",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/kingbird-washington",
+    "lat": 38.8996183,
+    "long": -77.0554338
+  },
+  {
+    "Restaurant Name": "L'Ardente",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/l-ardente-washington",
+    "lat": 38.8988694,
+    "long": -77.0141486
+  },
+  {
+    "Restaurant Name": "La Bise",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/la-bise-washington",
+    "lat": 38.9005342,
+    "long": -77.0385203
+  },
+  {
+    "Restaurant Name": "La Chaumiere",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/la-chaumiere-washington-4",
+    "lat": 38.9056578,
+    "long": -77.0574578
+  },
+  {
+    "Restaurant Name": "La Collina",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/la-collina-washington",
+    "lat": 38.8856977,
+    "long": -76.9957278
+  },
+  {
+    "Restaurant Name": "LCD - La C\u00f4te D'Or Caf\u00e9",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/lcd-la-c%C3%B4te-d-or-caf%C3%A9-arlington-2",
+    "lat": 38.886762,
+    "long": -77.162684
+  },
+  {
+    "Restaurant Name": "Laos In Town",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/laos-in-town-washington-3",
+    "lat": 38.9031996,
+    "long": -77.002355
+  },
+  {
+    "Restaurant Name": "Le Chat Noir",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/le-chat-noir-washington",
+    "lat": 38.9536807,
+    "long": -77.0818703
+  },
+  {
+    "Restaurant Name": "Le Clou",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/le-clou-washington",
+    "lat": 38.9057749,
+    "long": -77.002728
+  },
+  {
+    "Restaurant Name": "Le Desales",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/le-desales-washington",
+    "lat": 38.9049526,
+    "long": -77.0395802
+  },
+  {
+    "Restaurant Name": "Legal Sea Foods- Legal Sea Foods - Reagan National Airport",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/legal-sea-foods-reagan-national-airport-arlington-5",
+    "lat": 38.852104,
+    "long": -77.042925
+  },
+  {
+    "Restaurant Name": "LIA'S",
+    "Location": "Chevy Chase",
+    "yelpUrl": "https://www.yelp.com/biz/lias-chevy-chase",
+    "lat": 38.9620009,
+    "long": -77.08728
+  },
+  {
+    "Restaurant Name": "Lima Twist",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lima-twist-washington",
+    "lat": 38.9028791,
+    "long": -77.0325632
+  },
+  {
+    "Restaurant Name": "Lincoln",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lincoln-washington",
+    "lat": 38.9042768,
+    "long": -77.0331678
+  },
+  {
+    "Restaurant Name": "Little Coco's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/little-cocos-washington",
+    "lat": 38.9389497,
+    "long": -77.0324532
+  },
+  {
+    "Restaurant Name": "Lulu\u2019s Winegarden",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lulu-s-winegarden-washington",
+    "lat": 38.9167607,
+    "long": -77.0273064
+  },
+  {
+    "Restaurant Name": "Lupo Verde Osteria",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lupo-verde-osteria-washington-3",
+    "lat": 38.9165721,
+    "long": -77.0961849
+  },
+  {
+    "Restaurant Name": "Lyle's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lyles-washington-2",
+    "lat": 38.9134253,
+    "long": -77.0396197
+  },
+  {
+    "Restaurant Name": "Lyon Hall",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/lyon-hall-arlington",
+    "lat": 38.8854693,
+    "long": -77.0949656
+  },
+  {
+    "Restaurant Name": "Maiz 64",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/maiz-64-washington-3",
+    "lat": 38.9080683,
+    "long": -77.0322575
+  },
+  {
+    "Restaurant Name": "Mariscos 1133",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mariscos-1133-washington",
+    "lat": 38.9055228,
+    "long": -77.0268338
+  },
+  {
+    "Restaurant Name": "Martin's Tavern",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/martins-tavern-washington-2",
+    "lat": 38.9067443,
+    "long": -77.0632353
+  },
+  {
+    "Restaurant Name": "Mastro's Steakhouse",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mastros-steakhouse-washington",
+    "lat": 38.8976502,
+    "long": -77.0299233
+  },
+  {
+    "Restaurant Name": "Matchbox - Bethesda",
+    "Location": "Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-bethesda-bethesda",
+    "lat": 38.9819135,
+    "long": -77.0963311
+  },
+  {
+    "Restaurant Name": "Matchbox - Capitol Hill",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-capitol-hill-washington",
+    "lat": 38.8820881,
+    "long": -76.9953347
+  },
+  {
+    "Restaurant Name": "Matchbox - Merrifield",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-merrifield-fairfax-3",
+    "lat": 38.871724,
+    "long": -77.2292888
+  },
+  {
+    "Restaurant Name": "Matchbox - One Loudoun",
+    "Location": "Ashburn",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-one-loudoun-ashburn",
+    "lat": 39.0524841,
+    "long": -77.4533775
+  },
+  {
+    "Restaurant Name": "Matchbox - Rockville",
+    "Location": "Rockville",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-rockville-rockville",
+    "lat": 39.0620912,
+    "long": -77.125056
+  },
+  {
+    "Restaurant Name": "Matchbox - Silver Spring",
+    "Location": "Silver Spring",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-silver-spring-silver-spring",
+    "lat": 38.9962859,
+    "long": -77.0266254
+  },
+  {
+    "Restaurant Name": "Matchbox - Cathedral Commons",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-cathedral-commons-washington",
+    "lat": 38.9350667,
+    "long": -77.0733107
+  },
+  {
+    "Restaurant Name": "Matchbox - McLean",
+    "Location": "McLean",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-mclean-mclean",
+    "lat": 38.9392112,
+    "long": -77.1757911
+  },
+  {
+    "Restaurant Name": "Matchbox - Penn Quarter",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-penn-quarter-washington-3",
+    "lat": 38.8959483,
+    "long": -77.0224947
+  },
+  {
+    "Restaurant Name": "Matchbox - Pentagon City",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-pentagon-city-arlington-4",
+    "lat": 38.8627153,
+    "long": -77.0591801
+  },
+  {
+    "Restaurant Name": "Matchbox - Reston Station",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-reston-station-reston-2",
+    "lat": 38.9484864,
+    "long": -77.3375618
+  },
+  {
+    "Restaurant Name": "McCormick & Schmick's Seafood & Steaks",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/mccormick-and-schmicks-arlington",
+    "lat": 38.8544815,
+    "long": -77.0503973
+  },
+  {
+    "Restaurant Name": "McCormick & Schmick's Seafood & Steaks",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mccormick-and-schmicks-seafood-and-steaks-washington",
+    "lat": 38.9023195,
+    "long": -77.0377918
+  },
+  {
+    "Restaurant Name": "Meli",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/meli-washington",
+    "lat": 38.9254582,
+    "long": -77.0374662
+  },
+  {
+    "Restaurant Name": "Mi Casa",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mi-casa-washington-3",
+    "lat": 38.9124167,
+    "long": -77.0446985
+  },
+  {
+    "Restaurant Name": "Mi Vida",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mi-vida-washington-2",
+    "lat": 38.9157582,
+    "long": -77.0314836
+  },
+  {
+    "Restaurant Name": "Mi Vida",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mi-vida-washington-5",
+    "lat": 38.8970383,
+    "long": -77.0214902
+  },
+  {
+    "Restaurant Name": "Mi Vida Restaurante",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mi-vida-restaurante-washington-3",
+    "lat": 38.879887,
+    "long": -77.025855
+  },
+  {
+    "Restaurant Name": "Michele\u2019s",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/michele-s-washington",
+    "lat": 38.9029055,
+    "long": -77.0283339
+  },
+  {
+    "Restaurant Name": "Milk & Honey",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/milk-and-honey-washington-2",
+    "lat": 38.8778902,
+    "long": -77.0223996
+  },
+  {
+    "Restaurant Name": "Modena",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/modena-washington-2",
+    "lat": 38.899807,
+    "long": -77.0280589
+  },
+  {
+    "Restaurant Name": "Moon Rabbit",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/moon-rabbit-washington",
+    "lat": 38.8793364,
+    "long": -77.0247885
+  },
+  {
+    "Restaurant Name": "Morrison-Clark Historic Inn & Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/morrison-clark-historic-inn-and-restaurant-washington-2",
+    "lat": 38.9044953,
+    "long": -77.026423
+  },
+  {
+    "Restaurant Name": "Morton's The Steakhouse",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/mortons-the-steakhouse-arlington-3",
+    "lat": 38.8583366,
+    "long": -77.0493819
+  },
+  {
+    "Restaurant Name": "Morton's The Steakhouse",
+    "Location": "Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/mortons-the-steakhouse-bethesda-2",
+    "lat": 38.983763,
+    "long": -77.094273
+  },
+  {
+    "Restaurant Name": "Morton's The Steakhouse",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mortons-the-steakhouse-washington-3",
+    "lat": 38.9034439,
+    "long": -77.0407946
+  },
+  {
+    "Restaurant Name": "Morton's The Steakhouse",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/mortons-the-steakhouse-reston",
+    "lat": 38.9589117,
+    "long": -77.359335
+  },
+  {
+    "Restaurant Name": "Nama Ko",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/nama-ko-washington",
+    "lat": 38.916444,
+    "long": -77.032394
+  },
+  {
+    "Restaurant Name": "New Heights Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/new-heights-restaurant-washington-3",
+    "lat": 38.9237246,
+    "long": -77.0521963
+  },
+  {
+    "Restaurant Name": "Nicoletta Italian Kitchen",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/nicoletta-italian-kitchen-washington-2",
+    "lat": 38.9016818,
+    "long": -77.0158737
+  },
+  {
+    "Restaurant Name": "Nina May",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/nina-may-washington",
+    "lat": 38.9084252,
+    "long": -77.0266962
+  },
+  {
+    "Restaurant Name": "North Italia",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/north-italia-washington-3",
+    "lat": 38.9014337,
+    "long": -77.0479011
+  },
+  {
+    "Restaurant Name": "North Italia- Reston",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/north-italia-reston-reston-3",
+    "lat": 38.9591092,
+    "long": -77.3566242
+  },
+  {
+    "Restaurant Name": "North Italia - McLean",
+    "Location": "McLean",
+    "yelpUrl": "https://www.yelp.com/biz/north-italia-mclean-mclean-6",
+    "lat": 38.9242747,
+    "long": -77.2330724
+  },
+  {
+    "Restaurant Name": "Ocean Prime",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ocean-prime-washington",
+    "lat": 38.89858,
+    "long": -77.031529
+  },
+  {
+    "Restaurant Name": "The Oceanaire Seafood Room",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-oceanaire-seafood-room-washington-3",
+    "lat": 38.8977116,
+    "long": -77.0282953
+  },
+  {
+    "Restaurant Name": "Officina",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/officina-washington",
+    "lat": 38.8812402,
+    "long": -77.0271652
+  },
+  {
+    "Restaurant Name": "Opal",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/opal-washington",
+    "lat": 38.9642294,
+    "long": -77.0756271
+  },
+  {
+    "Restaurant Name": "Opaline",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/opaline-washington-2",
+    "lat": 38.9004859,
+    "long": -77.0338547
+  },
+  {
+    "Restaurant Name": "Ophelia's Fish House & Oyster Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ophelias-fish-house-and-oyster-bar-washington",
+    "lat": 38.8825934,
+    "long": -76.9952682
+  },
+  {
+    "Restaurant Name": "Osteria da Nino",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/osteria-da-nino-arlington",
+    "lat": 38.8396374,
+    "long": -77.0875622
+  },
+  {
+    "Restaurant Name": "Osteria Marzano",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/osteria-marzano-alexandria-3",
+    "lat": 38.7687252,
+    "long": -77.1579654
+  },
+  {
+    "Restaurant Name": "Osteria Morini",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/osteria-morini-washington",
+    "lat": 38.873408,
+    "long": -77.0014765
+  },
+  {
+    "Restaurant Name": "Ottoman Taverna",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ottoman-taverna-washington",
+    "lat": 38.901643,
+    "long": -77.0169534
+  },
+  {
+    "Restaurant Name": "Oyamel Cocina Mexicana",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/oyamel-cocina-mexicana-washington-3",
+    "lat": 38.8949709,
+    "long": -77.0217214
+  },
+  {
+    "Restaurant Name": "The Palm - Washington, D.C",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-palm-washington-dc-washington-2",
+    "lat": 38.9066664,
+    "long": -77.0430436
+  },
+  {
+    "Restaurant Name": "Pamplona",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/pamplona-arlington",
+    "lat": 38.8863297,
+    "long": -77.0950606
+  },
+  {
+    "Restaurant Name": "Pappe",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pappe-washington-2",
+    "lat": 38.9078617,
+    "long": -77.0315662
+  },
+  {
+    "Restaurant Name": "Parlour Victoria",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/parlour-victoria-washington-2",
+    "lat": 38.9027651,
+    "long": -77.0267379
+  },
+  {
+    "Restaurant Name": "PassionFish Reston",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/passionfish-reston-reston-4",
+    "lat": 38.9581286,
+    "long": -77.3601232
+  },
+  {
+    "Restaurant Name": "Pearl Dive Oyster Palace",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pearl-dive-oyster-palace-washington",
+    "lat": 38.9116314,
+    "long": -77.0323426
+  },
+  {
+    "Restaurant Name": "Pennyroyal Station",
+    "Location": "Mount Rainier",
+    "yelpUrl": "https://www.yelp.com/biz/pennyroyal-station-mount-rainier",
+    "lat": 38.9363673,
+    "long": -76.9615831
+  },
+  {
+    "Restaurant Name": "Perry's Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/perrys-restaurant-washington",
+    "lat": 38.922119,
+    "long": -77.043565
+  },
+  {
+    "Restaurant Name": "Petite Cerise",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/petite-cerise-washington",
+    "lat": 38.9039166,
+    "long": -77.0217012
+  },
+  {
+    "Restaurant Name": "Philippe Chow - Washington",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/philippe-chow-washington-washington",
+    "lat": 38.8766876,
+    "long": -77.0217892
+  },
+  {
+    "Restaurant Name": "Pinstripes",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pinstripes-washington",
+    "lat": 38.904584,
+    "long": -77.063016
+  },
+  {
+    "Restaurant Name": "Pisco y Nazca",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pisco-y-nazca-washington-2",
+    "lat": 38.9040125,
+    "long": -77.0426388
+  },
+  {
+    "Restaurant Name": "Pizza Serata",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/pizza-serata-washington",
+    "lat": 38.9071969,
+    "long": -76.9978579
+  },
+  {
+    "Restaurant Name": "Playa Ocho Cantina",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/playa-ocho-cantina-washington",
+    "lat": 38.8822113,
+    "long": -76.9945958
+  },
+  {
+    "Restaurant Name": "Potomac Social Tavern",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/potomac-social-tavern-arlington-2",
+    "lat": 38.8605882,
+    "long": -77.0502399
+  },
+  {
+    "Restaurant Name": "Quattro Osteria",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/quattro-osteria-washington",
+    "lat": 38.9153468,
+    "long": -77.02017
+  },
+  {
+    "Restaurant Name": "Rania",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/rania-washington",
+    "lat": 38.8956561,
+    "long": -77.0268396
+  },
+  {
+    "Restaurant Name": "Rasika",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/rasika-washington",
+    "lat": 38.8949115,
+    "long": -77.0212778
+  },
+  {
+    "Restaurant Name": "Rasika West End",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/rasika-west-end-washington",
+    "lat": 38.9051301,
+    "long": -77.0479931
+  },
+  {
+    "Restaurant Name": "Reservoir",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/reservoir-arlington-4",
+    "lat": 38.8504468,
+    "long": -77.051815
+  },
+  {
+    "Restaurant Name": "RIS",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ris-washington",
+    "lat": 38.903874,
+    "long": -77.0499071
+  },
+  {
+    "Restaurant Name": "Rustico Restaurant & Bar",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/rustico-restaurant-and-bar-arlington",
+    "lat": 38.8801236,
+    "long": -77.1088187
+  },
+  {
+    "Restaurant Name": "Rustico ",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/rustico-alexandria-3",
+    "lat": 38.8216366,
+    "long": -77.0471365
+  },
+  {
+    "Restaurant Name": "Ruthie's All-Day",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/ruthies-all-day-arlington",
+    "lat": 38.8672925,
+    "long": -77.095342
+  },
+  {
+    "Restaurant Name": "Sababa",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sababa-washington-2",
+    "lat": 38.9339117,
+    "long": -77.0571011
+  },
+  {
+    "Restaurant Name": "SER",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/ser-arlington-2",
+    "lat": 38.8838454,
+    "long": -77.1173248
+  },
+  {
+    "Restaurant Name": "Sfoglina - Downtown",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sfoglina-downtown-washington",
+    "lat": 38.901628,
+    "long": -77.0268158
+  },
+  {
+    "Restaurant Name": "Sfoglina Rosslyn",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/sfoglina-rosslyn-arlington-2",
+    "lat": 38.8944868,
+    "long": -77.0703873
+  },
+  {
+    "Restaurant Name": "Sfoglina Van Ness",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sfoglina-van-ness-washington-3",
+    "lat": 38.9469424,
+    "long": -77.0644513
+  },
+  {
+    "Restaurant Name": "Shaw's Tavern",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/shaws-tavern-washington",
+    "lat": 38.9151357,
+    "long": -77.0197201
+  },
+  {
+    "Restaurant Name": "Shibuya Eatery",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/shibuya-eatery-washington",
+    "lat": 38.9202708,
+    "long": -77.041548
+  },
+  {
+    "Restaurant Name": "Shilling Canning Company",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/shilling-canning-company-washington-5",
+    "lat": 38.8739427,
+    "long": -77.0011147
+  },
+  {
+    "Restaurant Name": "Sonoma Restaurant and Wine Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sonoma-restaurant-and-wine-bar-washington",
+    "lat": 38.8869782,
+    "long": -77.0026576
+  },
+  {
+    "Restaurant Name": "The Sovereign",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-sovereign-washington-3",
+    "lat": 38.9055336,
+    "long": -77.0634982
+  },
+  {
+    "Restaurant Name": "Spanish Diner",
+    "Location": "Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/spanish-diner-bethesda-4",
+    "lat": 38.9819131,
+    "long": -77.0956117
+  },
+  {
+    "Restaurant Name": "SPICE KRAFT Indian Bistro",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/spice-kraft-indian-bistro-alexandria-2",
+    "lat": 38.82873,
+    "long": -77.058808
+  },
+  {
+    "Restaurant Name": "Stable DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/stable-dc-washington-2",
+    "lat": 38.9004073,
+    "long": -76.9873252
+  },
+  {
+    "Restaurant Name": "Station 4",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/station-4-washington-11",
+    "lat": 38.8776901,
+    "long": -77.0181448
+  },
+  {
+    "Restaurant Name": "Succotash - National Harbor",
+    "Location": "National Harbor",
+    "yelpUrl": "https://www.yelp.com/biz/succotash-national-harbor-national-harbor-4",
+    "lat": 38.7834561,
+    "long": -77.0170646
+  },
+  {
+    "Restaurant Name": "Succotash Prime",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/succotash-prime-washington-2",
+    "lat": 38.897644,
+    "long": -77.02474
+  },
+  {
+    "Restaurant Name": "Supra",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/supra-washington-2",
+    "lat": 38.9059384,
+    "long": -77.0266876
+  },
+  {
+    "Restaurant Name": "Susheria",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/susheria-washington-2",
+    "lat": 38.9029496,
+    "long": -77.0614045
+  },
+  {
+    "Restaurant Name": "Sushi Taro",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sushi-taro-washington",
+    "lat": 38.9099747,
+    "long": -77.0381859
+  },
+  {
+    "Restaurant Name": "Taberna del Alabardero",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/taberna-del-alabardero-washington",
+    "lat": 38.9010064,
+    "long": -77.0412444
+  },
+  {
+    "Restaurant Name": "Tabla",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tabla-washington",
+    "lat": 38.9310853,
+    "long": -77.0233959
+  },
+  {
+    "Restaurant Name": "Takara 14",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/takara-14-washington",
+    "lat": 38.9081483,
+    "long": -77.0324957
+  },
+  {
+    "Restaurant Name": "Taqueria Xochi",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/taqueria-xochi-washington",
+    "lat": 38.91682,
+    "long": -77.0249806
+  },
+  {
+    "Restaurant Name": "Teddy & The Bully Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/teddy-and-the-bully-bar-washington",
+    "lat": 38.9057966,
+    "long": -77.0438978
+  },
+  {
+    "Restaurant Name": "Thaiverse DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/thaiverse-dc-washington-2",
+    "lat": 38.9116387,
+    "long": -77.0452211
+  },
+  {
+    "Restaurant Name": "The Bombay Club",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-bombay-club-washington",
+    "lat": 38.900777,
+    "long": -77.0380125
+  },
+  {
+    "Restaurant Name": "The Capital Grille",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/the-capital-grille-fairfax",
+    "lat": 38.8603322,
+    "long": -77.3660186
+  },
+  {
+    "Restaurant Name": "The Capital Grille",
+    "Location": "Mclean",
+    "yelpUrl": "https://www.yelp.com/biz/the-capital-grille-mclean-2",
+    "lat": 38.9161285,
+    "long": -77.2252487
+  },
+  {
+    "Restaurant Name": "The Daily Dish",
+    "Location": "Silver Spring",
+    "yelpUrl": "https://www.yelp.com/biz/the-daily-dish-silver-spring",
+    "lat": 38.9924269,
+    "long": -77.0485676
+  },
+  {
+    "Restaurant Name": "The Dish & Dram",
+    "Location": "Kensington",
+    "yelpUrl": "https://www.yelp.com/biz/the-dish-and-dram-kensington",
+    "lat": 39.0254853,
+    "long": -77.0709044
+  },
+  {
+    "Restaurant Name": "The Grill",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-grill-washington-2",
+    "lat": 38.8807323,
+    "long": -77.026967
+  },
+  {
+    "Restaurant Name": "The Grill From Ipanema",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-grill-from-ipanema-washington-2",
+    "lat": 38.9209435,
+    "long": -77.0435159
+  },
+  {
+    "Restaurant Name": "The Henri",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-henri-washington",
+    "lat": 38.8963809,
+    "long": -77.0299578
+  },
+  {
+    "Restaurant Name": "The Imperial",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-imperial-washington",
+    "lat": 38.9171177,
+    "long": -77.0414302
+  },
+  {
+    "Restaurant Name": "The Liberty Tavern",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/the-liberty-tavern-arlington",
+    "lat": 38.8863478,
+    "long": -77.0968031
+  },
+  {
+    "Restaurant Name": "The Mayflower Club",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-mayflower-club-washington",
+    "lat": 38.9066832,
+    "long": -77.0412523
+  },
+  {
+    "Restaurant Name": "The Melting Pot",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/the-melting-pot-arlington-5",
+    "lat": 38.8838454,
+    "long": -77.1173248
+  },
+  {
+    "Restaurant Name": "The Melting Pot",
+    "Location": "Gaithersburg",
+    "yelpUrl": "https://www.yelp.com/biz/the-melting-pot-gaithersburg-2",
+    "lat": 39.1179455,
+    "long": -77.1849082
+  },
+  {
+    "Restaurant Name": "The Melting Pot",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/the-melting-pot-reston-3",
+    "lat": 38.9533549,
+    "long": -77.3505026
+  },
+  {
+    "Restaurant Name": "The Park at 14th",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-park-at-14th-washington-2",
+    "lat": 38.9019217,
+    "long": -77.0322748
+  },
+  {
+    "Restaurant Name": "The Pembroke",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-pembroke-washington-3",
+    "lat": 38.9105439,
+    "long": -77.0429083
+  },
+  {
+    "Restaurant Name": "The Point",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-point-washington",
+    "lat": 38.8638671,
+    "long": -77.0135055
+  },
+  {
+    "Restaurant Name": "The Royal",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-royal-washington-2",
+    "lat": 38.9150499,
+    "long": -77.0185667
+  },
+  {
+    "Restaurant Name": "The Salt Line",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-salt-line-washington",
+    "lat": 38.8713823,
+    "long": -77.0069227
+  },
+  {
+    "Restaurant Name": "The Salt Line - Ballston",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/the-salt-line-ballston-arlington",
+    "lat": 38.8796459,
+    "long": -77.1086715
+  },
+  {
+    "Restaurant Name": "The Smith",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-smith-washington-2",
+    "lat": 38.8976072,
+    "long": -77.0240107
+  },
+  {
+    "Restaurant Name": "Washington Burgundy & Gold Club",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/washington-burgundy-and-gold-club-dulles",
+    "lat": 38.8976072,
+    "long": -77.0240107
+  },
+  {
+    "Restaurant Name": "The Wine Kitchen",
+    "Location": "Leesburg",
+    "yelpUrl": "https://www.yelp.com/biz/the-wine-kitchen-leesburg",
+    "lat": 39.1152081,
+    "long": -77.5648695
+  },
+  {
+    "Restaurant Name": "Tiki On 18th",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tiki-on-18th-washington",
+    "lat": 38.9208903,
+    "long": -77.0417325
+  },
+  {
+    "Restaurant Name": "Tonari",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tonari-washington",
+    "lat": 38.898672,
+    "long": -77.019589
+  },
+  {
+    "Restaurant Name": "Tony & Joe's Seafood Place",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tony-and-joes-seafood-place-washington",
+    "lat": 38.9022701,
+    "long": -77.0599873
+  },
+  {
+    "Restaurant Name": "TRIO Grill",
+    "Location": "Falls Church",
+    "yelpUrl": "https://www.yelp.com/biz/trio-grill-falls-church",
+    "lat": 38.8758408,
+    "long": -77.2237701
+  },
+  {
+    "Restaurant Name": "Truluck's Ocean's Finest Seafood & Crab",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/trulucks-oceans-finest-seafood-and-crab-washington",
+    "lat": 38.9017883,
+    "long": -77.0223008
+  },
+  {
+    "Restaurant Name": "U Street Pub",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/u-street-pub-arlington-2",
+    "lat": 38.8504468,
+    "long": -77.051815
+  },
+  {
+    "Restaurant Name": "Unconventional Diner",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/unconventional-diner-washington-3",
+    "lat": 38.9060506,
+    "long": -77.0237445
+  },
+  {
+    "Restaurant Name": "Urban Roast",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/urban-roast-washington",
+    "lat": 38.8980051,
+    "long": -77.024916
+  },
+  {
+    "Restaurant Name": "Vagabond",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/vagabond-washington",
+    "lat": 38.9153485,
+    "long": -77.0418227
+  },
+  {
+    "Restaurant Name": "Vermilion",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/vermilion-alexandria",
+    "lat": 38.8054772,
+    "long": -77.0522863
+  },
+  {
+    "Restaurant Name": "Via Ghibellina",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/via-ghibellina-washington",
+    "lat": 38.914696,
+    "long": -76.984974
+  },
+  {
+    "Restaurant Name": "Via Sophia",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/via-sophia-washington-3",
+    "lat": 38.9029633,
+    "long": -77.0315286
+  },
+  {
+    "Restaurant Name": "Washington Pour Bar",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/washington-pour-bar-arlington-3",
+    "lat": 38.8500512,
+    "long": -77.0429786
+  },
+  {
+    "Restaurant Name": "WHINO",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/whino-arlington-2",
+    "lat": 38.8788598,
+    "long": -77.1106824
+  },
+  {
+    "Restaurant Name": "Wildfire",
+    "Location": "McLean",
+    "yelpUrl": "https://www.yelp.com/biz/wildfire-mclean-12",
+    "lat": 38.9243183,
+    "long": -77.2248877
+  },
+  {
+    "Restaurant Name": "The Wine Kitchen On The Creek",
+    "Location": "Frederick",
+    "yelpUrl": "https://www.yelp.com/biz/the-wine-kitchen-on-the-creek-frederick",
+    "lat": 39.4131069,
+    "long": -77.409758
+  },
+  {
+    "Restaurant Name": "Wren",
+    "Location": "Tysons",
+    "yelpUrl": "https://www.yelp.com/biz/wren-tysons",
+    "lat": 38.9250888,
+    "long": -77.2106653
+  },
+  {
+    "Restaurant Name": "Yasmine",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/yasmine-washington",
+    "lat": 38.9085998,
+    "long": -76.997517
+  },
+  {
+    "Restaurant Name": "Yume Sushi",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/yume-sushi-arlington-4",
+    "lat": 38.8866323,
+    "long": -77.161185
+  },
+  {
+    "Restaurant Name": "Zaytinya",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/zaytinya-washington",
+    "lat": 38.8991518,
+    "long": -77.023807
+  },
+  {
+    "Restaurant Name": "Zeppelin",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/zeppelin-washington",
+    "lat": 38.910983,
+    "long": -77.0242485
+  },
+  {
+    "Restaurant Name": "Alero Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/alero-restaurant-washington-4",
+    "lat": 38.9172656,
+    "long": -77.0305694
+  },
+  {
+    "Restaurant Name": "Baan Siam",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/baan-siam-washington",
+    "lat": 38.901643,
+    "long": -77.0169534
+  },
+  {
+    "Restaurant Name": "Bistro Bis",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bistro-bis-washington",
+    "lat": 38.8963602,
+    "long": -77.0099664
+  },
+  {
+    "Restaurant Name": "Bodeg\u00f3n Spanish Tapas",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/bodeg%C3%B3n-spanish-tapas-washington",
+    "lat": 38.8822316,
+    "long": -76.9953349
+  },
+  {
+    "Restaurant Name": "Capa Tosta",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/capa-tosta-washington",
+    "lat": 38.9257432,
+    "long": -77.0255651
+  },
+  {
+    "Restaurant Name": "City Winery",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/city-winery-washington-4",
+    "lat": 38.9145123,
+    "long": -76.9858801
+  },
+  {
+    "Restaurant Name": "Duke's Grocery",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dukes-grocery-washington",
+    "lat": 38.9101951,
+    "long": -77.038235
+  },
+  {
+    "Restaurant Name": "Duke's Counter",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dukes-counter-washington",
+    "lat": 38.9298333,
+    "long": -77.0560416
+  },
+  {
+    "Restaurant Name": "Firefly",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/firefly-washington",
+    "lat": 38.9076358,
+    "long": -77.0458151
+  },
+  {
+    "Restaurant Name": "Glassey",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/glassey-washington",
+    "lat": 38.91183,
+    "long": -77.01187
+  },
+  {
+    "Restaurant Name": "Grillfish DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/grillfish-dc-washington",
+    "lat": 38.9058316,
+    "long": -77.0473456
+  },
+  {
+    "Restaurant Name": "Hatoba by Daikaya",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/hatoba-by-daikaya-washington-3",
+    "lat": 38.8751743,
+    "long": -77.0014763
+  },
+  {
+    "Restaurant Name": "Kaliwa",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/kaliwa-washington",
+    "lat": 38.8787572,
+    "long": -77.0244498
+  },
+  {
+    "Restaurant Name": "Kellari Taverna",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/kellari-taverna-washington-2",
+    "lat": 38.9021988,
+    "long": -77.0400721
+  },
+  {
+    "Restaurant Name": "Mandu",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mandu-washington-2",
+    "lat": 38.9028329,
+    "long": -77.0178981
+  },
+  {
+    "Restaurant Name": "The Delegate",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-delegate-washington-2",
+    "lat": 38.9043848,
+    "long": -77.0244185
+  },
+  {
+    "Restaurant Name": "Mintwood Place",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mintwood-place-washington",
+    "lat": 38.922112,
+    "long": -77.0435608
+  },
+  {
+    "Restaurant Name": "MXDC Cocina Mexicana",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mxdc-cocina-mexicana-washington-2",
+    "lat": 38.8976548,
+    "long": -77.0322736
+  },
+  {
+    "Restaurant Name": "Nick's Riverside Grill",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/nicks-riverside-grill-washington-2",
+    "lat": 38.9019912,
+    "long": -77.0606435
+  },
+  {
+    "Restaurant Name": "Ristorante Piccolo",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ristorante-piccolo-washington",
+    "lat": 38.9046948,
+    "long": -77.061339
+  },
+  {
+    "Restaurant Name": "Scarlet Oak",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/scarlet-oak-washington",
+    "lat": 38.8788534,
+    "long": -77.0053082
+  },
+  {
+    "Restaurant Name": "Shabu Plus",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/shabu-plus-washington",
+    "lat": 38.9202708,
+    "long": -77.041548
+  },
+  {
+    "Restaurant Name": "Death Punch",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/death-punch-washington",
+    "lat": 38.9202708,
+    "long": -77.041548
+  },
+  {
+    "Restaurant Name": "Slate Wine Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/slate-wine-bar-washington",
+    "lat": 38.9212801,
+    "long": -77.0724259
+  },
+  {
+    "Restaurant Name": "The Monocle",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-monocle-washington",
+    "lat": 38.8945752,
+    "long": -77.0051639
+  },
+  {
+    "Restaurant Name": "The Pig",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-pig-washington-2",
+    "lat": 38.9079625,
+    "long": -77.0322708
+  },
+  {
+    "Restaurant Name": "ZOCA Mexican Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/zoca-mexican-restaurant-washington",
+    "lat": 38.8864465,
+    "long": -77.0013881
+  },
+  {
+    "Restaurant Name": "Big Buns - Herndon",
+    "Location": "Herndon",
+    "yelpUrl": "https://www.yelp.com/biz/big-buns-herndon-herndon-2",
+    "lat": 38.9078215,
+    "long": -77.405959
+  },
+  {
+    "Restaurant Name": "Big Buns Damn Good Burgers",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/big-buns-ballston-arlington",
+    "lat": 38.8805044,
+    "long": -77.1135946
+  },
+  {
+    "Restaurant Name": "Big Buns - Shirlington",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/big-buns-shirlington-arlington",
+    "lat": 38.8413437,
+    "long": -77.0895871
+  },
+  {
+    "Restaurant Name": "Big Buns Damn Good Burgers",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/big-buns-reston-reston-2",
+    "lat": 38.9487968,
+    "long": -77.3390828
+  },
+  {
+    "Restaurant Name": "Big Buns Damn Good Burgers",
+    "Location": "Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/big-buns-vienna-vienna-2",
+    "lat": 38.9061757,
+    "long": -77.2573076
+  },
+  {
+    "Restaurant Name": "Blend 111",
+    "Location": "Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/blend-111-vienna",
+    "lat": 38.9020805,
+    "long": -77.2670056
+  },
+  {
+    "Restaurant Name": "Gaijin Ramen Shop",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/gaijin-ramen-shop-arlington-2",
+    "lat": 38.8962737,
+    "long": -77.1067609
+  },
+  {
+    "Restaurant Name": "Hamrock's Restaurant",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/hamrocks-restaurant-fairfax-2",
+    "lat": 38.8473447,
+    "long": -77.3065727
+  },
+  {
+    "Restaurant Name": "Makers Union Pub for the People",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/makers-union-pub-for-the-people-reston",
+    "lat": 38.9582848,
+    "long": -77.3584506
+  },
+  {
+    "Restaurant Name": "Mussel Bar & Grille - Arlington",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/mussel-bar-and-grille-arlington-arlington-2",
+    "lat": 38.8802115,
+    "long": -77.1149873
+  },
+  {
+    "Restaurant Name": "The Freshman",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/the-freshman-arlington",
+    "lat": 38.8555853,
+    "long": -77.0487331
+  },
+  {
+    "Restaurant Name": "The Rub Chicken & Beer",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/the-rub-chicken-and-beer-alexandria",
+    "lat": 38.805462,
+    "long": -77.048207
+  },
+  {
+    "Restaurant Name": "Milk & Honey Bowie",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/milk-and-honey-bowie-bowie",
+    "lat": 38.805462,
+    "long": -77.048207
+  },
+  {
+    "Restaurant Name": "Milk & Honey Cafe",
+    "Location": "College Park",
+    "yelpUrl": "https://www.yelp.com/biz/milk-and-honey-cafe-college-park-2",
+    "lat": 39.0233346,
+    "long": -76.9242115
+  },
+  {
+    "Restaurant Name": "Owen's Tavern & Garden",
+    "Location": "North Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/owens-tavern-and-garden-north-bethesda",
+    "lat": 39.0498483,
+    "long": -77.116201
+  },
+  {
+    "Restaurant Name": "The Capital Grille",
+    "Location": "Chevy Chase",
+    "yelpUrl": "https://www.yelp.com/biz/the-capital-grille-chevy-chase-2",
+    "lat": 38.9602943,
+    "long": -77.0867757
+  },
+  {
+    "Restaurant Name": "801 Restaurant & Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/801-restaurant-and-bar-washington",
+    "lat": 38.916938,
+    "long": -77.023088
+  },
+  {
+    "Restaurant Name": "Alero Restaurant",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/alero-restaurant-washington-2",
+    "lat": 38.9121123,
+    "long": -77.0444612
+  },
+  {
+    "Restaurant Name": "DBGB",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/dbgb-washington-4",
+    "lat": 38.8999562,
+    "long": -77.0249762
+  },
+  {
+    "Restaurant Name": "Espita",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/espita-washington-2",
+    "lat": 38.906831,
+    "long": -77.0242255
+  },
+  {
+    "Restaurant Name": "The Capital Grille",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-capital-grille-washington-3",
+    "lat": 38.893308,
+    "long": -77.020487
+  },
+  {
+    "Restaurant Name": "Tico DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tico-dc-washington-2",
+    "lat": 38.916444,
+    "long": -77.032394
+  },
+  {
+    "Restaurant Name": "Tonic",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tonic-washington-5",
+    "lat": 38.8980726,
+    "long": -77.0464731
+  },
+  {
+    "Restaurant Name": "Uptown Market",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/uptown-market-washington-3",
+    "lat": 38.9469787,
+    "long": -77.0645592
+  },
+  {
+    "Restaurant Name": "Crystal City Sports Pub",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/crystal-city-sports-pub-arlington-2",
+    "lat": 38.8535379,
+    "long": -77.0543326
+  },
+  {
+    "Restaurant Name": "Maple Ave Restaurant",
+    "Location": "Vienna",
+    "yelpUrl": "https://www.yelp.com/biz/maple-ave-restaurant-vienna",
+    "lat": 38.9005628,
+    "long": -77.2669262
+  },
+  {
+    "Restaurant Name": "TTT Clarendon",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/ttt-clarendon-arlington",
+    "lat": 38.8883739,
+    "long": -77.0933862
+  },
+  {
+    "Restaurant Name": "Diablo\u2019s Cantina",
+    "Location": "Oxon Hill",
+    "yelpUrl": "https://www.yelp.com/biz/diablo-s-cantina-oxon-hill",
+    "lat": 38.7953347,
+    "long": -77.0090325
+  },
+  {
+    "Restaurant Name": "TAP Sports Bar",
+    "Location": "Oxon Hill",
+    "yelpUrl": "https://www.yelp.com/biz/tap-sports-bar-oxon-hill",
+    "lat": 38.7953347,
+    "long": -77.0090325
+  },
+  {
+    "Restaurant Name": "Voltaggio Brothers Steak House",
+    "Location": "National Harbor",
+    "yelpUrl": "https://www.yelp.com/biz/voltaggio-brothers-steak-house-national-harbor",
+    "lat": 38.7953347,
+    "long": -77.0090325
+  },
+  {
+    "Restaurant Name": "Lupo Verde",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lupo-verde-washington",
+    "lat": 38.9157108,
+    "long": -77.0322272
+  },
+  {
+    "Restaurant Name": "RPM Italian",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/rpm-italian-washington-4",
+    "lat": 38.9022612,
+    "long": -77.0203603
+  },
+  {
+    "Restaurant Name": "Xiquet by Danny Lled\u00f3",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/xiquet-by-danny-lled%C3%B3-washington",
+    "lat": 38.9212801,
+    "long": -77.0724259
+  },
+  {
+    "Restaurant Name": "Al Dente",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/al-dente-washington",
+    "lat": 38.9330859,
+    "long": -77.084835
+  },
+  {
+    "Restaurant Name": "2941 Restaurant",
+    "Location": "Falls Church",
+    "yelpUrl": "https://www.yelp.com/biz/2941-restaurant-falls-church",
+    "lat": 38.8693162,
+    "long": -77.2150217
+  },
+  {
+    "Restaurant Name": "Agora Dc",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/agora-dc-washington-8",
+    "lat": 38.9106493,
+    "long": -77.0381409
+  },
+  {
+    "Restaurant Name": "Agora Tysons",
+    "Location": "Tysons",
+    "yelpUrl": "https://www.yelp.com/biz/agora-tysons-tysons-2",
+    "lat": 38.9243949,
+    "long": -77.219324
+  },
+  {
+    "Restaurant Name": "Carmine's Italian Restaurant - Washington",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/carmines-italian-restaurant-washington-washington-4",
+    "lat": 38.8955701,
+    "long": -77.0217135
+  },
+  {
+    "Restaurant Name": "Ambar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ambar-washington-5",
+    "lat": 38.8820366,
+    "long": -76.9953389
+  },
+  {
+    "Restaurant Name": "Ambar",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/ambar-arlington-5",
+    "lat": 38.8887531,
+    "long": -77.0935506
+  },
+  {
+    "Restaurant Name": "Any Day Now",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/any-day-now-washington",
+    "lat": 38.8797539,
+    "long": -77.0082704
+  },
+  {
+    "Restaurant Name": "Balos Estiatorio",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/balos-estiatorio-washington",
+    "lat": 38.9070976,
+    "long": -77.0446048
+  },
+  {
+    "Restaurant Name": "Ceibo",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/ceibo-washington",
+    "lat": 38.9181222,
+    "long": -77.0418854
+  },
+  {
+    "Restaurant Name": "Charley Prime Foods",
+    "Location": "Gaithersburg",
+    "yelpUrl": "https://www.yelp.com/biz/charley-prime-foods-gaithersburg",
+    "lat": 39.116104,
+    "long": -77.1973544
+  },
+  {
+    "Restaurant Name": "Chasin Tails",
+    "Location": "Falls Church",
+    "yelpUrl": "https://www.yelp.com/biz/chasin-tails-falls-church-6",
+    "lat": 38.8908579,
+    "long": -77.1839314
+  },
+  {
+    "Restaurant Name": "CUT DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/cut-dc-washington",
+    "lat": 38.9039934,
+    "long": -77.0621129
+  },
+  {
+    "Restaurant Name": "Davio's Northern Italian Steakhouse",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/davios-northern-italian-steakhouse-reston",
+    "lat": 38.948265,
+    "long": -77.3381368
+  },
+  {
+    "Restaurant Name": "El Presidente",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/el-presidente-washington",
+    "lat": 38.9086261,
+    "long": -77.0004977
+  },
+  {
+    "Restaurant Name": "Enigma",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/enigma-washington",
+    "lat": 38.9167908,
+    "long": -77.0308618
+  },
+  {
+    "Restaurant Name": "Founding Farmers Fishers & Bakers",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/founding-farmers-fishers-and-bakers-washington",
+    "lat": 38.9022701,
+    "long": -77.0599873
+  },
+  {
+    "Restaurant Name": "Flora Flora",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/flora-flora-washington",
+    "lat": 38.8771047,
+    "long": -77.0218181
+  },
+  {
+    "Restaurant Name": "Irregardless",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/irregardless-washington",
+    "lat": 38.9004241,
+    "long": -76.9992404
+  },
+  {
+    "Restaurant Name": "Kaliwa",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/kaliwa-washington-5",
+    "lat": 38.8787572,
+    "long": -77.0244498
+  },
+  {
+    "Restaurant Name": "Kirby Club",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/kirby-club-fairfax-3",
+    "lat": 38.871724,
+    "long": -77.2292888
+  },
+  {
+    "Restaurant Name": "Kyojin DC",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/kyojin-dc-washington",
+    "lat": 38.904766,
+    "long": -77.0665373
+  },
+  {
+    "Restaurant Name": "Laporta's Restaurant",
+    "Location": "Alexandria",
+    "yelpUrl": "https://www.yelp.com/biz/laportas-restaurant-alexandria",
+    "lat": 38.8038117,
+    "long": -77.0582734
+  },
+  {
+    "Restaurant Name": "Makers Union Pub",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/makers-union-pub-arlington",
+    "lat": 38.860656,
+    "long": -77.054521
+  },
+  {
+    "Restaurant Name": "Makers Union",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/makers-union-washington",
+    "lat": 38.877755,
+    "long": -77.022223
+  },
+  {
+    "Restaurant Name": "MITA",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mita-washington-3",
+    "lat": 38.9176531,
+    "long": -77.0232205
+  },
+  {
+    "Restaurant Name": "North Italia - Tysons",
+    "Location": "McLean",
+    "yelpUrl": "https://www.yelp.com/biz/north-italia-tysons-mclean-3",
+    "lat": 38.9242747,
+    "long": -77.2330724
+  },
+  {
+    "Restaurant Name": "NUE Elegantly Vietnamese",
+    "Location": "Falls Church",
+    "yelpUrl": "https://www.yelp.com/biz/nue-elegantly-vietnamese-falls-church-2",
+    "lat": 38.8908579,
+    "long": -77.1839314
+  },
+  {
+    "Restaurant Name": "Paste & Rind",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/paste-and-rind-washington",
+    "lat": 38.9004079,
+    "long": -76.9934349
+  },
+  {
+    "Restaurant Name": "Philotimo",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/philotimo-washington",
+    "lat": 38.9039123,
+    "long": -77.0348226
+  },
+  {
+    "Restaurant Name": "Pisco y Nazca Ceviche Gastrobar",
+    "Location": "Reston",
+    "yelpUrl": "https://www.yelp.com/biz/pisco-y-nazca-ceviche-gastrobar-reston",
+    "lat": 38.95859,
+    "long": -77.3602222
+  },
+  {
+    "Restaurant Name": "Sabores Tapas Bar",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/sabores-tapas-bar-arlington",
+    "lat": 38.8636327,
+    "long": -77.0835345
+  },
+  {
+    "Restaurant Name": "Sette Osteria Dupont Circle",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/sette-osteria-dupont-circle-washington-2",
+    "lat": 38.9123332,
+    "long": -77.0455137
+  },
+  {
+    "Restaurant Name": "Silver New American Brasserie",
+    "Location": "Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/silver-new-american-brasserie-bethesda",
+    "lat": 38.9805568,
+    "long": -77.0949705
+  },
+  {
+    "Restaurant Name": "Silver New American Brasserie",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/silver-new-american-brasserie-washington-3",
+    "lat": 38.9349737,
+    "long": -77.0728964
+  },
+  {
+    "Restaurant Name": "The Bazaar By Jose Andres",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-bazaar-by-jose-andres-washington-5",
+    "lat": 38.8941129,
+    "long": -77.0275845
+  },
+  {
+    "Restaurant Name": "The Capital Burger",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-capital-burger-washington-6",
+    "lat": 38.9032746,
+    "long": -77.021638
+  },
+  {
+    "Restaurant Name": "The Golden Age",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-golden-age-washington",
+    "lat": 38.9134781,
+    "long": -77.0459896
+  },
+  {
+    "Restaurant Name": "The Little Grand",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-little-grand-washington",
+    "lat": 38.9004696,
+    "long": -76.9963709
+  },
+  {
+    "Restaurant Name": "The Mayflower Hotel, Autograph Collection",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-mayflower-hotel-autograph-collection-washington",
+    "lat": 38.9044698,
+    "long": -77.0401258
+  },
+  {
+    "Restaurant Name": "The Salt Line - Bethesda",
+    "Location": "Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/the-salt-line-bethesda-bethesda",
+    "lat": 38.9823419,
+    "long": -77.0963985
+  },
+  {
+    "Restaurant Name": "Tiki Garden Thai Street Food",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/tiki-garden-thai-street-food-washington",
+    "lat": 38.9004191,
+    "long": -76.9884951
+  },
+  {
+    "Restaurant Name": "Trummer's On Main",
+    "Location": "Clifton",
+    "yelpUrl": "https://www.yelp.com/biz/trummers-on-main-clifton",
+    "lat": 38.7811977,
+    "long": -77.3876815
+  },
+  {
+    "Restaurant Name": "Vera Cocina & \u0628\u0627\u0631",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/vera-cocina-and-%D8%A8%D8%A7%D8%B1-washington-2",
+    "lat": 38.9148117,
+    "long": -76.9849689
+  },
+  {
+    "Restaurant Name": "Villa Yara",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/villa-yara-washington",
+    "lat": 38.9054673,
+    "long": -77.0575482
+  },
+  {
+    "Restaurant Name": "Corso Italian",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/corso-italian-arlington",
+    "lat": 38.84127248,
+    "long": -77.08745755
+  },
+  {
+    "Restaurant Name": "Paraiso Taqueria",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/paraiso-taqueria-washington",
+    "lat": 38.88269627,
+    "long": -76.99130962
+  },
+  {
+    "Restaurant Name": "Fireclay",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/fireclay-washington",
+    "lat": 38.8973848,
+    "long": -77.03297548
+  },
+  {
+    "Restaurant Name": "Lady Madison",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/lady-madison-washington-3",
+    "lat": 38.90559756,
+    "long": -77.03429928
+  },
+  {
+    "Restaurant Name": "Casa Teresa",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/casa-teresa-washington",
+    "lat": 38.90216797,
+    "long": -77.04305565
+  },
+  {
+    "Restaurant Name": "1789 Restaurant & Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/1789-restaurant-and-bar-washington",
+    "lat": 38.90619445020964,
+    "long": -77.07040930340267
+  },
+  {
+    "Restaurant Name": "matchbox ",
+    "Location": "Bethesda",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-bethesda-4",
+    "lat": 38.98209503152269,
+    "long": -77.09633738990833
+  },
+  {
+    "Restaurant Name": "matchbox",
+    "Location": "Silver Spring",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-silver-spring-6",
+    "lat": 38.99625220159933,
+    "long": -77.02665996107113
+  },
+  {
+    "Restaurant Name": "McCormick & Schmick's",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/mccormick-and-schmicks-washington",
+    "lat": 38.89787222023222,
+    "long": -77.024355461076
+  },
+  {
+    "Restaurant Name": "The Palm - Washington, D.C",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/the-palm-washington-2",
+    "lat": 38.906858224592064,
+    "long": -77.04321882348314
+  },
+  {
+    "Restaurant Name": "Matchbox - Rockville",
+    "Location": "Rockville",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-rockville-rockville-5",
+    "lat": 39.06224218252112,
+    "long": -77.12513503408655
+  },
+  {
+    "Restaurant Name": "Skydome Restaurant",
+    "Location": "Arlington",
+    "yelpUrl": "https://www.yelp.com/biz/skydome-restaurant-arlington",
+    "lat": 38.86413646423396,
+    "long": -77.0527998034048
+  },
+  {
+    "Restaurant Name": "matchbox",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/matchbox-washington-9",
+    "lat": 38.88222909956888,
+    "long": -76.99533217456744
+  },
+  {
+    "Restaurant Name": "City Cruises Washington DC - Pier 4",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/city-cruises-washington-dc-pier-4-washington",
+    "lat": 38.87471256633731,
+    "long": -77.02139171689494
+  },
+  {
+    "Restaurant Name": "EME Caf\u00e9 & Bar",
+    "Location": "Washington",
+    "yelpUrl": "https://www.yelp.com/biz/eme-caf%C3%A9-and-bar-washington",
+    "lat": 38.90561320657639,
+    "long": -77.04973238991202
+  },
+  {
+    "Restaurant Name": "Big Buns",
+    "Location": "Fairfax",
+    "yelpUrl": "https://www.yelp.com/biz/big-buns-fairfax-4",
+    "lat": 38.8607821027086,
+    "long": -77.30368955922272
+  }
+]

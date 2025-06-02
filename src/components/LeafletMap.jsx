@@ -11,7 +11,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { getFilteredBusinesses, getBusinessesByCategory } from "../utils/data_parser";
+import { getBusinessesByCategory } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
 
 let DefaultIcon = L.icon({
@@ -31,16 +31,15 @@ const LeafletMap = () => {
     filterType 
   } = legendState();
 
-  // Get filtered businesses based on selected filter type
-  const filteredBusinesses = getFilteredBusinesses(filterType);
-  const businessesByCategory = getBusinessesByCategory(filteredBusinesses);
+  // Get businesses by category based on selected filter type
+  const businessesByCategory = getBusinessesByCategory(filterType);
 
   const washingtonDCBounds = [
     [38.791645, -77.119759], // [ymin, xmin]
     [38.99511, -76.909395], // [ymax, xmax]
   ];
 
-  // Color schemes with RW vs Non-RW size controls
+  // Color schemes for the new treatment groups
   const markerStyles = {
     rw_restaurants: {
       color: "red",
@@ -48,25 +47,19 @@ const LeafletMap = () => {
       fillOpacity: 0.7,
       radius: rwRadius,
     },
-    neighbors_05: {
+    treated125: {
       color: "blue",
       fillColor: "blue", 
       fillOpacity: 0.6,
       radius: nonRwRadius,
     },
-    neighbors_10: {
+    treated125_250Only: {
       color: "darkblue",
       fillColor: "darkblue",
       fillOpacity: 0.6,
       radius: nonRwRadius,
     },
-    neighbors_20: {
-      color: "orange",
-      fillColor: "orange",
-      fillOpacity: 0.5,
-      radius: nonRwRadius,
-    },
-    beyond_20: {
+    control: {
       color: "lightgreen",
       fillColor: "lightgreen",
       fillOpacity: 0.5,
@@ -74,24 +67,34 @@ const LeafletMap = () => {
     }
   };
 
-  const renderMarker = (business, index, categoryStyle) => {
+  const renderMarker = (business, index, categoryStyle, isRW = false) => {
     const position = [business.lat, business.long];
+    
+    // Different popup content for RW vs non-RW businesses
     const popupContent = (
       <Popup>
         <div>
-          <h3>{business.businessName}</h3>
-          <p>Location: {business.addressLocality}</p>
-          <p>Category: {business.category}</p>
-          <p>Distance to RW: {business.distance_to_nearest_rw} miles</p>
-          <p>Nearest RW: {business.nearest_rw_restaurant}</p>
-          <a href={business.businessUrl} target="_blank" rel="noopener noreferrer">
+          <h3>{isRW ? business["Restaurant Name"] : business.businessName}</h3>
+          <p>Location: {isRW ? business.Location : business.addressLocality}</p>
+          {!isRW && (
+            <>
+              <p>Business Type: {business.Level1} - {business.Level2}</p>
+              <p>Treatment Status:</p>
+              <ul>
+                <li>Treated 125: {business.treated125 ? "Yes" : "No"}</li>
+                <li>Treated 125-250: {business.treated125_250Only ? "Yes" : "No"}</li>
+                <li>Control: {business.control ? "Yes" : "No"}</li>
+              </ul>
+            </>
+          )}
+          <a href={isRW ? business.yelpUrl : business.businessUrl} target="_blank" rel="noopener noreferrer">
             View on Yelp
           </a>
         </div>
       </Popup>
     );
 
-    const key = `${business.category}-${index}`;
+    const key = `${isRW ? 'rw' : 'nonrw'}-${index}`;
 
     if (marker === "circle") {
       return (
@@ -143,21 +146,18 @@ const LeafletMap = () => {
         )}
         {mapType === "None" && <TileLayer url="xyz" />}
 
-        {/* Render markers by category with appropriate colors */}
+        {/* Render markers by treatment category */}
         {businessesByCategory.rw_restaurants.map((business, index) =>
-          renderMarker(business, index, markerStyles.rw_restaurants)
+          renderMarker(business, index, markerStyles.rw_restaurants, true)
         )}
-        {businessesByCategory.neighbors_05.map((business, index) =>
-          renderMarker(business, index, markerStyles.neighbors_05)
+        {businessesByCategory.treated125.map((business, index) =>
+          renderMarker(business, index, markerStyles.treated125, false)
         )}
-        {businessesByCategory.neighbors_10.map((business, index) =>
-          renderMarker(business, index, markerStyles.neighbors_10)
+        {businessesByCategory.treated125_250Only.map((business, index) =>
+          renderMarker(business, index, markerStyles.treated125_250Only, false)
         )}
-        {businessesByCategory.neighbors_20.map((business, index) =>
-          renderMarker(business, index, markerStyles.neighbors_20)
-        )}
-        {businessesByCategory.beyond_20.map((business, index) =>
-          renderMarker(business, index, markerStyles.beyond_20)
+        {businessesByCategory.control.map((business, index) =>
+          renderMarker(business, index, markerStyles.control, false)
         )}
 
         {box && (

@@ -1,51 +1,62 @@
-import distanceData from "../../data/distance_based_data2.json" with { type: "json" };
+import mapData from "../../data/mapData.json" with { type: "json" };
+import rwRestaurants from "../../data/restaurants_inRW.json" with { type: "json" };
 
-export { distanceData };
+export { mapData, rwRestaurants };
 
-// Helper functions for filtering based on the 4 points
+// Helper functions for filtering based on the new 4 options
 export const getFilteredBusinesses = (filterType) => {
   switch (filterType) {
     case "rw_only":
-      // Point 1: Only participating in RW weeks (all seasons)
-      return distanceData.filter(business => business.category === "rw_all_seasons");
+      // Option 1: Only RW restaurants (red dots)
+      return rwRestaurants;
       
-    case "rw_plus_neighbors_05":
-      // Point 2: RW + neighbours up to 0.5 miles (red + blue)
-      return distanceData.filter(business => 
-        business.category === "rw_all_seasons" || 
-        business.category === "rw_neighbor_0.5"
-      );
+    case "treated125":
+      // Option 2: RW + treated125 businesses (red + blue)
+      const treated125 = mapData.filter(business => business.treated125 === 1);
+      return [...rwRestaurants, ...treated125];
       
-    case "rw_plus_neighbors_10":
-      // Point 3: Same as above up to 1.0 miles
-      return distanceData.filter(business => 
-        business.category === "rw_all_seasons" || 
-        business.category === "rw_neighbor_0.5" ||
-        business.category === "rw_neighbor_1.0"
-      );
+    case "treated125_250":
+      // Option 3: RW + treated125 + treated125_250Only (red + blue + another color)
+      const treated125All = mapData.filter(business => business.treated125 === 1);
+      const treated250Only = mapData.filter(business => business.treated125_250Only === 1);
+      return [...rwRestaurants, ...treated125All, ...treated250Only];
       
-    case "all_categories":
-      // Point 4: Same as above + Beyond 2.0 miles (light yellow/green)
-      return distanceData.filter(business => 
-        business.category === "rw_all_seasons" || 
-        business.category === "rw_neighbor_0.5" ||
-        business.category === "rw_neighbor_1.0" ||
-        business.category === "rw_neighbor_2.0" ||
-        business.category === "beyond_2.0"
-      );
+    case "control_group":
+      // Option 4: RW + all treated + control group (everything)
+      const allTreated125 = mapData.filter(business => business.treated125 === 1);
+      const allTreated250 = mapData.filter(business => business.treated125_250Only === 1);
+      const controlGroup = mapData.filter(business => business.control === 1);
+      return [...rwRestaurants, ...allTreated125, ...allTreated250, ...controlGroup];
       
     default:
-      return distanceData;
+      return [...rwRestaurants, ...mapData];
   }
 };
 
 // Get businesses by category for color coding
-export const getBusinessesByCategory = (businesses) => {
-  return {
-    rw_restaurants: businesses.filter(b => b.category === "rw_all_seasons"),
-    neighbors_05: businesses.filter(b => b.category === "rw_neighbor_0.5"),
-    neighbors_10: businesses.filter(b => b.category === "rw_neighbor_1.0"),
-    neighbors_20: businesses.filter(b => b.category === "rw_neighbor_2.0"),
-    beyond_20: businesses.filter(b => b.category === "beyond_2.0")
+export const getBusinessesByCategory = (filterType) => {
+  const categories = {
+    rw_restaurants: rwRestaurants,
+    treated125: [],
+    treated125_250Only: [],
+    control: []
   };
+
+  if (filterType === "rw_only") {
+    return categories;
+  }
+
+  if (filterType === "treated125" || filterType === "treated125_250" || filterType === "control_group") {
+    categories.treated125 = mapData.filter(business => business.treated125 === 1);
+  }
+
+  if (filterType === "treated125_250" || filterType === "control_group") {
+    categories.treated125_250Only = mapData.filter(business => business.treated125_250Only === 1);
+  }
+
+  if (filterType === "control_group") {
+    categories.control = mapData.filter(business => business.control === 1);
+  }
+
+  return categories;
 };

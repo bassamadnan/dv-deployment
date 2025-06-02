@@ -63,9 +63,9 @@ const LeafletForm = () => {
               Display Filter:
               <select value={filterType} onChange={handleFilterTypeChange}>
                 <option value="rw_only">1. RW Restaurants Only</option>
-                <option value="rw_plus_neighbors_05">2. RW + Neighbors (0.5 mi)</option>
-                <option value="rw_plus_neighbors_10">3. RW + Neighbors (1.0 mi)</option>
-                <option value="all_categories">4. All Categories</option>
+                <option value="treated125">2. RW + Treated 125</option>
+                <option value="treated125_250">3. RW + Treated 125 + 250</option>
+                <option value="control_group">4. All Groups + Control</option>
               </select>
             </label>
           </div>
