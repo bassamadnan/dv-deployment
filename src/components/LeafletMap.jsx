@@ -39,31 +39,35 @@ const LeafletMap = () => {
     [38.99511, -76.909395], // [ymax, xmax]
   ];
 
-  // Color schemes for the new treatment groups
+  // Color schemes with explicit zIndex for layering control
   const markerStyles = {
     rw_restaurants: {
       color: "red",
       fillColor: "red",
       fillOpacity: 0.7,
       radius: rwRadius,
+      zIndex: 1000, // Highest priority
     },
     treated125: {
       color: "blue",
       fillColor: "blue", 
       fillOpacity: 0.6,
       radius: nonRwRadius,
+      zIndex: 300,
     },
     treated125_250Only: {
       color: "darkblue",
       fillColor: "darkblue",
       fillOpacity: 0.6,
       radius: nonRwRadius,
+      zIndex: 200,
     },
     control: {
       color: "forestgreen",
       fillColor: "forestgreen",
       fillOpacity: 0.5,
       radius: nonRwRadius,
+      zIndex: 100, // Lowest priority
     }
   };
 
@@ -102,13 +106,18 @@ const LeafletMap = () => {
           key={key}
           center={position}
           pathOptions={categoryStyle}
+          zIndexOffset={categoryStyle.zIndex || 0}
         >
           {popupContent}
         </CircleMarker>
       );
     } else {
       return (
-        <Marker key={key} position={position}>
+        <Marker 
+          key={key} 
+          position={position}
+          zIndexOffset={categoryStyle.zIndex || 0}
+        >
           {popupContent}
         </Marker>
       );
