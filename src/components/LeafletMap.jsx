@@ -1,4 +1,5 @@
-import React from "react";
+// src/components/LeafletMap.jsx
+import React, { useEffect } from "react";
 import {
   MapContainer,
   Marker,
@@ -6,6 +7,7 @@ import {
   Popup,
   TileLayer,
   Rectangle,
+  useMap,
 } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -13,6 +15,33 @@ import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 import { getBusinessesByCategory } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
+
+// Component to create custom panes for layering
+const CreatePanes = () => {
+  const map = useMap();
+  
+  useEffect(() => {
+    // Create custom panes with specific z-index values
+    if (!map.getPane('controlPane')) {
+      map.createPane('controlPane');
+      map.getPane('controlPane').style.zIndex = 400;
+    }
+    if (!map.getPane('treated250Pane')) {
+      map.createPane('treated250Pane');
+      map.getPane('treated250Pane').style.zIndex = 450;
+    }
+    if (!map.getPane('treated125Pane')) {
+      map.createPane('treated125Pane');
+      map.getPane('treated125Pane').style.zIndex = 500;
+    }
+    if (!map.getPane('rwPane')) {
+      map.createPane('rwPane');
+      map.getPane('rwPane').style.zIndex = 600; // Highest - always on top
+    }
+  }, [map]);
+  
+  return null;
+};
 
 let DefaultIcon = L.icon({
   iconUrl: icon,
@@ -39,35 +68,35 @@ const LeafletMap = () => {
     [38.99511, -76.909395], // [ymax, xmax]
   ];
 
-  // Color schemes with explicit zIndex for layering control
+  // Color schemes with pane assignments for explicit layering
   const markerStyles = {
     rw_restaurants: {
       color: "red",
       fillColor: "red",
       fillOpacity: 0.7,
       radius: rwRadius,
-      zIndex: 1000, // Highest priority
+      pane: 'rwPane', // Top layer
     },
     treated125: {
       color: "blue",
       fillColor: "blue", 
       fillOpacity: 0.6,
       radius: nonRwRadius,
-      zIndex: 300,
+      pane: 'treated125Pane',
     },
     treated125_250Only: {
       color: "darkblue",
       fillColor: "darkblue",
       fillOpacity: 0.6,
       radius: nonRwRadius,
-      zIndex: 200,
+      pane: 'treated250Pane',
     },
     control: {
       color: "forestgreen",
       fillColor: "forestgreen",
       fillOpacity: 0.5,
       radius: nonRwRadius,
-      zIndex: 100, // Lowest priority
+      pane: 'controlPane', // Bottom layer
     }
   };
 
@@ -106,7 +135,7 @@ const LeafletMap = () => {
           key={key}
           center={position}
           pathOptions={categoryStyle}
-          zIndexOffset={categoryStyle.zIndex || 0}
+          pane={categoryStyle.pane}
         >
           {popupContent}
         </CircleMarker>
@@ -116,7 +145,7 @@ const LeafletMap = () => {
         <Marker 
           key={key} 
           position={position}
-          zIndexOffset={categoryStyle.zIndex || 0}
+          pane={categoryStyle.pane}
         >
           {popupContent}
         </Marker>
@@ -138,6 +167,8 @@ const LeafletMap = () => {
         scrollWheelZoom={false}
         style={{ width: "100%", height: "100%" }}
       >
+        <CreatePanes />
+        
         {mapType === "Default" && (
           <TileLayer
             url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
@@ -155,19 +186,18 @@ const LeafletMap = () => {
         )}
         {mapType === "None" && <TileLayer url="xyz" />}
 
-        {/* Render markers by treatment category - RW restaurants LAST so they appear on top */}
-        {businessesByCategory.control.map((business, index) =>
-          renderMarker(business, index, markerStyles.control, false)
-        )}
-        {businessesByCategory.treated125_250Only.map((business, index) =>
-          renderMarker(business, index, markerStyles.treated125_250Only, false)
+        {/* Render markers in REVERSE order - RW restaurants FIRST to appear on top */}
+        {businessesByCategory.rw_restaurants.map((business, index) =>
+          renderMarker(business, index, markerStyles.rw_restaurants, true)
         )}
         {businessesByCategory.treated125.map((business, index) =>
           renderMarker(business, index, markerStyles.treated125, false)
         )}
-        {/* RW restaurants rendered LAST to appear on top */}
-        {businessesByCategory.rw_restaurants.map((business, index) =>
-          renderMarker(business, index, markerStyles.rw_restaurants, true)
+        {businessesByCategory.treated125_250Only.map((business, index) =>
+          renderMarker(business, index, markerStyles.treated125_250Only, false)
+        )}
+        {businessesByCategory.control.map((business, index) =>
+          renderMarker(business, index, markerStyles.control, false)
         )}
 
         {box && (
