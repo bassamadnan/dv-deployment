@@ -11,8 +11,8 @@ const LegendProvider = ({ children }) => {
   const [rwRadius, setRwRadius] = useState(3);
   const [nonRwRadius, setNonRwRadius] = useState(2);
   
-  // New state for distance-based filtering (the 4 points)
-  const [filterType, setFilterType] = useState("rw_only");
+  // New state for distance-based filtering
+  const [filterType, setFilterType] = useState("rw_neighbors");
   
   // Remove old period, nonRW, rangeValues states - not needed anymore
   

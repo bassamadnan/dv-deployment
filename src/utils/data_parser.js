@@ -1,61 +1,49 @@
-import mapData from "../../data/mapData.json" with { type: "json" };
-import rwRestaurants from "../../data/restaurants_inRW.json" with { type: "json" };
+// Import the new generated data files
+import rwNeighbors from "../../data/rw_neighbors.json" with { type: "json" };
+import rwNeighborsControl from "../../data/rw_neighbors_control.json" with { type: "json" };
+import neighborsControl from "../../data/neighbors_control.json" with { type: "json" };
+import matchedNeighborsControl from "../../data/matched_neighbors_control.json" with { type: "json" };
 
-export { mapData, rwRestaurants };
-
-// Helper functions for filtering based on the new 4 options
-export const getFilteredBusinesses = (filterType) => {
-  switch (filterType) {
-    case "rw_only":
-      // Option 1: Only RW restaurants (red dots)
-      return rwRestaurants;
-      
-    case "treated125":
-      // Option 2: RW + treated125 businesses (red + blue)
-      const treated125 = mapData.filter(business => business.treated125 === 1);
-      return [...rwRestaurants, ...treated125];
-      
-    case "treated125_250":
-      // Option 3: RW + treated125 + treated125_250Only (red + blue + another color)
-      const treated125All = mapData.filter(business => business.treated125 === 1);
-      const treated250Only = mapData.filter(business => business.treated125_250Only === 1);
-      return [...rwRestaurants, ...treated125All, ...treated250Only];
-      
-    case "control_group":
-      // Option 4: RW + all treated + control group (everything)
-      const allTreated125 = mapData.filter(business => business.treated125 === 1);
-      const allTreated250 = mapData.filter(business => business.treated125_250Only === 1);
-      const controlGroup = mapData.filter(business => business.control === 1);
-      return [...rwRestaurants, ...allTreated125, ...allTreated250, ...controlGroup];
-      
-    default:
-      return [...rwRestaurants, ...mapData];
-  }
-};
+export { rwNeighbors, rwNeighborsControl, neighborsControl, matchedNeighborsControl };
 
 // Get businesses by category for color coding
 export const getBusinessesByCategory = (filterType) => {
   const categories = {
-    rw_restaurants: rwRestaurants,
-    treated125: [],
-    treated125_250Only: [],
+    rw_restaurants: [],
+    neighbors: [],
     control: []
   };
 
-  if (filterType === "rw_only") {
-    return categories;
-  }
+  switch (filterType) {
+    case "rw_neighbors":
+      // Option 1a: RW (red) + Neighbors (blue)
+      categories.rw_restaurants = rwNeighbors.filter(b => b.inRW === 1);
+      categories.neighbors = rwNeighbors.filter(b => b.treated250 === 1);
+      break;
 
-  if (filterType === "treated125" || filterType === "treated125_250" || filterType === "control_group") {
-    categories.treated125 = mapData.filter(business => business.treated125 === 1);
-  }
+    case "rw_neighbors_control":
+      // Option 1b: RW (red) + Neighbors (blue) + Control (green)
+      categories.rw_restaurants = rwNeighborsControl.filter(b => b.inRW === 1);
+      categories.neighbors = rwNeighborsControl.filter(b => b.treated250 === 1);
+      categories.control = rwNeighborsControl.filter(b => b.control === 1);
+      break;
 
-  if (filterType === "treated125_250" || filterType === "control_group") {
-    categories.treated125_250Only = mapData.filter(business => business.treated125_250Only === 1);
-  }
+    case "neighbors_control":
+      // Option 2: Neighbors (blue) + Control (green)
+      categories.neighbors = neighborsControl.filter(b => b.treated250 === 1);
+      categories.control = neighborsControl.filter(b => b.control === 1);
+      break;
 
-  if (filterType === "control_group") {
-    categories.control = mapData.filter(business => business.control === 1);
+    case "matched_neighbors_control":
+      // Option 3: Matched Neighbors (blue) + Matched Control (green)
+      categories.neighbors = matchedNeighborsControl.filter(b => b.treated250 === 1);
+      categories.control = matchedNeighborsControl.filter(b => b.control === 1);
+      break;
+
+    default:
+      // Default: show RW + Neighbors
+      categories.rw_restaurants = rwNeighbors.filter(b => b.inRW === 1);
+      categories.neighbors = rwNeighbors.filter(b => b.treated250 === 1);
   }
 
   return categories;

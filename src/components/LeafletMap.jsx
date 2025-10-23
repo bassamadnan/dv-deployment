@@ -77,19 +77,12 @@ const LeafletMap = () => {
       radius: rwRadius,
       pane: 'rwPane', // Top layer
     },
-    treated125: {
+    neighbors: {
       color: "blue",
-      fillColor: "blue", 
+      fillColor: "blue",
       fillOpacity: 0.6,
       radius: nonRwRadius,
       pane: 'treated125Pane',
-    },
-    treated125_250Only: {
-      color: "darkblue",
-      fillColor: "darkblue",
-      fillOpacity: 0.6,
-      radius: nonRwRadius,
-      pane: 'treated250Pane',
     },
     control: {
       color: "forestgreen",
@@ -100,34 +93,25 @@ const LeafletMap = () => {
     }
   };
 
-  const renderMarker = (business, index, categoryStyle, isRW = false) => {
+  const renderMarker = (business, index, categoryStyle, category) => {
     const position = [business.lat, business.long];
-    
-    // Different popup content for RW vs non-RW businesses
+
+    // Popup content for all businesses
     const popupContent = (
       <Popup>
         <div>
-          <h3>{isRW ? business["Restaurant Name"] : business.businessName}</h3>
-          <p>Location: {isRW ? business.Location : business.addressLocality}</p>
-          {!isRW && (
-            <>
-              <p>Business Type: {business.Level1} - {business.Level2}</p>
-              <p>Treatment Status:</p>
-              <ul>
-                <li>Treated 125: {business.treated125 ? "Yes" : "No"}</li>
-                <li>Treated 125-250: {business.treated125_250Only ? "Yes" : "No"}</li>
-                <li>Control: {business.control ? "Yes" : "No"}</li>
-              </ul>
-            </>
-          )}
-          <a href={isRW ? business.yelpUrl : business.businessUrl} target="_blank" rel="noopener noreferrer">
+          <h3>{business.businessName}</h3>
+          <p>Location: {business.addressLocality}</p>
+          <p>Business Type: {business.Level1} - {business.Level2}</p>
+          <p>Category: {category === 'rw_restaurants' ? 'RW Restaurant' : category === 'neighbors' ? 'Neighbor (Treated 250)' : 'Control'}</p>
+          <a href={business.businessUrl} target="_blank" rel="noopener noreferrer">
             View on Yelp
           </a>
         </div>
       </Popup>
     );
 
-    const key = `${isRW ? 'rw' : 'nonrw'}-${index}`;
+    const key = `${category}-${business.businessID}-${index}`;
 
     if (marker === "circle") {
       return (
@@ -142,8 +126,8 @@ const LeafletMap = () => {
       );
     } else {
       return (
-        <Marker 
-          key={key} 
+        <Marker
+          key={key}
           position={position}
           pane={categoryStyle.pane}
         >
@@ -186,18 +170,15 @@ const LeafletMap = () => {
         )}
         {mapType === "None" && <TileLayer url="xyz" />}
 
-        {/* Render markers in REVERSE order - RW restaurants FIRST to appear on top */}
-        {businessesByCategory.rw_restaurants.map((business, index) =>
-          renderMarker(business, index, markerStyles.rw_restaurants, true)
-        )}
-        {businessesByCategory.treated125.map((business, index) =>
-          renderMarker(business, index, markerStyles.treated125, false)
-        )}
-        {businessesByCategory.treated125_250Only.map((business, index) =>
-          renderMarker(business, index, markerStyles.treated125_250Only, false)
-        )}
+        {/* Render markers - RW restaurants on top (rendered last) */}
         {businessesByCategory.control.map((business, index) =>
-          renderMarker(business, index, markerStyles.control, false)
+          renderMarker(business, index, markerStyles.control, 'control')
+        )}
+        {businessesByCategory.neighbors.map((business, index) =>
+          renderMarker(business, index, markerStyles.neighbors, 'neighbors')
+        )}
+        {businessesByCategory.rw_restaurants.map((business, index) =>
+          renderMarker(business, index, markerStyles.rw_restaurants, 'rw_restaurants')
         )}
 
         {box && (

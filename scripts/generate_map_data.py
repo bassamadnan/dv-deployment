@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""
+Generate map data JSON files from CSV sources.
+Creates four datasets:
+1. RW + Neighbors (from v1)
+2. RW + Neighbors + Control (from v1)
+3. Neighbors + Control (from v1)
+4. Matched Neighbors + Matched Control (from v2)
+"""
+
+import csv
+import json
+
+def load_business_info():
+    """Load all business information with coordinates."""
+    business_info = {}
+    with open('data/businessInfo.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            bid = row['businessID']
+            lat = row['lat']
+            lon = row['long']
+            if lat and lon:
+                business_info[bid] = {
+                    'businessID': int(bid),
+                    'businessUrl': row['businessUrl'],
+                    'businessName': row['businessName'],
+                    'addressLocality': row['addressLocality'],
+                    'lat': float(lat),
+                    'long': float(lon),
+                    'Level1': row['Level1'],
+                    'Level2': row['Level2'],
+                    'inRW': int(float(row['inRW'])) if row['inRW'] and row['inRW'] not in ['', 'NA'] else 0,
+                }
+    return business_info
+
+def categorize_businesses_v1():
+    """Categorize businesses based on mapData-v1.csv flags."""
+    rw_ids = set()
+    neighbor_ids = set()
+    control_ids = set()
+
+    with open('data/mapData-v1.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            bid = row['businessID']
+
+            # Categorize based on flags (priority: RW > Neighbor > Control)
+            if row['inRW'] == '1':
+                rw_ids.add(bid)
+            elif row['treated250'] == '1':
+                neighbor_ids.add(bid)
+            elif row['control'] == '1':
+                control_ids.add(bid)
+
+    return rw_ids, neighbor_ids, control_ids
+
+def categorize_businesses_v2():
+    """Categorize matched businesses based on mapData-v2.csv flags."""
+    matched_neighbor_ids = set()
+    matched_control_ids = set()
+
+    with open('data/mapData-v2.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            bid = row['businessID']
+
+            # Matched dataset: treated250==1 are neighbors, control==1 are control
+            if row['treated250'] == '1':
+                matched_neighbor_ids.add(bid)
+            elif row['control'] == '1':
+                matched_control_ids.add(bid)
+
+    return matched_neighbor_ids, matched_control_ids
+
+def create_business_record(bid, business_info, category):
+    """Create a business record in the format expected by the website."""
+    info = business_info[bid]
+
+    # Common fields
+    record = {
+        'businessID': info['businessID'],
+        'businessUrl': info['businessUrl'],
+        'businessName': info['businessName'],
+        'addressLocality': info['addressLocality'],
+        'lat': info['lat'],
+        'long': info['long'],
+        'Level1': info['Level1'],
+        'Level2': info['Level2'],
+    }
+
+    # Add category flags
+    if category == 'rw':
+        record['inRW'] = 1
+        record['treated250'] = 0
+        record['control'] = 0
+    elif category == 'neighbor':
+        record['inRW'] = 0
+        record['treated250'] = 1
+        record['control'] = 0
+    elif category == 'control':
+        record['inRW'] = 0
+        record['treated250'] = 0
+        record['control'] = 1
+
+    return record
+
+def main():
+    print("Loading business information...")
+    business_info = load_business_info()
+    print(f"Loaded {len(business_info)} businesses with coordinates")
+
+    print("\n=== Processing mapData-v1.csv (Full Dataset) ===")
+    rw_ids, neighbor_ids, control_ids = categorize_businesses_v1()
+    print(f"RW: {len(rw_ids)}")
+    print(f"Neighbors: {len(neighbor_ids)}")
+    print(f"Control: {len(control_ids)}")
+
+    # Create business records for v1
+    rw_businesses = [create_business_record(bid, business_info, 'rw')
+                     for bid in rw_ids if bid in business_info]
+    neighbor_businesses = [create_business_record(bid, business_info, 'neighbor')
+                          for bid in neighbor_ids if bid in business_info]
+    control_businesses = [create_business_record(bid, business_info, 'control')
+                         for bid in control_ids if bid in business_info]
+
+    print(f"With coordinates: RW={len(rw_businesses)}, Neighbors={len(neighbor_businesses)}, Control={len(control_businesses)}")
+
+    print("\n=== Processing mapData-v2.csv (Matched Dataset) ===")
+    matched_neighbor_ids, matched_control_ids = categorize_businesses_v2()
+    print(f"Matched Neighbors: {len(matched_neighbor_ids)}")
+    print(f"Matched Control: {len(matched_control_ids)}")
+
+    # Create business records for v2
+    matched_neighbor_businesses = [create_business_record(bid, business_info, 'neighbor')
+                                   for bid in matched_neighbor_ids if bid in business_info]
+    matched_control_businesses = [create_business_record(bid, business_info, 'control')
+                                  for bid in matched_control_ids if bid in business_info]
+
+    print(f"With coordinates: Matched Neighbors={len(matched_neighbor_businesses)}, Matched Control={len(matched_control_businesses)}")
+
+    # Create datasets
+    datasets = {
+        'rw_neighbors.json': rw_businesses + neighbor_businesses,
+        'rw_neighbors_control.json': rw_businesses + neighbor_businesses + control_businesses,
+        'neighbors_control.json': neighbor_businesses + control_businesses,
+        'matched_neighbors_control.json': matched_neighbor_businesses + matched_control_businesses,
+    }
+
+    # Write JSON files
+    print("\n=== Writing JSON files ===")
+    for filename, data in datasets.items():
+        output_path = f'data/{filename}'
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+        print(f"Created {output_path} with {len(data)} businesses")
+
+    print("\n✓ All datasets generated successfully!")
+
+if __name__ == '__main__':
+    main()

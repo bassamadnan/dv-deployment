@@ -57,15 +57,15 @@ const LeafletForm = () => {
       </h3>
       {!isMinimized && (
         <>
-          {/* NEW: 4-Point Distance Filter */}
+          {/* Display Filter Options */}
           <div>
             <label>
               Display Filter:
               <select value={filterType} onChange={handleFilterTypeChange}>
-                <option value="rw_only">1. RW Restaurants Only</option>
-                <option value="treated125">2. RW + Treated 125</option>
-                <option value="treated125_250">3. RW + Treated 125 + 250</option>
-                <option value="control_group">4. All Groups + Control</option>
+                <option value="rw_neighbors">1a. RW (385) + Neighbors (1460)</option>
+                <option value="rw_neighbors_control">1b. RW + Neighbors + Control (5888)</option>
+                <option value="neighbors_control">2. Neighbors + Control</option>
+                <option value="matched_neighbors_control">3. Matched Neighbors (672) + Control (4809)</option>
               </select>
             </label>
           </div>
