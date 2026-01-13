@@ -48,15 +48,49 @@ const LeafletForm = () => {
   };
 
   return (
-    <div>
-      <h3>
-        Leaflet Settings
-        <button onClick={toggleMinimize}>
-          {isMinimized ? "Expand" : "Minimize"}
-        </button>
-      </h3>
+    <div style={{ position: 'relative' }}>
+      {/* Toggle Button */}
+      <button
+        onClick={toggleMinimize}
+        style={{
+          position: 'absolute',
+          top: '-5px',
+          right: '-5px',
+          width: '28px',
+          height: '28px',
+          borderRadius: '50%',
+          border: '2px solid #3b82f6',
+          backgroundColor: 'white',
+          color: '#3b82f6',
+          fontSize: '16px',
+          cursor: 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+          transition: 'all 0.2s ease',
+          zIndex: 10,
+        }}
+        onMouseEnter={(e) => {
+          e.target.style.backgroundColor = '#3b82f6';
+          e.target.style.color = 'white';
+          e.target.style.transform = 'scale(1.1)';
+        }}
+        onMouseLeave={(e) => {
+          e.target.style.backgroundColor = 'white';
+          e.target.style.color = '#3b82f6';
+          e.target.style.transform = 'scale(1)';
+        }}
+        title={isMinimized ? "Expand Settings" : "Collapse Settings"}
+      >
+        {isMinimized ? '⚙' : '×'}
+      </button>
+
       {!isMinimized && (
         <>
+          <h3 style={{ marginTop: '0', marginBottom: '15px', fontSize: '16px', fontWeight: '600' }}>
+            Leaflet Settings
+          </h3>
           {/* Display Filter Options */}
           <div>
             <label>
@@ -66,6 +100,9 @@ const LeafletForm = () => {
                 <option value="rw_neighbors_control">1b. RW + Neighbors + Control (5888)</option>
                 <option value="neighbors_control">2. Neighbors + Control</option>
                 <option value="matched_neighbors_control">3. Matched Neighbors (672) + Control (4809)</option>
+                <option value="matched_business_final">4. Matched Business Final - Neighbors (672) + Control (4809)</option>
+                <option value="matched_zip_final">5. Matched Zip Final - Neighbors (840) + Control (5881)</option>
+                <option value="unmatched_final">6. Unmatched Final - Neighbors (1460) + Control (5888)</option>
               </select>
             </label>
           </div>
