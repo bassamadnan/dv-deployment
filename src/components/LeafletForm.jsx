@@ -9,42 +9,60 @@ const LeafletForm = () => {
     setMarker,
     mapType,
     setMapType,
+    filterType,
+    setFilterType,
+    showRW,
+    setShowRW,
+    showNeighbors,
+    setShowNeighbors,
+    showControl,
+    setShowControl,
     rwRadius,
     setRwRadius,
-    nonRwRadius,
-    setNonRwRadius,
-    filterType,
-    setFilterType
+    neighborsRadius,
+    setNeighborsRadius,
+    controlRadius,
+    setControlRadius,
+    rwColor,
+    setRwColor,
+    neighborsColor,
+    setNeighborsColor,
+    controlColor,
+    setControlColor
   } = legendState();
-  
+
   const [isMinimized, setIsMinimized] = useState(false);
-
-  const handleShowBoxChange = (event) => {
-    setBox(event.target.checked);
-  };
-
-  const handleMarkerTypeChange = (event) => {
-    setMarker(event.target.value);
-  };
-
-  const handleMapTypeChange = (event) => {
-    setMapType(event.target.value);
-  };
-
-  const handleRwRadiusChange = (event) => {
-    setRwRadius(parseInt(event.target.value));
-  };
-
-  const handleNonRwRadiusChange = (event) => {
-    setNonRwRadius(parseInt(event.target.value));
-  };
-
-  const handleFilterTypeChange = (event) => {
-    setFilterType(event.target.value);
-  };
 
   const toggleMinimize = () => {
     setIsMinimized(!isMinimized);
+  };
+
+  const formSectionStyle = {
+    marginBottom: '15px',
+    paddingBottom: '10px',
+    borderBottom: '1px solid #e5e7eb'
+  };
+
+  const labelStyle = {
+    display: 'block',
+    fontSize: '13px',
+    fontWeight: '500',
+    marginBottom: '5px',
+    color: '#374151'
+  };
+
+  const categoryBlockStyle = {
+    backgroundColor: '#f9fafb',
+    padding: '10px',
+    borderRadius: '4px',
+    marginBottom: '8px'
+  };
+
+  const flexRowStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '10px',
+    marginTop: '5px'
   };
 
   return (
@@ -87,91 +105,204 @@ const LeafletForm = () => {
       </button>
 
       {!isMinimized && (
-        <>
+        <div>
           <h3 style={{ marginTop: '0', marginBottom: '15px', fontSize: '16px', fontWeight: '600' }}>
-            Leaflet Settings
+            Map Settings
           </h3>
-          {/* Display Filter Options */}
-          <div>
-            <label>
-              Display Filter:
-              <select value={filterType} onChange={handleFilterTypeChange}>
-                <option value="rw_neighbors">1a. RW (385) + Neighbors (1460)</option>
-                <option value="rw_neighbors_control">1b. RW + Neighbors + Control (5888)</option>
-                <option value="neighbors_control">2. Neighbors + Control</option>
-                <option value="matched_neighbors_control">3. Matched Neighbors (672) + Control (4809)</option>
-                <option value="matched_business_final">4. Matched Business Final - Neighbors (672) + Control (4809)</option>
-                <option value="matched_zip_final">5. Matched Zip Final - Neighbors (840) + Control (5881)</option>
-                <option value="unmatched_final">6. Unmatched Final - Neighbors (1460) + Control (5888)</option>
-              </select>
-            </label>
+
+          {/* Data Filter Section */}
+          <div style={formSectionStyle}>
+            <label style={labelStyle}>Data Source</label>
+            <select
+              value={filterType}
+              onChange={(e) => setFilterType(e.target.value)}
+              style={{ width: '100%', padding: '5px', fontSize: '12px' }}
+            >
+              <option value="matched_business_final">Matched Business Final - Neighbors (672) + Control (4809)</option>
+              <option value="matched_zip_final">Matched Zip Final - Neighbors (840) + Control (5881)</option>
+              <option value="unmatched_final">Unmatched Final - Neighbors (1460) + Control (5888)</option>
+            </select>
           </div>
-          
-          <div>
-            <label>
-              <input
-                type="checkbox"
-                checked={box}
-                onChange={handleShowBoxChange}
-              />
-              Show Bounding Box
-            </label>
+
+          {/* Visibility Controls */}
+          <div style={formSectionStyle}>
+            <label style={labelStyle}>Visibility</label>
+            <div>
+              <label style={{ display: 'block', fontSize: '12px', marginBottom: '4px' }}>
+                <input
+                  type="checkbox"
+                  checked={showRW}
+                  onChange={(e) => setShowRW(e.target.checked)}
+                  style={{ marginRight: '6px' }}
+                />
+                Show RW Businesses
+              </label>
+              <label style={{ display: 'block', fontSize: '12px', marginBottom: '4px' }}>
+                <input
+                  type="checkbox"
+                  checked={showNeighbors}
+                  onChange={(e) => setShowNeighbors(e.target.checked)}
+                  style={{ marginRight: '6px' }}
+                />
+                Show Neighbors
+              </label>
+              <label style={{ display: 'block', fontSize: '12px', marginBottom: '4px' }}>
+                <input
+                  type="checkbox"
+                  checked={showControl}
+                  onChange={(e) => setShowControl(e.target.checked)}
+                  style={{ marginRight: '6px' }}
+                />
+                Show Control
+              </label>
+            </div>
           </div>
-          
-          <div>
-            <label>
-              Marker Type:
-              <select value={marker} onChange={handleMarkerTypeChange}>
+
+          {/* Customization Section */}
+          <div style={formSectionStyle}>
+            <label style={labelStyle}>Customization</label>
+
+            {/* RW Customization */}
+            {showRW && (
+              <div style={categoryBlockStyle}>
+                <div style={{ fontSize: '12px', fontWeight: '600', marginBottom: '6px', color: '#dc2626' }}>
+                  RW Businesses
+                </div>
+                <div style={flexRowStyle}>
+                  <span style={{ fontSize: '11px', minWidth: '40px' }}>Color:</span>
+                  <select
+                    value={rwColor}
+                    onChange={(e) => setRwColor(e.target.value)}
+                    style={{ padding: '3px', fontSize: '11px', flex: 1 }}
+                  >
+                    <option value="#ff0000">Red</option>
+                    <option value="#0000ff">Blue</option>
+                    <option value="#228b22">Green</option>
+                    <option value="#ffa500">Orange</option>
+                    <option value="#800080">Purple</option>
+                    <option value="#000000">Black</option>
+                    <option value="#ffff00">Yellow</option>
+                    <option value="#ff69b4">Pink</option>
+                  </select>
+                  <span style={{ fontSize: '11px', minWidth: '35px', marginLeft: '5px' }}>Size:</span>
+                  <select
+                    value={rwRadius}
+                    onChange={(e) => setRwRadius(parseInt(e.target.value))}
+                    style={{ padding: '3px', fontSize: '11px', flex: 1 }}
+                  >
+                    {[1,2,3,4,5,6,7,8].map(n => <option key={n} value={n}>{n}</option>)}
+                  </select>
+                </div>
+              </div>
+            )}
+
+            {/* Neighbors Customization */}
+            {showNeighbors && (
+              <div style={categoryBlockStyle}>
+                <div style={{ fontSize: '12px', fontWeight: '600', marginBottom: '6px', color: '#2563eb' }}>
+                  Neighbors
+                </div>
+                <div style={flexRowStyle}>
+                  <span style={{ fontSize: '11px', minWidth: '40px' }}>Color:</span>
+                  <select
+                    value={neighborsColor}
+                    onChange={(e) => setNeighborsColor(e.target.value)}
+                    style={{ padding: '3px', fontSize: '11px', flex: 1 }}
+                  >
+                    <option value="#ff0000">Red</option>
+                    <option value="#0000ff">Blue</option>
+                    <option value="#228b22">Green</option>
+                    <option value="#ffa500">Orange</option>
+                    <option value="#800080">Purple</option>
+                    <option value="#000000">Black</option>
+                    <option value="#ffff00">Yellow</option>
+                    <option value="#ff69b4">Pink</option>
+                  </select>
+                  <span style={{ fontSize: '11px', minWidth: '35px', marginLeft: '5px' }}>Size:</span>
+                  <select
+                    value={neighborsRadius}
+                    onChange={(e) => setNeighborsRadius(parseInt(e.target.value))}
+                    style={{ padding: '3px', fontSize: '11px', flex: 1 }}
+                  >
+                    {[1,2,3,4,5,6,7,8].map(n => <option key={n} value={n}>{n}</option>)}
+                  </select>
+                </div>
+              </div>
+            )}
+
+            {/* Control Customization */}
+            {showControl && (
+              <div style={categoryBlockStyle}>
+                <div style={{ fontSize: '12px', fontWeight: '600', marginBottom: '6px', color: '#16a34a' }}>
+                  Control
+                </div>
+                <div style={flexRowStyle}>
+                  <span style={{ fontSize: '11px', minWidth: '40px' }}>Color:</span>
+                  <select
+                    value={controlColor}
+                    onChange={(e) => setControlColor(e.target.value)}
+                    style={{ padding: '3px', fontSize: '11px', flex: 1 }}
+                  >
+                    <option value="#ff0000">Red</option>
+                    <option value="#0000ff">Blue</option>
+                    <option value="#228b22">Green</option>
+                    <option value="#ffa500">Orange</option>
+                    <option value="#800080">Purple</option>
+                    <option value="#000000">Black</option>
+                    <option value="#ffff00">Yellow</option>
+                    <option value="#ff69b4">Pink</option>
+                  </select>
+                  <span style={{ fontSize: '11px', minWidth: '35px', marginLeft: '5px' }}>Size:</span>
+                  <select
+                    value={controlRadius}
+                    onChange={(e) => setControlRadius(parseInt(e.target.value))}
+                    style={{ padding: '3px', fontSize: '11px', flex: 1 }}
+                  >
+                    {[1,2,3,4,5,6,7,8].map(n => <option key={n} value={n}>{n}</option>)}
+                  </select>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Map Options */}
+          <div style={formSectionStyle}>
+            <label style={labelStyle}>Map Options</label>
+            <div style={{ marginBottom: '8px' }}>
+              <label style={{ fontSize: '11px', display: 'block', marginBottom: '3px' }}>Marker Type</label>
+              <select
+                value={marker}
+                onChange={(e) => setMarker(e.target.value)}
+                style={{ width: '100%', padding: '4px', fontSize: '11px' }}
+              >
                 <option value="circle">Circle</option>
-                <option value="default">Default</option>
+                <option value="default">Pin</option>
               </select>
-            </label>
-          </div>
-          
-          <div>
-            <label>
-              Map Type:
-              <select value={mapType} onChange={handleMapTypeChange}>
+            </div>
+            <div style={{ marginBottom: '8px' }}>
+              <label style={{ fontSize: '11px', display: 'block', marginBottom: '3px' }}>Base Map</label>
+              <select
+                value={mapType}
+                onChange={(e) => setMapType(e.target.value)}
+                style={{ width: '100%', padding: '4px', fontSize: '11px' }}
+              >
                 <option value="Default">Default</option>
                 <option value="Gray Canvas">Gray Canvas</option>
                 <option value="Detailed">Detailed</option>
                 <option value="None">None</option>
               </select>
+            </div>
+            <label style={{ display: 'block', fontSize: '12px' }}>
+              <input
+                type="checkbox"
+                checked={box}
+                onChange={(e) => setBox(e.target.checked)}
+                style={{ marginRight: '6px' }}
+              />
+              Show Bounding Box
             </label>
           </div>
-          
-          <div>
-            <label>
-              RW Restaurant Size:
-              <select value={rwRadius} onChange={handleRwRadiusChange}>
-                <option value={1}>1</option>
-                <option value={2}>2</option>
-                <option value={3}>3</option>
-                <option value={4}>4</option>
-                <option value={5}>5</option>
-                <option value={6}>6</option>
-                <option value={7}>7</option>
-                <option value={8}>8</option>
-              </select>
-            </label>
-          </div>
-          
-          <div>
-            <label>
-              Non-RW Business Size:
-              <select value={nonRwRadius} onChange={handleNonRwRadiusChange}>
-                <option value={1}>1</option>
-                <option value={2}>2</option>
-                <option value={3}>3</option>
-                <option value={4}>4</option>
-                <option value={5}>5</option>
-                <option value={6}>6</option>
-                <option value={7}>7</option>
-                <option value={8}>8</option>
-              </select>
-            </label>
-          </div>
-        </>
+        </div>
       )}
     </div>
   );

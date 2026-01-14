@@ -13,7 +13,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { getBusinessesByCategory } from "../utils/data_parser";
+import { getBusinessesByCategory, getRWBusinesses } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
 
 // Component to create custom panes for layering
@@ -51,17 +51,31 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const LeafletMap = () => {
-  const { 
-    box, 
-    marker, 
-    mapType, 
-    rwRadius, 
-    nonRwRadius,
-    filterType 
+  const {
+    box,
+    marker,
+    mapType,
+    filterType,
+    showRW,
+    showNeighbors,
+    showControl,
+    rwRadius,
+    neighborsRadius,
+    controlRadius,
+    rwColor,
+    neighborsColor,
+    controlColor
   } = legendState();
 
   // Get businesses by category based on selected filter type
   const businessesByCategory = getBusinessesByCategory(filterType);
+
+  // Get RW businesses if showRW is enabled
+  const rwBusinesses = showRW ? getRWBusinesses() : [];
+
+  // Filter based on visibility toggles
+  const visibleNeighbors = showNeighbors ? businessesByCategory.neighbors : [];
+  const visibleControl = showControl ? businessesByCategory.control : [];
 
   const washingtonDCBounds = [
     [38.791645, -77.119759], // [ymin, xmin]
@@ -71,24 +85,24 @@ const LeafletMap = () => {
   // Color schemes with pane assignments for explicit layering
   const markerStyles = {
     rw_restaurants: {
-      color: "red",
-      fillColor: "red",
+      color: rwColor,
+      fillColor: rwColor,
       fillOpacity: 0.7,
       radius: rwRadius,
       pane: 'rwPane', // Top layer
     },
     neighbors: {
-      color: "blue",
-      fillColor: "blue",
+      color: neighborsColor,
+      fillColor: neighborsColor,
       fillOpacity: 0.6,
-      radius: nonRwRadius,
+      radius: neighborsRadius,
       pane: 'treated125Pane',
     },
     control: {
-      color: "forestgreen",
-      fillColor: "forestgreen",
+      color: controlColor,
+      fillColor: controlColor,
       fillOpacity: 0.5,
-      radius: nonRwRadius,
+      radius: controlRadius,
       pane: 'controlPane', // Bottom layer
     }
   };
@@ -171,13 +185,13 @@ const LeafletMap = () => {
         {mapType === "None" && <TileLayer url="xyz" />}
 
         {/* Render markers - RW restaurants on top (rendered last) */}
-        {businessesByCategory.control.map((business, index) =>
+        {visibleControl.map((business, index) =>
           renderMarker(business, index, markerStyles.control, 'control')
         )}
-        {businessesByCategory.neighbors.map((business, index) =>
+        {visibleNeighbors.map((business, index) =>
           renderMarker(business, index, markerStyles.neighbors, 'neighbors')
         )}
-        {businessesByCategory.rw_restaurants.map((business, index) =>
+        {rwBusinesses.map((business, index) =>
           renderMarker(business, index, markerStyles.rw_restaurants, 'rw_restaurants')
         )}
 

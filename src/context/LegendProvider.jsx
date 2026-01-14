@@ -7,15 +7,27 @@ const LegendProvider = ({ children }) => {
   const [box, setBox] = useState(false);
   const [marker, setMarker] = useState("circle");
   const [mapType, setMapType] = useState("Default");
-  // Simplified size controls: RW vs Non-RW
-  const [rwRadius, setRwRadius] = useState(3);
-  const [nonRwRadius, setNonRwRadius] = useState(2);
-  
+
   // New state for distance-based filtering
-  const [filterType, setFilterType] = useState("rw_neighbors");
-  
+  const [filterType, setFilterType] = useState("matched_business_final");
+
+  // Visibility toggles for each category
+  const [showRW, setShowRW] = useState(false);
+  const [showNeighbors, setShowNeighbors] = useState(true);
+  const [showControl, setShowControl] = useState(true);
+
+  // Individual size controls for each category
+  const [rwRadius, setRwRadius] = useState(3);
+  const [neighborsRadius, setNeighborsRadius] = useState(2);
+  const [controlRadius, setControlRadius] = useState(2);
+
+  // Color controls for each category
+  const [rwColor, setRwColor] = useState("#ff0000"); // red
+  const [neighborsColor, setNeighborsColor] = useState("#0000ff"); // blue
+  const [controlColor, setControlColor] = useState("#228b22"); // forestgreen
+
   // Remove old period, nonRW, rangeValues states - not needed anymore
-  
+
   return (
     <LegendContext.Provider
       value={{
@@ -27,12 +39,26 @@ const LegendProvider = ({ children }) => {
         setMarker,
         mapType,
         setMapType,
+        filterType,
+        setFilterType,
+        showRW,
+        setShowRW,
+        showNeighbors,
+        setShowNeighbors,
+        showControl,
+        setShowControl,
         rwRadius,
         setRwRadius,
-        nonRwRadius,
-        setNonRwRadius,
-        filterType,
-        setFilterType
+        neighborsRadius,
+        setNeighborsRadius,
+        controlRadius,
+        setControlRadius,
+        rwColor,
+        setRwColor,
+        neighborsColor,
+        setNeighborsColor,
+        controlColor,
+        setControlColor
       }}
     >
       {children}
