@@ -45,6 +45,9 @@ def load_categorization_from_new_file(filepath, week_number=1):
     with open(filepath, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
+            # Exclude winter2024
+            if row['iteration'] == 'winter2024':
+                continue
             # Only process week 1 data
             if int(row['week']) != week_number:
                 continue
