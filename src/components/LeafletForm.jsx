@@ -118,7 +118,9 @@ const LeafletForm = () => {
               onChange={(e) => setFilterType(e.target.value)}
               style={{ width: '100%', padding: '5px', fontSize: '12px' }}
             >
-              <option value="michelin_la">LA Michelin - Michelin (22) + Non-Michelin (20461)</option>
+              <option value="both">Both - Michelin (22) + Non-Michelin (20461)</option>
+              <option value="michelin_only">Michelin only (22)</option>
+              <option value="non_michelin_only">Non-Michelin only (20461)</option>
             </select>
           </div>
 
@@ -133,7 +135,7 @@ const LeafletForm = () => {
                   onChange={(e) => setShowRW(e.target.checked)}
                   style={{ marginRight: '6px' }}
                 />
-                Show RW Businesses
+                Show Michelin
               </label>
               <label style={{ display: 'block', fontSize: '12px', marginBottom: '4px' }}>
                 <input
@@ -142,7 +144,7 @@ const LeafletForm = () => {
                   onChange={(e) => setShowNeighbors(e.target.checked)}
                   style={{ marginRight: '6px' }}
                 />
-                Show Neighbors
+                Show Non-Michelin
               </label>
               <label style={{ display: 'block', fontSize: '12px', marginBottom: '4px' }}>
                 <input
@@ -164,7 +166,7 @@ const LeafletForm = () => {
             {showRW && (
               <div style={categoryBlockStyle}>
                 <div style={{ fontSize: '12px', fontWeight: '600', marginBottom: '6px', color: '#dc2626' }}>
-                  RW Businesses
+                  Michelin
                 </div>
                 <div style={flexRowStyle}>
                   <span style={{ fontSize: '11px', minWidth: '40px' }}>Color:</span>
@@ -198,7 +200,7 @@ const LeafletForm = () => {
             {showNeighbors && (
               <div style={categoryBlockStyle}>
                 <div style={{ fontSize: '12px', fontWeight: '600', marginBottom: '6px', color: '#2563eb' }}>
-                  Neighbors
+                  Non-Michelin
                 </div>
                 <div style={flexRowStyle}>
                   <span style={{ fontSize: '11px', minWidth: '40px' }}>Color:</span>

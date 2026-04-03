@@ -13,7 +13,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import { getBusinessesByCategory, getRWBusinesses } from "../utils/data_parser";
+import { getBusinessesByCategory } from "../utils/data_parser";
 import { legendState } from "../context/LegendProvider";
 
 // Component to create custom panes for layering
@@ -70,10 +70,8 @@ const LeafletMap = () => {
   // Get businesses by category based on selected filter type
   const businessesByCategory = getBusinessesByCategory(filterType);
 
-  // Get RW businesses if showRW is enabled
-  const rwBusinesses = showRW ? getRWBusinesses() : [];
-
-  // Filter based on visibility toggles
+  // Apply visibility toggles
+  const rwBusinesses = showRW ? businessesByCategory.rw_restaurants : [];
   const visibleNeighbors = showNeighbors ? businessesByCategory.neighbors : [];
   const visibleControl = showControl ? businessesByCategory.control : [];
 
@@ -115,9 +113,10 @@ const LeafletMap = () => {
       <Popup>
         <div>
           <h3>{business.businessName}</h3>
+          <p>ID: {business.businessID}</p>
           <p>Location: {business.addressLocality}</p>
           <p>Business Type: {business.Level1} - {business.Level2}</p>
-          <p>Category: {category === 'rw_restaurants' ? 'RW Restaurant' : category === 'neighbors' ? 'Neighbor (Treated 250)' : 'Control'}</p>
+          <p>Category: {category === 'rw_restaurants' ? 'Michelin' : category === 'neighbors' ? 'Non-Michelin' : 'Control'}</p>
           <a href={business.businessUrl} target="_blank" rel="noopener noreferrer">
             View on Yelp
           </a>

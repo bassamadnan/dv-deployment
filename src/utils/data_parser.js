@@ -3,6 +3,9 @@ import michelinLA from "../../data/michelin_la.json" with { type: "json" };
 
 export { michelinLA };
 
+const michelinBusinesses = michelinLA.filter(b => b.inRW === 1);
+const nonMichelinBusinesses = michelinLA.filter(b => b.treated250 === 1);
+
 // Get businesses by category for color coding
 export const getBusinessesByCategory = (filterType) => {
   const categories = {
@@ -12,16 +15,18 @@ export const getBusinessesByCategory = (filterType) => {
   };
 
   switch (filterType) {
-    case "michelin_la":
+    case "michelin_only":
+      categories.rw_restaurants = michelinBusinesses;
+      break;
+    case "non_michelin_only":
+      categories.neighbors = nonMichelinBusinesses;
+      break;
+    case "both":
     default:
-      categories.neighbors = michelinLA.filter(b => b.treated250 === 1);
+      categories.rw_restaurants = michelinBusinesses;
+      categories.neighbors = nonMichelinBusinesses;
       break;
   }
 
   return categories;
-};
-
-// Get Michelin businesses separately (analogous to RW)
-export const getRWBusinesses = () => {
-  return michelinLA.filter(b => b.inRW === 1);
 };

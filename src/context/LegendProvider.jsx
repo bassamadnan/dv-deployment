@@ -9,10 +9,10 @@ const LegendProvider = ({ children }) => {
   const [mapType, setMapType] = useState("Default");
 
   // New state for distance-based filtering
-  const [filterType, setFilterType] = useState("michelin_la");
+  const [filterType, setFilterType] = useState("both");
 
   // Visibility toggles for each category
-  const [showRW, setShowRW] = useState(false);
+  const [showRW, setShowRW] = useState(true);
   const [showNeighbors, setShowNeighbors] = useState(true);
   const [showControl, setShowControl] = useState(true);
 
