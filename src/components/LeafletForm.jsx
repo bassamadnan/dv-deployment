@@ -118,9 +118,7 @@ const LeafletForm = () => {
               onChange={(e) => setFilterType(e.target.value)}
               style={{ width: '100%', padding: '5px', fontSize: '12px' }}
             >
-              <option value="matched_business_final">Matched Business Final - Neighbors (603) + Control (4748)</option>
-              <option value="matched_zip_final">Matched Zip Final - Neighbors (759) + Control (5864)</option>
-              <option value="unmatched_final">Unmatched Final - Neighbors (1372) + Control (5870)</option>
+              <option value="michelin_la">LA Michelin - Michelin (22) + Non-Michelin (20461)</option>
             </select>
           </div>
 

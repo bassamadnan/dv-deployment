@@ -9,7 +9,7 @@ const LegendProvider = ({ children }) => {
   const [mapType, setMapType] = useState("Default");
 
   // New state for distance-based filtering
-  const [filterType, setFilterType] = useState("matched_business_final");
+  const [filterType, setFilterType] = useState("michelin_la");
 
   // Visibility toggles for each category
   const [showRW, setShowRW] = useState(false);
