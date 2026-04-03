@@ -12,11 +12,11 @@ import json
 def main():
     businesses = []
 
-    with open('/home/bassam/Downloads/michelin_2025_files/businessInfoLA.csv', 'r', encoding='utf-8') as f:
+    with open('/home/bassam/Downloads/michelin_2025_files/binfo.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            lat = row['latitude']
-            lon = row['longitude']
+            lat = row['new_latitude']
+            lon = row['new_longitude']
             if not lat or not lon:
                 continue
 

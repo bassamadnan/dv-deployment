@@ -118,9 +118,9 @@ const LeafletForm = () => {
               onChange={(e) => setFilterType(e.target.value)}
               style={{ width: '100%', padding: '5px', fontSize: '12px' }}
             >
-              <option value="both">Both - Michelin (22) + Non-Michelin (20461)</option>
-              <option value="michelin_only">Michelin only (22)</option>
-              <option value="non_michelin_only">Non-Michelin only (20461)</option>
+              <option value="both">Both - Michelin (27) + Non-Michelin (16069)</option>
+              <option value="michelin_only">Michelin only (27)</option>
+              <option value="non_michelin_only">Non-Michelin only (16069)</option>
             </select>
           </div>
 
