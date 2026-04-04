@@ -9,19 +9,16 @@ Two groups:
 import csv
 import json
 
-def main():
+def generate(source_file, lat_col, lon_col, output_path, label):
     businesses = []
-
-    with open('/home/bassam/Downloads/michelin_2025_files/binfo.csv', 'r', encoding='utf-8') as f:
+    with open(source_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            lat = row['new_latitude']
-            lon = row['new_longitude']
+            lat = row[lat_col]
+            lon = row[lon_col]
             if not lat or not lon:
                 continue
-
             is_michelin = int(row['michelin']) == 1
-
             record = {
                 'businessID': int(row['businessID']),
                 'businessUrl': row['businessUrl'],
@@ -39,15 +36,28 @@ def main():
 
     michelin_count = sum(1 for b in businesses if b['inRW'] == 1)
     non_michelin_count = sum(1 for b in businesses if b['treated250'] == 1)
+    print(f"[{label}] Michelin: {michelin_count}, Non-Michelin: {non_michelin_count}, Total: {len(businesses)}")
 
-    print(f"Michelin: {michelin_count}")
-    print(f"Non-Michelin: {non_michelin_count}")
-    print(f"Total: {len(businesses)}")
-
-    output_path = 'data/michelin_la.json'
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(businesses, f, indent=2)
-    print(f"\nCreated {output_path}")
+    print(f"Created {output_path}")
+
+
+def main():
+    generate(
+        source_file='/home/bassam/Downloads/michelin_2025_files/binfo.csv',
+        lat_col='new_latitude',
+        lon_col='new_longitude',
+        output_path='data/michelin_la_cleaned.json',
+        label='Cleaned'
+    )
+    generate(
+        source_file='/home/bassam/Downloads/michelin_2025_files/businessInfoLA.csv',
+        lat_col='latitude',
+        lon_col='longitude',
+        output_path='data/michelin_la_noise.json',
+        label='Noise'
+    )
 
 if __name__ == '__main__':
     main()
